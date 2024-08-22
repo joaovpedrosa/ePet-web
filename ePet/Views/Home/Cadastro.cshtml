@@ -1,0 +1,65 @@
+﻿@{
+    TempData["NavBar"] = "user";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <header>
+        <a asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+    </header>
+    <main>
+        <form action="/Home/UsuarioCadastro" method="post" class="cadastro">
+            <h2>CADASTRE-SE</h2>
+
+            <div class="item_cadastro">
+                <label>Nome:</label>
+                <input type="text" class="input_field" name="nome" required placeholder="NOME" />
+
+            </div>
+
+            <div class="item_cadastro">
+                <label>Telefone:</label>
+                <input type="text" class="input_field " name="telefone" required placeholder="TELEFONE" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Endereco:</label>
+                <input type="text" class="input_field" name="endereco" required placeholder="ENDERECO" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>CPF:</label>
+                <input type="text" class="input_field " name="cpf" required placeholder="CPF" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Email:</label>
+                <input type="text" class="input_field" name="email" required placeholder="EMAIL" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Senha:</label>
+                <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Confirme sua senha:</label>
+                <input type="password" class="input_field" name="Confirme" required placeholder="CONFIRME SUA SENHA" id="Confirme" />
+            </div>
+
+            <p id="alerta"></p>
+            <button type="submit">CADASTRAR</button>
+        </form>
+    </main>
+    <script src="~/js/validacoes.js"></script>
+</body>
+</html>

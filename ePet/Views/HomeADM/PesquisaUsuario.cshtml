@@ -1,0 +1,53 @@
+﻿@{
+    TempData["NavBar"] = "adm";
+    Usuarios user = new Usuarios(null, null, null, null, null, null);
+    user = (Usuarios)ViewBag.user;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pesquisaU.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ePet - pesquisar Usuário</title>
+</head>
+<body>
+    <main>
+        <form method="post" asp-action="BuscarUsuario" class="cadastro">
+            <br>
+            <h2>PESQUISA USUÁRIO</h2>
+            <br><br>
+            <h3 id="cod">Informe o código da pessoa a ser pesquisada: <input type="text" class="input_field" id="input" name="cod_usuario"/></h3>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">NOME</th>
+                        <th scope="col">E-MAIL</th>
+                        <th scope="col">TEL.</th>
+                        <th scope="col">END.</th>
+                        <th scope="col">CPF</th>
+                        <th scope="col">SENHA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <td>@user.Nome</td>
+                <td>@user.Email</td>
+                <td>@user.Telefone</td>
+                <td>@user.Endereco</td>
+                <td>@user.Cpf</td>
+                <td>@user.Senha</td>
+                </tbody>
+            </table>
+            <br>
+            <button type="submit" id="botao">PESQUISAR</button>
+            <button type="submit" id="botao">LISTAR</button>
+        </form>
+    </main>
+</body>
+</html>

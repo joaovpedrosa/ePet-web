@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Adoção - ePet</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a asp-controller ="Home" asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <form id="adoptionForm" class="cadastro">
+            <h2>FORMULÁRIO DE ADOÇÃO</h2>
+
+            <div class="item_cadastro">
+                <label>Nome:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Data de Nascimento:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Telefone:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Email:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>CPF:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>Endereço:</label>
+                <input type="text" class="input_field" />
+            </div>
+
+            <p id="alerta"></p>
+            <button type="submit">ADOTAR</button>
+        </form>
+
+        <!-- POP UP Confirmação de envio do formulário-->
+        <dialog id="dialog">
+            <div class="xis">
+                <img src="~/img/xis.png" alt="" onclick="closeDialog()">
+            </div>
+            <div class="mensagem">
+                <h3>Formulário enviado!</h3>
+                <p>Fique atento ao seu e-mail, entraremos em contato para prosseguir ou não com seu pedido de adoção.</p>
+            </div>
+        </dialog>
+    </main>
+    <script src="~/js/geral.js"></script>
+    <script src="~/js/menu-hamburguer.js"></script>
+    <script>
+        document.getElementById('adoptionForm').addEventListener('submit', function (event) {
+            let dialog = document.getElementById('dialog');
+            dialog.style.display = 'block';
+            event.preventDefault(); // prevenir o envio do formulário
+            openDialog(); // abrir o diálogo
+        });
+
+        function openDialog() {
+            var dialog = document.getElementById('dialog');
+            dialog.showModal();
+        }
+
+        function closeDialog() {
+            let dialog = document.getElementById('dialog');
+            dialog.remove();
+        }
+    </script>
+</body>
+</html>

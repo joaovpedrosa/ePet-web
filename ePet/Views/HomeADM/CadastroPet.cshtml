@@ -1,0 +1,65 @@
+﻿@{
+    TempData["NavBar"] = "adm";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/cadastroPet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>ePet - Cadastro Pet</title>
+</head>
+<body>
+    <main>
+        <form method="post" id="cadastro" class="cadastro" enctype="multipart/form-data" asp-controller="HomeADM" asp-action="CadastrarAnimal">
+
+            <h2 id="titulo">CADASTRO DO PET</h2>
+            <br>
+            <div class="item_cadastro">
+                <label>NOME:</label>
+                <input type="text" class="input_field" name="nome" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>TIPO ANIMAL:</label>
+                <input type="text" class="input_field" name="t_animal" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>TIPO SANGUÍNEO:</label>
+                <input type="text" class="input_field" name="t_sanguinio" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>CÓDIGO DONO:</label>
+                <input type="text" class="input_field" name="codigo_dono" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>AUTORIDADE RESPONSÁVEL:</label>
+                <input type="text" class="input_field" name="autoridade_responsavel" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>STATUS:</label>
+                <input type="text" class="input_field" name="status"/>
+            </div>
+
+            <div class="input-files-container">
+                <input type="file" accept="image/*" name="arq">
+                <img scr="#" alt="" id="preview">
+            </div>
+
+            <p id="alerta"></p>
+            <button type="submit">CADASTRAR</button>
+        </form>
+        
+    </main>
+
+    <script src="~/js/validacoes.js"></script>
+    
+</body>
+</html>

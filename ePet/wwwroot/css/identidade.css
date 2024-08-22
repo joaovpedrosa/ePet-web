@@ -1,0 +1,343 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+/* CORES DA PALETA */
+:root {
+    --laranja-escuro: #C05C35;
+    --laranja-claro: #EDA24E;
+    --bege: #F7EDDB;
+    --verde-claro: #A1B076;
+    --verde-escuro: #536036;
+    --marrom: #A98467;
+}
+
+/* RESET GERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+    *::before,
+    *::after {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+textarea:focus, input:focus, select:focus, input, textarea, select {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+body {
+    background-color: var(--bege);
+}
+
+p, h1, h2, h3, h4, h5, h6, li, ul, a, label, input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 45px;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+    .navbar a {
+        text-decoration: none; 
+        color: #000; 
+    }
+
+.dropdown-content a {
+    text-decoration: none; 
+    color: #0000; 
+}
+
+    .dropdown-content a:hover {
+        opacity: 0.7; 
+    }
+
+
+.navbar a:hover {
+    color: var(--laranja-claro);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.nav-filhos {
+    gap: 30px;
+    list-style: none;
+    display: flex;
+    padding-left: 200px;
+}
+
+ .nav-filhos li {
+     letter-spacing: 3px;
+     margin-left: 20px;
+     font-size: 30px;
+     font-weight: 600;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+  }
+
+.menu-hamburguer {
+    position: fixed;
+    display: none;
+    cursor: pointer;
+    padding: 30px 0px 5px 30px;
+}
+
+    .menu-hamburguer div {
+        width: 40px;
+        height: 3px;
+        margin: 8px;
+        background: #000;
+    }
+
+
+
+@media (max-width: 1443px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-filhos {
+        position: fixed;
+        top: 0vh;
+        right: 0;
+        width: 50vw;
+        height: 100vh;
+        background-color: hsla(0, 0%, 0%, 0.7);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+        padding: 0;
+        z-index: 1000;
+    }
+
+        .nav-filhos li {
+            margin-left: 0;
+            opacity: 0;
+            font-size: 20px;
+        }
+
+    .navbar a {
+        text-decoration: none;
+        color: #f9f9f9;
+    }
+
+    .menu-hamburguer {
+        display: block;
+        z-index: 1000;
+    }
+}
+
+.nav-filhos.active {
+    transform: translateX(0); /* Faz o menu aparecer ao lado esquerdo */
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.menu-hamburguer.active .linha1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menu-hamburguer.active .linha2 {
+    opacity: 0;
+}
+
+.menu-hamburguer.active .linha3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* FOOTER */
+footer {
+    margin-top: 20vh;
+    background-color: var(--verde-escuro);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+    footer div {
+        padding: 20px;
+    }
+
+    footer h4 {
+        color: #FFFFFF;
+        font-size: 24px;
+        padding: 20px 8px;
+    }
+
+    footer p , h3 {
+        color: #FFFFFF;
+    }
+
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+}
+
+footer input {
+    border: none;
+    height: 35px;
+    width: 350px;
+    padding: 12px ;
+    font-size:16px;
+}
+
+.redes-sociais img{
+  filter: invert(1) brightness(2) contrast(100%);
+  cursor: pointer;
+}
+
+
+
+/* LOGIN POPUP */
+dialog {
+    border: none;
+    width: 30%;
+    max-width: 650px;
+    margin: auto auto;
+    padding: 50px;
+    background-color: var(--verde-claro);
+    box-shadow: 0px 4px 15px rgba(28, 3, 69, 0.576);
+}
+
+    dialog h3::after {
+        content: '';
+        position: relative;
+        display: block;
+        height: 5px;
+        width: 100px;
+        background-color: white;
+    }
+
+    dialog::backdrop {
+        background-color: rgb(0 0 0 / .5);
+    }
+
+    dialog input {
+        display: block;
+        padding: 6px;
+        width: 100%;
+    }
+
+.xis img {
+    width: 20px;
+}
+
+.xis {
+    display: flex;
+    justify-content: end;
+}
+
+    .xis img:hover {
+        transform: scale(1.1);
+        transition: 0.8s;
+        cursor: pointer;
+    }
+
+.item_formulario {
+    padding-top: 10px;
+}
+
+dialog button {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: 25px 0;
+    margin-right: 8px;
+    text-transform: uppercase;
+    background-color: var(--verde-escuro);
+    border: none;
+    border-radius: 1rem;
+    background: #536036;
+    padding: 6px 15px;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+button:hover {
+    transform: scale(1.06);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* ANIMAÇÂO */
+.js .anime {
+    opacity: 0;
+    transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .anime-init {
+    opacity: 1;
+    transform: translate3D(0px, 0px, 0px);
+    transition: .6s all ease;
+}
+
+
+

@@ -1,0 +1,91 @@
+﻿@{
+    TempData["NavBar"] = "user";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/disk.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+
+    <title>ePet - Início</title>
+</head>
+<body>
+    <main>
+        <section class="denuncia anime">
+            <form  method="post" class="cadastro" id="denunciaform" asp-action="ocorrencia">
+                <div class="denuncia2">
+                    <div class="denuncia3">
+                        <div class="titulo">
+                            <h3>Faça a sua denúncia!</h3>
+                        </div>
+                        <div class="incidente">
+                            <div class="incidente2">
+                                <p>Relate o incidente</p>
+                            </div>
+                        </div>
+                        <div class="areatexto">
+                        <textarea name="" id="" cols="30" rows="20"></textarea>
+                        </div>
+                        <div class="pesquisa">
+                            <p>Insira o CEP da ocorrência</p>
+                            <label for="cep"></label>
+                            <input type="text">
+                        </div>
+                        <div class="foto">
+                            <div class="foto2">
+                                <p>Alguma foto/vídeo do incidente? Anexe aqui: </p>
+                            </div>
+                        </div>
+                        <div class="input-files-container">
+                            <input type="file" accept="image/*">
+                            <img scr="#" alt="" id="preview">
+                        </div>
+                        <div class="btn">
+                            <button type="submit">ENVIAR</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- POP UP Confirmação de envio do formulário-->
+            <dialog id="dialog">
+                <div class="xis">
+                    <img src="~/img/xis.png" alt="" onclick="closeDialog()">
+                </div>
+                <div class="mensagem">
+                    <h3>Denuncia enviado!</h3>
+                    <p>Obrigado por enviar sua denuncia.</p>
+                </div>
+            </dialog>
+
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="~/js/geral.js"></script>
+    <script src="~/js/menu-hamburguer.js"></script>
+    <script src="~/js/upload.js"></script>
+    <script>
+        document.getElementById('denunciaform').addEventListener('submit', function (event) {
+            let dialog = document.getElementById('dialog');
+            dialog.style.display = 'block';
+            event.preventDefault();
+            openDialog(); // abrir o diálogo
+        });
+
+        function openDialog() {
+            var dialog = document.getElementById('dialog');
+            dialog.showModal();
+        }
+
+        function closeDialog() {
+            let dialog = document.getElementById('dialog');
+            dialog.remove();
+
+        }
+    </script>
+</body>
+</html>

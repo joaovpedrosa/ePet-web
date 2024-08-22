@@ -1,0 +1,894 @@
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\Placa17\Sprint\PWBE\ePet\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetTisaI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\50627628800\Downloads\ePetTisaII\ePetTisaII\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\Aluno\Documents\LeticiaFreitas\ePetWeb\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\Aluno\Documents\LetíciaFreitas\ePetWebI\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\50627628800\Downloads\ePetWebII\ePetWebII\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIII\ePetWebII\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebIV\ePetWebIV\ePetWebII\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\LeticiaFreitas\ePetWebV\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\Placa17\Sprint\Backend\ePetWebVI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\50627628800\Downloads\ePetWebVIl\ePetWebVIl\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.Up2Date
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\Dione\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.Up2Date
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+E:\User\Downloads\Projeto\epet-ferreira\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\ana caroline\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.Up2Date
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\anaca\Downloads\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.Up2Date
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\ana.chaparin\Documents\pasta\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\appsettings.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.staticwebassets.runtime.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.exe
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.deps.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.runtimeconfig.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\Google.Protobuf.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\MySql.Data.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\ZstdSharp.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.AssemblyReference.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.AssemblyInfo.cs
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.RazorAssemblyInfo.cs
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.ePet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.build.ePet.props
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ePet.props
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ePet.props
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\bundle\ePet.styles.css
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\scopedcss\projectbundle\ePet.bundle.scp.css
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.csproj.CopyComplete
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\refint\ePet.dll
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.pdb
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ePet.genruntimeconfig.cache
+C:\Users\aluno\Documents\ana caroline\epet\ePetWebVIlI\ePet\obj\Debug\net8.0\ref\ePet.dll

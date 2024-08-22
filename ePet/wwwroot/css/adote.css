@@ -1,0 +1,127 @@
+
+.containertituloPag{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloPag {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 0px 60px 0px;
+}
+
+.linhaLaranja {
+    width: 250px;
+    height: 8px;
+    background-color: #EDA24E;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(230px, 280px));
+    grid-column-gap: 2vw;
+    grid-row-gap: 10px;
+    justify-content: center;
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+/* bloco onde fica o card */
+.container-elemento-grid {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .container-elemento-grid img {
+        width: 280px;
+        height: 100%;
+        padding: 6px;
+    }
+
+.descricao {
+    text-align: center;
+}
+
+
+/* CARDS */
+.card {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+    .card img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        opacity: 1;
+        transition: opacity 0.2s;
+    }
+
+    .card .card-back {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding-left: 10px;
+        padding-top: 10px;
+        color: white;
+        transform: translateY(100%);
+        transition: transform 0.2s;
+    }
+
+    .card .card-back p{
+        line-height: 10px;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+        .card:hover img {
+            opacity: 0.7;
+        }
+
+        .card:hover .card-back {
+            transform: translateY(0);
+        }
+
+    .card button {
+        background-color: var(--verde-claro);
+        border: solid 0.5px var(--verde-escuro);
+        border-radius: 5px;
+        padding: 5px;
+        margin-top: 15px;
+        box-shadow: 0px 0px 20px rgba(249, 245, 255, 0.576);
+        font-weight: 700;
+    }
+
+@media (max-width: 768px) {
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: repeat(1, minmax(230px, 280px));
+        grid-column-gap: 2vw;
+        grid-row-gap: 10px;
+        justify-content: center;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+}

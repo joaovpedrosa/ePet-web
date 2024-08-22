@@ -1,0 +1,257 @@
+/* slogan */
+.slogan img {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+/* FAQ */
+
+.slogan::after {
+    background-color: var(--verde-claro);
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    width: 20vw;
+}
+
+section h2 {
+    padding: 100px 100px 10px 100px;
+}
+
+.frequentes::after {
+    content: '';
+    top: 5px;
+    right: -140px;
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.containerPerguntas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.containerLinhaLaranja {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 180px;
+    padding-bottom: 50px;
+}
+
+.linhaLaranja {
+    width: 20%;
+    height: 10px;
+    background-color: #EDA24E;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1400px){
+    .linhaLaranja {
+        width: 250px;
+    }
+    }
+
+@media screen and (max-width: 532px) {
+
+    .containerLinhaLaranja {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0px 300px 100px 50px;
+ 
+    }
+
+    .linhaLaranja {
+        width: 250px;
+        height: 10px;
+        background-color: #EDA24E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+.perguntas {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+    .pergunta {
+        margin: 2em 0;
+    }
+
+    .faq {
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        background-color: var(--verde-escuro);
+        color: #fff;
+        box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+        .faq p {
+            font-size: 50px;
+            padding: 0 30px;
+        }
+
+            .faq p:hover {
+                cursor: pointer;
+            }
+
+    .resposta {
+        align-items: end;
+        padding: 15px;
+        background-color: var(--verde-claro);
+        color: #ffff;
+        box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .escondido {
+        display: none;
+    }
+
+    .apareceu {
+        display: block;
+        transition: transform 1s, opacity 0.3s;
+    }
+
+
+/*slider pagina principal*/
+
+.containerSlider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px 10px 30px;
+}
+
+.slider {
+    width: 1200px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: margin 0.5s;
+
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerAdocao {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--verde-claro);
+    color: white;
+    padding: 20px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+    .containerAdocao button {
+        background-color: var(--verde-escuro); /* Certifique-se de que a variável está definida */
+        color: white; /* Se necessário, defina a cor do texto */
+        border: none; /* Remover borda padrão, se necessário */
+        padding: 10px 100px; /* Ajustar o padding conforme necessário */
+        border-radius: 30px; /* Ajustar o raio do borda conforme necessário */
+        cursor: pointer; /* Mostrar cursor pointer para interação */
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+.containerAdocao p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.navigation-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input{
+    display: none;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: var(--verde-claro);
+    transition: 0.4s;
+}
+
+#radio1:checked ~ .slides .first .containerAdocao {
+    display: block; 
+}
+
+#radio1:checked ~ .first {
+       margin-left: 0;
+
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+

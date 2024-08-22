@@ -1,0 +1,132 @@
+﻿     @model Usuarios
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ePet</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+
+@if (TempData["NavBar"] == "adm")
+{
+    <header>
+        <div class="menu-hamburguer">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <nav class="navbar">
+            <a asp-controller="Home" asp-action="HomeADM"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+            <ul class="nav-filhos">
+                <li><a class="preto" asp-controller="HomeADM" asp-action="CadastroPet"><img src="~/img/pata-logo.png" />CADASTRAR</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="Alterar"><img src="~/img/pata-logo.png" />ALTERAR</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="Deletar"><img src="~/img/pata-logo.png" />EXCLUIR</a></li>
+                <div class="dropdown">
+                <li class="dropbtn"><a class="preto"><img src="~/img/pata-logo.png" />LISTAR</a></li>
+                <div class="dropdown-content">
+                    <a class="preto" asp-controller="HomeADM" asp-action="PesquisaUsuario">Usuário</a>
+                    <a class="preto" asp-controller="HomeADM" asp-action="PesquisaPet">Pet</a>
+                    <a class="preto" asp-controller="HomeADM" asp-action="PesquisaDisk">Denúncia</a>
+                </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+}else{
+
+    <header>
+
+        <div class="menu-hamburguer">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <nav class="navbar">
+            <div class="imgEpet">
+            <a asp-controller ="Home" asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+            </div>
+            <ul class="nav-filhos">
+                <li><a class="preto" asp-controller="Home"  asp-action="Index"><img src="~/img/pata-logo.png" /> APADRINHE</a></li>
+                <li><a class="preto" asp-controller="Home" asp-action="Adote"><img src="~/img/pata-logo.png" />ADOÇÃO</a></li>
+                <li><a href="#" class="pop-button"><img src="~/img/pata-logo.png" />ENTRAR</a></li>
+            </ul>
+        </nav>
+
+        <!-- POP UP LOGIN -->
+        <dialog>
+            <div class="xis">
+                <img src="~/img/xis.png" alt="">
+            </div>
+            <div class="">
+                <form class="formulario" method="post" asp-controller="Home" asp-action="Login">
+                    <h3>LOGIN</h3>
+                    <div class="item_formulario">
+                        <label class="item_formulario">Email:</label>
+                        <input type="text" name="email" class="input_field" required />
+                    </div>
+                    <div class="item_formulario">
+                        <label class="">Senha:</label>
+                        <input name="senha" type="password" class="input_field" required />
+
+                    </div>
+                    <button class="but_continuar" type="submit">Entrar</button>
+                    <button class="but_continuar" type="submit"><a class="branquinho">Administrador</a></button>
+                    <p>Não tem uma conta? <a class="preto" asp-action="Cadastro">Cadastre-se.</a></p>
+                    <p>@TempData["SituacaoLogin"]</p>
+
+                </form>
+            </div>
+        </dialog>
+    </header>
+}
+
+
+
+@* Caso seja um adm essa navbar*@
+
+    <div class="">
+        <main role="main" class="">
+            @RenderBody()
+        </main>
+    </div>
+
+<footer>
+    <h4>Receba nossa newslettler</h4>
+    <p>Inscreva seu email e recebas as notificações em primeira mão das nossas atividades em seu email</p>
+
+    <div class="containerInput">
+        <input type="text" placeholder="Digite seu melhor email">
+        <img src="" alt="">
+    </div>
+
+    <section class="social">
+        <div>
+            <h3>REDES SOCIAIS</h3>
+            <div class="redes-sociais">
+                <img src="~/img/instagram.png" alt="">
+                <img src="~/img/facebook.png" alt="">
+                <img src="~/img/tt.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="sobre">
+        <p>2022 © Todos os direitos reservados</p>
+        <p>ePET do Brasil. </p>
+        <p>CEP 00000-555</p>
+    </section>
+</footer>
+
+    <script src="~/js/menu-hamburger.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</html>

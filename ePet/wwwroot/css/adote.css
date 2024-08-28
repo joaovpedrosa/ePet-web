@@ -72,29 +72,27 @@
         margin: 0px !important;
         color: aliceblue;
     }
-
-/*Filtro de pesquisa*/
-
+/* Container principal do corpo da página */
 .containerCorpoPag {
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    padding: 60px 50px;
 }
 
+/* Filtro de pesquisa e opções */
 .containerFiltro {
-    width: 100%;
-    height: auto;
+    flex: 0 0 300px;
     display: flex;
     flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    padding: 30px 50px;
     gap: 10px;
+    margin-right: 20px;
+    margin-left: 140px;
 }
 
+/* Estilo do campo de pesquisa */
 .inputPesquisar {
-    width: 275px;
+    width: 100%;
     height: 55px;
     background-color: antiquewhite;
     border: 2px solid #6C584D;
@@ -102,38 +100,35 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    position: relative; 
+    position: relative;
 }
 
-    .inputPesquisar input {
-        background-color: antiquewhite;
-        color: black;
-        font-size: 20px;
-        border: none;
-        padding-right: 50px; 
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box; 
-    }
+.inputPesquisar input {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding-right: 50px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
 
-    .inputPesquisar .imgLupa {
-        position: absolute;
-        right: 10px; 
-        top: 50%; 
-        transform: translateY(-50%); 
-    }
+.inputPesquisar .imgLupa {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-        .inputPesquisar .imgLupa img {
-            width: 30px; 
-            height: auto; 
-        }
+.inputPesquisar .imgLupa img {
+    width: 30px;
+    height: auto;
+}
 
-    .inputPesquisar input::placeholder {
-        color: black;
-    }
-
+/* Estilo dos selects e botões */
 .escolher {
-    width: 275px;
+    width: 100%;
     height: 55px;
     background-color: antiquewhite;
     font-size: 20px;
@@ -141,17 +136,143 @@
     border-radius: 10px;
 }
 
-    .escolher:focus {
-        font-size: 20px;
-        border: 2px solid #6C584D;
-        border-radius: 10px;
-    }
-
 .containerButton button {
-    width: 275px;
+    width: 100%;
     height: 55px;
     background-color: #6C584D;
-    color:aliceblue;
+    color: aliceblue;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
+}
+
+/* Container para os perfis dos pets */
+.containerPets {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Linha de perfis, contendo três perfis */
+.perfilLinha {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Cada perfil de pet */
+.containerPerfil {
+    width: 300px; /* Ajuste a largura conforme necessário */
+    background-color: #6C584D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Imagem do pet */
+.fotoPet img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 155px 155px;
+}
+
+/* Descrição do perfil do pet */
+.containerDescricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+/* Informações principais */
+.infoPrincipal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+/* Nome do pet e linha abaixo */
+.nomePet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomePet p {
+    font-size: 21px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.linhaLaranjaNome {
+    width: 83px;
+    height: 4px;
+    background-color: #ECA256;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+/* Descrição e botão de adoção */
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descricao p {
+    font-size: 16px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.buttonAdote {
+    padding: 10px 0;
+}
+
+    .buttonAdote button {
+        width: 141px;
+        height: 44px;
+        background-color: #A1B079;
+        color: aliceblue;
+        font-size: 21px;
+        border-radius: 25px;
+        border: none;
+    }
+
+/* Media Queries */
+@media (max-width: 1359px) {
+    .containerCorpoPag {
+        flex-direction: column;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .containerFiltro {
+        margin-right: 0;
+    }
+
+    .containerPets {
+        gap: 10px;
+    }
+
+    .perfilLinha {
+        flex-direction: column;
+    }
+
+    .containerPerfil {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerCorpoPag {
+        padding: 20px;
+    }
 }

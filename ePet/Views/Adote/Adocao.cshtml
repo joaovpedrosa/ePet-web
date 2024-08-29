@@ -1,87 +1,218 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@{
+    TempData["NavBar"] = "user";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/adote.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
-    <title>Adoção - ePet</title>
+
+    <title>ePet - Início</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <a asp-controller ="Home" asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
-        </div>
-    </header>
     <main>
-        <form id="adoptionForm" class="cadastro">
-            <h2>FORMULÁRIO DE ADOÇÃO</h2>
+        <div class="containerTitulo">
+            <div class="titulo">
+                <p>ADOTE UM AMIGO</p>
+            </div>
+            <div class="containerLinhaLaranja">
+                <div class="linhaLaranja"></div>
+            </div>
+        </div>
 
-            <div class="item_cadastro">
-                <label>Nome:</label>
-                <input type="text" class="input_field" />
+        <div class="containerTexto">
+            <div class="texto">
+                <p>A expectativa de vida de um cão ou gato é de aproximadamente 15 anos.</p>
+                <p>Eles precisarão de sua proteção e atenção até a velhice ou em uma eventual doença!</p>
+            </div>
+            <div class="textoMaior">
+                <p>Adoção é assunto sério!</p>
+            </div>
+        </div>
+
+        <div class="containerCorpoPag">
+            <div class="containerFiltro">
+                <div class="inputPesquisar">
+                    <input type="text" placeholder="Pesquise aqui..." />
+                    <div class="imgLupa">
+                        <img src="~/img/image 26.png" />
+                    </div>
+                </div>
+                <select class="escolher" id="espécie" name="Espécie">
+                    <option value="" disabled selected>Selecione a Espécie</option>
+                    <option value="felina">Felina</option>
+                    <option value="canina">Canina</option>
+                </select>
+                <select class="escolher" id="sexo" name="Sexo">
+                    <option value="" disabled selected>Selecione o Sexo</option>
+                    <option value="femea">Fêmea</option>
+                    <option value="macho">Macho</option>
+                </select>
+                <select class="escolher" id="porte" name="Porte">
+                    <option value="" disabled selected>Selecione o Porte</option>
+                    <option value="pequeno">Pequeno (até 12kg)</option>
+                    <option value="medio">Médio (de 13kg até 25kg)</option>
+                    <option value="grande">Grande (Acima de 25kg)</option>
+                </select>
+                <select class="escolher" id="idade" name="Idade">
+                    <option value="" disabled selected>Selecione a Idade</option>
+                    <option value="menos_de_3_anos">Menos de 3 anos</option>
+                    <option value="de_4_a_6">De 4 anos até 6</option>
+                    <option value="de_7_a_9">De 7 até 9</option>
+                    <option value="acima_de_9">Acima de 9</option>
+                </select>
+                <div class="containerButton">
+                    <button>PESQUISAR</button>
+                </div>
             </div>
 
-            <div class="item_cadastro">
-                <label>Data de Nascimento:</label>
-                <input type="text" class="input_field" />
-            </div>
+            <div class="containerPets">
+                <div class="perfilLinha">
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/gato1.jpg" />
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>Gabrielli Victória</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Moradora 13 de maio - Campinas</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="item_cadastro">
-                <label>Telefone:</label>
-                <input type="text" class="input_field" />
-            </div>
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/gato3.jpg" />
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>Letícia Freitas</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Moradora Glicério - Campinas</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="item_cadastro">
-                <label>Email:</label>
-                <input type="text" class="input_field" />
-            </div>
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/gato3.jpg" />
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>Ana Caroline</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Moradora de Valinhos - Valinhos</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="perfilLinha">
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/cachorrolegal.jpeg" />
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>Gabriel Fabri</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Morador de Hortolandia</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="item_cadastro">
-                <label>CPF:</label>
-                <input type="text" class="input_field" />
-            </div>
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/cachorrolegal.jpeg">
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>João Vitor</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Moradora de algum lugar</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="item_cadastro">
-                <label>Endereço:</label>
-                <input type="text" class="input_field" />
+                    <div class="containerPerfil">
+                        <div class="fotoPet">
+                            <img src="~/img/gato1.jpg" />
+                        </div>
+                        <div class="containerDescricao">
+                            <div class="infoPrincipal">
+                                <div class="nomePet">
+                                    <p>Gabrielli Victória</p>
+                                    <div class="linhaLaranjaNome"></div>
+                                </div>
+                                <img src="~/img/image 17.png" />
+                            </div>
+                            <div class="descricao">
+                                <p>Moradora 13 de maio - Campinas</p>
+                            </div>
+                            <div class="buttonAdote">
+                                <button>ADOTE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        </div>
 
-            <p id="alerta"></p>
-            <button type="submit">ADOTAR</button>
-        </form>
 
-        <!-- POP UP Confirmação de envio do formulário-->
-        <dialog id="dialog">
-            <div class="xis">
-                <img src="~/img/xis.png" alt="" onclick="closeDialog()">
-            </div>
-            <div class="mensagem">
-                <h3>Formulário enviado!</h3>
-                <p>Fique atento ao seu e-mail, entraremos em contato para prosseguir ou não com seu pedido de adoção.</p>
-            </div>
-        </dialog>
+
+
+
+        </div>
+
     </main>
+
     <script src="~/js/geral.js"></script>
     <script src="~/js/menu-hamburguer.js"></script>
-    <script>
-        document.getElementById('adoptionForm').addEventListener('submit', function (event) {
-            let dialog = document.getElementById('dialog');
-            dialog.style.display = 'block';
-            event.preventDefault(); // prevenir o envio do formulário
-            openDialog(); // abrir o diálogo
-        });
 
-        function openDialog() {
-            var dialog = document.getElementById('dialog');
-            dialog.showModal();
-        }
-
-        function closeDialog() {
-            let dialog = document.getElementById('dialog');
-            dialog.remove();
-        }
-    </script>
 </body>
 </html>

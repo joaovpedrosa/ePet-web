@@ -8,5 +8,11 @@ namespace ePet.Controllers
         {
             return View();
         }
+
+
+        public ActionResult TelaPet()
+        {
+            return View();
+        }
     }
 }

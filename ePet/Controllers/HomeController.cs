@@ -26,7 +26,6 @@ namespace ePet.Controllers
             return View();
         }
 
-        
 
         //linkar na nav-bar o home
         public ActionResult Home()
@@ -51,6 +50,14 @@ namespace ePet.Controllers
         {
             return View();
         }
+
+
+        //linkar tela do perfil do pet com a tela adoção
+        public ActionResult TelaPet()
+        {
+            return View();
+        }
+
 
         //Logar usuário
         [HttpPost]

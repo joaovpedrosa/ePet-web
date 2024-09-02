@@ -189,3 +189,7 @@
     .comentarioDuvida textarea {
         resize: vertical; /* Permite que o usuário redimensione verticalmente */
     }
+
+.maisInfo textarea {
+    font-size: 20px;
+}

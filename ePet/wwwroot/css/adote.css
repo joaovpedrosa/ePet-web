@@ -136,9 +136,14 @@
     border-radius: 10px;
 }
 
+    .escolher:focus {
+        border-color: #6C584D; 
+       border: 2px solid;
+    }
+
 .containerButton button {
     width: 100%;
-    height: 55px;
+    height: 60px;
     background-color: #6C584D;
     color: aliceblue;
     font-size: 20px;
@@ -146,87 +151,89 @@
     border: none;
 }
 
-/* Container para os perfis dos pets */
-.containerPets {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
+/*Estilos  dos cards*/
 
-/* Linha de perfis, contendo três perfis */
-.perfilLinha {
+.containerPets {
+    width: 100%;
+    height: auto; /* Ajusta altura conforme o conteúdo */
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte */
+    justify-content: center; /* Centraliza os itens */
+    gap: 30px; /* Adiciona espaçamento entre os itens */
 }
 
-/* Cada perfil de pet */
+.perfilLinha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center; /* Centraliza os itens dentro da linha */
+    gap: 40px;
+}
+
 .containerPerfil {
-    width: 300px; 
-    height:500px;
+    width: 300px;
+    height: auto;
     background-color: #6C584D;
     border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Alinha o conteúdo verticalmente */
     overflow: hidden;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between; /* Distribui espaço entre os itens */
 }
 
-/* Imagem do pet */
-.fotoPet img {
-    width: 100%;
-    height: auto;
-    border-radius: 20px 20px 155px 155px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-}
+    .containerPerfil img {
+        width: 100%; /* Faz a imagem preencher a largura do container */
+        height: 400px; /* Ajusta a altura proporcionalmente */
+        border-radius: 20px 20px 135px 135px; /* Mantém a borda arredondada */
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+    }
 
 /* Descrição do perfil do pet */
 .containerDescricao {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     padding: 15px;
 }
 
 /* Informações principais */
 .infoPrincipal {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
 }
+
+    .infoPrincipal img {
+        width: 40px;
+        height: 40px;
+    }
 
 /* Nome do pet e linha abaixo */
 .nomePet {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: end;
 }
 
-.nomePet p {
-    font-size: 21px;
-    color: aliceblue;
-    margin: 0;
-}
+    .nomePet p {
+        font-size: 21px;
+        color: aliceblue;
+        margin: 0;
+    }
 
 .linhaLaranjaNome {
     width: 83px;
     height: 4px;
     background-color: #ECA256;
     margin-top: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-items: center;
 }
 
 /* Descrição e botão de adoção */
@@ -234,54 +241,51 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 10px 0; /* Adiciona margem vertical */
 }
 
-.descricao p {
-    font-size: 16px;
-    color: aliceblue;
-    margin: 0;
-}
+    .descricao p {
+        font-size: 16px;
+        color: aliceblue;
+        margin: 0;
+    }
 
 .buttonAdote {
-    padding: 10px 0;
+    width: 130px;
+    height: 40px;
 }
 
     .buttonAdote button {
-        width: 141px;
+        width: 100%; /* Faz o botão preencher a largura do container */
+        max-width: 141px; /* Define a largura máxima */
         height: 44px;
         background-color: #A1B079;
         color: aliceblue;
         font-size: 21px;
         border-radius: 25px;
         border: none;
+        cursor: pointer; /* Adiciona cursor pointer para indicar que é clicável */
     }
 
-/* Media Queries */
-@media (max-width: 1359px) {
+@media (max-width: 850px) {
     .containerCorpoPag {
         flex-direction: column;
         padding: 30px 0px 30px 0px;
     }
 
-    .containerFiltro {
-        margin-right: 0;
-    }
-
     .containerPets {
-        gap: 10px;
+        gap: 30px;
     }
 
     .perfilLinha {
+        align-items: center;
+        justify-content: end;
         flex-direction: column;
     }
 
-    .containerPerfil {
-        width: 100%;
+    .containerFiltro{
+        margin: 0px;
+        padding: 30px 20px;
     }
-}
-
-@media (max-width: 768px) {
-    .containerCorpoPag {
-        padding: 20px;
-    }
+    
 }

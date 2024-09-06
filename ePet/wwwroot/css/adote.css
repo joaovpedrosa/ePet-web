@@ -155,12 +155,12 @@
 
 .containerPets {
     width: 100%;
-    height: auto; /* Ajusta altura conforme o conteúdo */
+    height: auto; 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; /* Permite que os itens se movam para a linha seguinte */
-    justify-content: center; /* Centraliza os itens */
-    gap: 30px; /* Adiciona espaçamento entre os itens */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
 }
 
 .perfilLinha {
@@ -169,7 +169,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: start;
-    justify-content: center; /* Centraliza os itens dentro da linha */
+    justify-content: center; 
     gap: 40px;
 }
 
@@ -179,10 +179,10 @@
     background-color: #6C584D;
     border-radius: 20px;
     display: flex;
-    flex-direction: column; /* Alinha o conteúdo verticalmente */
+    flex-direction: column; 
     overflow: hidden;
     align-items: center;
-    justify-content: space-between; /* Distribui espaço entre os itens */
+    justify-content: space-between; 
 }
 
     .containerPerfil img {

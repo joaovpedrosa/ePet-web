@@ -89,6 +89,14 @@
       "PackagePath": "staticwebassets\\img\\cachorrogato3.PNG"
     },
     {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconbranco.png",
+      "PackagePath": "staticwebassets\\img\\cachorroiconbranco.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconpreto.png",
+      "PackagePath": "staticwebassets\\img\\cachorroiconpreto.png"
+    },
+    {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\cachorrolegal.jpeg",
       "PackagePath": "staticwebassets\\img\\cachorrolegal.jpeg"
     },

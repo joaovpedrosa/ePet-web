@@ -74,7 +74,104 @@ p {
     font-weight: 500;
 }
 
-@media screen and (max-width: 890px ){
+/*Estilizar parte de doar dindin*/
+
+.containerTituloA {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.tituloA {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloA p{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.linhaLaranja {
+    width: 500px;
+    height: 10px;
+    background-color: #ECA256;
+}
+
+/*Estilização dos cards doação*/
+.containerCardsPets {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.containerLinha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+.cardVerde,
+.cardLaranja {
+    width: 370px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 5px;
+    cursor: pointer;
+    transition: transform 0.4s ease; 
+}
+
+.cardVerde {
+    background-color: #536038;
+}
+
+.cardLaranja {
+    background-color: #ECA256;
+}
+
+    .cardVerde:hover,
+    .cardLaranja:hover {
+        transform: scale(1.05); 
+    }
+
+.cardVerde p {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.cardLaranja p {
+    font-size: 20px;
+}
+
+
+.containerPreco p{
+    font-size: 55px !important;
+    font-weight: 700;
+}
+
+/*ESTILIZAÇÃO RESPONSIVAAAAA*/
+@media screen and (max-width: 890px ) {
     .titulo p {
         font-size: 25px;
         font-weight: bold;
@@ -89,6 +186,16 @@ p {
         background-color: #536038;
         padding: 15px 50px;
     }
+
+    .tituloA p {
+        font-size: 25px;
+    }
+
+    .linhaLaranja {
+        width: 350px;
+        height: 10px;
+    }
+
 }
 
 @media screen and (max-width: 450px ) {
@@ -105,5 +212,14 @@ p {
     .todaExplicacao {
         background-color: #536038;
         padding: 10px;
+    }
+
+    .tituloA p {
+        font-size: 20px;
+    }
+
+    .linhaLaranja {
+        width: 300px;
+        height: 10px;
     }
 }

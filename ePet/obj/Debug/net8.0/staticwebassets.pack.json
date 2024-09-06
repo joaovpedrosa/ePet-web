@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\alterar.css"
     },
     {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\css\\apadrinhe.css",
+      "PackagePath": "staticwebassets\\css\\apadrinhe.css"
+    },
+    {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
@@ -89,6 +93,10 @@
       "PackagePath": "staticwebassets\\img\\cachorrolegal.jpeg"
     },
     {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\cachorrotriste.PNG",
+      "PackagePath": "staticwebassets\\img\\cachorrotriste.PNG"
+    },
+    {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\editarP.png",
       "PackagePath": "staticwebassets\\img\\editarP.png"
     },
@@ -119,6 +127,10 @@
     {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\image 26.png",
       "PackagePath": "staticwebassets\\img\\image 26.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\image 42.png",
+      "PackagePath": "staticwebassets\\img\\image 42.png"
     },
     {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\instagram.png",

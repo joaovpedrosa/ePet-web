@@ -58,6 +58,11 @@ namespace ePet.Controllers
             return View();
         }
 
+        //linkar tela apadrinhamento
+        public ActionResult Apadrinhe()
+        {
+            return View();
+        }
 
         //Logar usuário
         [HttpPost]

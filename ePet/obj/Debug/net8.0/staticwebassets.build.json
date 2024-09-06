@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YW/zO5nSmye+mBpTo/4unEom1Z3b5x2jvr+8Ui5Xg+8=",
+  "Hash": "eFSbKwsUyMXq8fBTNK7jdglgfj9EldJh6z7LKlnqfV4=",
   "Source": "ePet",
   "BasePath": "_content/ePet",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\alterar.css"
+    },
+    {
+      "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\css\\apadrinhe.css",
+      "SourceId": "ePet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\",
+      "BasePath": "_content/ePet",
+      "RelativePath": "css/apadrinhe.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\apadrinhe.css"
     },
     {
       "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\css\\cadastro.css",
@@ -454,6 +473,25 @@
       "OriginalItemSpec": "wwwroot\\img\\cachorrolegal.jpeg"
     },
     {
+      "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\cachorrotriste.PNG",
+      "SourceId": "ePet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\",
+      "BasePath": "_content/ePet",
+      "RelativePath": "img/cachorrotriste.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cachorrotriste.PNG"
+    },
+    {
       "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\editarP.png",
       "SourceId": "ePet",
       "SourceType": "Discovered",
@@ -604,6 +642,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\image 26.png"
+    },
+    {
+      "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\image 42.png",
+      "SourceId": "ePet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\",
+      "BasePath": "_content/ePet",
+      "RelativePath": "img/image 42.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\image 42.png"
     },
     {
       "Identity": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\instagram.png",

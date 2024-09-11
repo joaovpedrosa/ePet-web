@@ -113,6 +113,10 @@
       "PackagePath": "staticwebassets\\img\\facebook.png"
     },
     {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\fotoCachorroBranco.png",
+      "PackagePath": "staticwebassets\\img\\fotoCachorroBranco.png"
+    },
+    {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\gato-adocao.jpeg",
       "PackagePath": "staticwebassets\\img\\gato-adocao.jpeg"
     },
@@ -129,6 +133,22 @@
       "PackagePath": "staticwebassets\\img\\gato3.jpg"
     },
     {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\icon1.png",
+      "PackagePath": "staticwebassets\\img\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\icon2.png",
+      "PackagePath": "staticwebassets\\img\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\icon3.png",
+      "PackagePath": "staticwebassets\\img\\icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\icon4.png",
+      "PackagePath": "staticwebassets\\img\\icon4.png"
+    },
+    {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\image 17.png",
       "PackagePath": "staticwebassets\\img\\image 17.png"
     },
@@ -143,6 +163,10 @@
     {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\instagram.png",
       "PackagePath": "staticwebassets\\img\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\linhatempo.PNG",
+      "PackagePath": "staticwebassets\\img\\linhatempo.PNG"
     },
     {
       "Id": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\wwwroot\\img\\logo-sem-fundo.png",

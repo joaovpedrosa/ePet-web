@@ -255,3 +255,70 @@ section h2 {
     margin-left: -50%;
 }
 
+/*Estilização de como você pode ajudar*/
+
+.containerAjudar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 10px 5px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; /* Espaçamento entre os itens */
+}
+
+.imgLinhatempo img {
+    width: 100%;
+}
+
+.containerDescricoes {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; /* Espaçamento entre os parágrafos */
+}
+
+    .containerDescricoes p {
+        font-size: 25px;
+        margin: 0 !important; /* Remove margens padrão */
+        font-weight: 500;
+    }
+
+.descricao1, .descricao2, .descricao3, .descricao4 {
+    width: 350px;
+    padding: 10px;
+}
+
+.descricao1, .descricao3 {
+    background-color: #536038;
+}
+
+.descricao2, .descricao4 {
+    background-color: #ADC17C;
+}
+
+.descricao1 p, .descricao3 p {
+    color: aliceblue;
+}
+
+.descricao3, .descricao2 {
+    margin-top: 10px; /* Adiciona margem no topo para espaçamento extra */
+}
+
+.textoDiferente {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Espaçamento entre itens dentro do container textoDiferente */
+}
+
+.laranjaAqui {
+    color: #ECA256 !important;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+    .laranjaAqui:hover {
+        transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+    }

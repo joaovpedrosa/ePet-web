@@ -7,8 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
     <title>ePet - Início</title>
 </head>
@@ -21,8 +21,8 @@
                     <input type="radio" name="radio-btn" id="radio2" />
                     <input type="radio" name="radio-btn" id="radio3" />
 
-                    <div class="slide first anime">
-                        <img src="~/img/cachorrogato2.png" alt="" />
+                    <div class="slide first anime" id="slide1">
+                        <img src="~/img/cachorrogato2.png" alt="" id="img1" />
                         <div class="containerAdocao">
                             <p>Venha conhecer os animais epet!</p>
                             <center>
@@ -31,95 +31,63 @@
                         </div>
                     </div>
 
-                    <div class="slide">
-                        <img src="~/img/cachorrogato1.png" alt="" />
+                    <div class="slide" id="slide2">
+                        <img src="~/img/cachorrogato1.png" alt="" id="img2" />
                     </div>
 
-                    <div class="slide">
-                        <img src="~/img/cachorrogato3.PNG" alt="" />
+                    <div class="slide" id="slide3">
+                        <img src="~/img/cachorrogato3.PNG" alt="" id="img3" />
                     </div>
                 </div>
 
                 <div class="navigation-bar">
                     <center>
-                    <label class="manual-btn" for="radio1"></label>
-                    <label class="manual-btn" for="radio2"></label>
-                    <label class="manual-btn" for="radio3"></label>
+                        <label class="manual-btn" for="radio1"></label>
+                        <label class="manual-btn" for="radio2"></label>
+                        <label class="manual-btn" for="radio3"></label>
                     </center>
                 </div>
             </div>
         </div>
-        <script>
-
-            document.addEventListener('DOMContentLoaded', function () {
-                // Seleciona todos os botões de rádio
-                const radioButtons = document.querySelectorAll('input[name="radio-btn"]');
-                let currentIndex = 0;
-
-                function changeSlide() {
-                    // Desmarca o botão de rádio atual
-                    radioButtons[currentIndex].checked = false;
-                    // Move para o próximo índice
-                    currentIndex = (currentIndex + 1) % radioButtons.length;
-                    // Marca o próximo botão de rádio
-                    radioButtons[currentIndex].checked = true;
-                }
-
-                // Altera o slide a cada 6 segundos
-                setInterval(changeSlide, 6000);
-            });
-
-        </script>
-
-
 
         <section>
             <div class="containerPerguntas">
-            <h2 class="frequentes anime">Perguntas Frequentes</h2>
-            <div class="containerLinhaLaranja">
-            <div class="linhaLaranja anime"></div>
+                <h2 class="frequentes anime">Perguntas Frequentes</h2>
+                <div class="containerLinhaLaranja">
+                    <div class="linhaLaranja anime"></div>
                 </div>
             </div>
 
             <div class="perguntas">
                 <div class="pergunta anime">
                     <div class="faq">
-                        <p class="abrir" id="abrir-1">
-                            +
-                        </p>
+                        <p class="abrir" id="abrir-1">+</p>
                         <h3>Quem somos? Qual nosso objetivo?</h3>
                     </div>
-
                     <p class="resposta escondido">
-                        Nós somos um grupo de estudantes do curso técnico de Desenvolvimento de Sistemas da instutuição Senai Zerbini. Assim, nosso objetivo inicialmente era desenvolver apenas um projeto com fins avaliativos mas pelo pontencial do que se foi desenvolvido encontramos a oportunidade de fazer a diferença em pro da qualidade de vida animal.
+                        Nós somos um grupo de estudantes do curso técnico de Desenvolvimento de Sistemas da instituição Senai Zerbini. Nosso objetivo inicialmente era desenvolver apenas um projeto com fins avaliativos, mas pelo potencial do que foi desenvolvido encontramos a oportunidade de fazer a diferença em prol da qualidade de vida animal.
                     </p>
                 </div>
 
                 <div class="pergunta anime">
                     <div class="faq">
-                        <p class="abrir" id="abrir-1">
-                            +
-                        </p>
+                        <p class="abrir" id="abrir-1">+</p>
                         <h3>Onde queremos chegar?</h3>
                     </div>
-
                     <p class="resposta escondido anime">
-                        Com o ePet, pretendemos alcançar maior conscientização da população, afim de proteger os animais quais não possuem respaldo necessário, nem respeito aos seus direitos como seres vivos.
+                        Com o ePet, pretendemos alcançar maior conscientização da população, a fim de proteger os animais que não possuem respaldo necessário nem respeito aos seus direitos como seres vivos.
                     </p>
                 </div>
 
                 <div class="pergunta anime">
                     <div class="faq">
-                        <p class="abrir" id="abrir-1">
-                            +
-                        </p>
+                        <p class="abrir" id="abrir-1">+</p>
                         <h3>Como posso compartilhar?</h3>
                     </div>
-
                     <p class="resposta escondido">
-                        Que tal compartilhar nossa missão com amigos e familiares? Divulgar nosso trabalho nas redes sociais e falar sobre a adoção responsável pode ampliar nosso alcance e impactar mais vidas.Sua voz pode influenciar e garantir que mais animais tenham a chance de encontrar um lar amoroso. 
+                        Que tal compartilhar nossa missão com amigos e familiares? Divulgar nosso trabalho nas redes sociais e falar sobre a adoção responsável pode ampliar nosso alcance e impactar mais vidas. Sua voz pode influenciar e garantir que mais animais tenham a chance de encontrar um lar amoroso.
+                    </p>
                 </div>
-
             </div>
 
             <div class="containerPerguntas">
@@ -128,50 +96,25 @@
                     <div class="linhaLaranja anime"></div>
                 </div>
             </div>
-
-            <div class="containerAjudar anime">
-                <div class="imgLinhatempo">
-              <img src="~/img/linhatempo.PNG" />
-                </div>
-                <div class="containerDescricoes">
-                    <div class="descricao1">
-                        <p>De qualquer marca, desde que seja sem corante.</p>
-                    </div>
-                    <div class="descricao2">
-                        <p>Aceitamos produtos e medicamentos para animais, além de roupas e cobertas para cachorro.</p>
-                    </div>
-                    <div class="descricao3">
-                        <p>Ajude financeiramente a cobrir necessidades de um pet, como comida e cuidados médicos. </p>
-                        <div class="textoDiferente">
-                            <p>Saiba mais clicando</p>
-                            <a asp-controller="Home" asp-action="Apadrinhe"><p class="laranjaAqui">aqui.</p></a>
-                        </div>
-                    </div>
-                    <div class="descricao4">
-                        <p>Tem uma empresa e quer ajudar? Vamos crescer juntos</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="containerLinhaCorte anime">
+            
+            <div class="containerLinhaCorte anime" id="containerComoAdotar">
                 <img src="~/img/imgCorteSite.PNG" />
             </div>
-
             <div class="containerComoAdotar anime">
-                    <div class="tituloCAdotar">
+                <div class="tituloCAdotar">
                     <p>Quer fazer parte dessa corrente do bem e adotar? Entenda como funciona:</p>
                 </div>
                 <div class="containerCorpoCAdotar">
                     <div class="espaco1CA">
                         <div class="containerImgCA">
                             <div class="imgCA">
-                            <img src="~/img/iconCA1.png" />
+                                <img src="~/img/iconCA1.png" />
                             </div>
                         </div>
-                         <div class="containerTituloCA">
+                        <div class="containerTituloCA">
                             <p>Ache seu pet</p>
                         </div>
-                         <div class="containerDescricaoCA">
+                        <div class="containerDescricaoCA">
                             <p>Navegue até nossa página de</p>
                             <p>adoção para conhecer os</p>
                             <p>pets disponíveis, todos sob os</p>
@@ -260,16 +203,11 @@
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
             <div class="containerLinhaCorte2 ">
                 <img src="~/img/imgCorteSite2.PNG" />
             </div>
         </section>
-
-
-        
-
-
     </main>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -277,9 +215,5 @@
     <script src="~/js/faq.js"></script>
     <script src="~/js/menu-hamburguer.js"></script>
     <script src="~/js/slider.js"></script>
-
-
 </body>
 </html>
-
-                

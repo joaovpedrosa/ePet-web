@@ -1,0 +1,187 @@
+﻿p{
+    margin: 0px !important;
+}
+
+.containerCorpoPag{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+}
+
+.containerEntrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ADC17C;
+    padding: 40px 70px;
+    gap: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tituloEntrar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.tituloEntrar  p{
+    font-size: 50px;
+    font-weight: 500;
+    color: aliceblue;
+}
+
+.linhaBranca{
+    width: 155px;
+    height: 7px;
+    background-color: aliceblue;
+}
+
+.containerInput1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.containerInput1 p{
+    font-size: 25px;
+    color: black;
+    font-weight: 400
+}
+
+.containerInput1 input{
+    width: 880px;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: 400
+}
+
+.containerButton{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.button1 button {
+    width: 280px;
+    height: 60px;
+    background-color: #536038;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+
+.containerNConta {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 5px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.conta {
+    font-size: 25px;
+    color: black;
+    font-weight: 400;
+}
+
+.cadastrese-container {
+    position: relative; 
+}
+
+.cadastrese {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.linha {
+    position: absolute;
+    height: 3px;
+    background-color: white;
+    bottom: -5px; 
+    left: 0;
+    width: 0; 
+    transition: width 0.5s ease; 
+}
+
+.cadastrese-container:hover .linha {
+    width: 100%; 
+}
+
+.cadastrese-container:hover .cadastrese {
+    color: #fff; 
+}
+
+@media screen and (max-width: 1050px) {
+
+    .containerEntrar {
+        padding: 20px 40px;
+    }
+
+    .tituloEntrar p {
+        font-size: 40px;
+    }
+
+    .linhaBranca {
+        width: 120px; 
+    }
+
+    .containerInput1 input {
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+    }
+
+    .containerButton {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .button1 button {
+        width: 180px; 
+        height: 50px; 
+        font-size: 30px; 
+    }
+
+    .conta {
+        font-size: 20px;
+    }
+
+    .cadastrese {
+        font-size: 20px; 
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .containerInput1 {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .button1 button {
+        width: 150px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+

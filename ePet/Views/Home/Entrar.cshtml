@@ -1,0 +1,53 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/entrar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+
+    <title>Apadrinhamento</title>
+</head>
+<body>
+    <main>
+        <div class="containerCorpoPag">
+            <div class="containerEntrar">
+                <div class="tituloEntrar">
+                    <p>Login</p>
+                    <div class="linhaBranca"></div>
+                    </div>
+                    <div class="containerInput1">
+                            <p>Gmail:</p>
+                        <input type="text">
+                    </div>
+                    <div class="containerInput1">
+                            <p>Senha:</p>
+                        <input type="text">
+                    </div>
+                    <div class="containerButton">
+                        <div class="button1">
+                            <button>Entrar</button>
+                        </div>
+                        <div class="button1">
+                            <button>Adm</button>
+                        </div>
+                    </div>
+                <div class="containerNConta">
+                    <p class="conta">Não tem conta?</p>
+                    <div class="cadastrese-container">
+                      <a class="preto" asp-controller="Home" asp-action="Cadastro" >  <p class="cadastrese">Cadastre-se!</p></a>
+                        <div class="linha"></div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </main>
+</body>
+</html>

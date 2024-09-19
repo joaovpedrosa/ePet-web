@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\css\\disk.css"
     },
     {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\css\\entrar.css",
+      "PackagePath": "staticwebassets\\css\\entrar.css"
+    },
+    {
       "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },

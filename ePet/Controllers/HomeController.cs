@@ -51,6 +51,11 @@ namespace ePet.Controllers
             return View();
         }
 
+        //linkar o entrar 
+        public ActionResult Entrar()
+        {
+            return View();
+        }
 
         //linkar tela do perfil do pet com a tela adoção
         public ActionResult TelaPet()

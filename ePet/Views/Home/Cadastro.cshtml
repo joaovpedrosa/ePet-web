@@ -13,51 +13,85 @@
     <title>Cadastre-se</title>
 </head>
 <body>
-    <header>
-        <a asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
-    </header>
     <main>
         <form action="/Home/UsuarioCadastro" method="post" class="cadastro">
-            <h2>CADASTRE-SE</h2>
 
-            <div class="item_cadastro">
-                <label>Nome:</label>
-                <input type="text" class="input_field" name="nome" required placeholder="NOME" />
-
+            <div class="cadastrese">
+            <p>CADASTRE-SE</p>
             </div>
 
-            <div class="item_cadastro">
-                <label>Telefone:</label>
-                <input type="text" class="input_field " name="telefone" required placeholder="TELEFONE" />
+
+            <div class="form-container">
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Nome:</p>
+                        </div>
+                        <input type="text" class="input_field" name="nome" required placeholder="NOME" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Telefone:</p>
+                        </div>
+                        <input type="text" class="input_field" name="telefone" required placeholder="TELEFONE" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Endereço:</p>
+                        </div>
+                        <input type="text" class="input_field" name="endereco" required placeholder="ENDEREÇO" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>CPF:</p>
+                        </div>
+                        <input type="text" class="input_field" name="cpf" required placeholder="CPF" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Email:</p>
+                        </div>
+                        <input type="text" class="input_field" name="email" required placeholder="EMAIL" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Senha:</p>
+                        </div>
+                        <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Confirme sua senha:</p>
+                        </div>
+                        <input type="password" class="input_field" name="Confirme" required placeholder="CONFIRME SUA SENHA" id="Confirme" />
+                    </div>
+                </div>
             </div>
 
-            <div class="item_cadastro">
-                <label>Endereco:</label>
-                <input type="text" class="input_field" name="endereco" required placeholder="ENDERECO" />
-            </div>
 
-            <div class="item_cadastro">
-                <label>CPF:</label>
-                <input type="text" class="input_field " name="cpf" required placeholder="CPF" />
-            </div>
-
-            <div class="item_cadastro">
-                <label>Email:</label>
-                <input type="text" class="input_field" name="email" required placeholder="EMAIL" />
-            </div>
-
-            <div class="item_cadastro">
-                <label>Senha:</label>
-                <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
-            </div>
-
-            <div class="item_cadastro">
-                <label>Confirme sua senha:</label>
-                <input type="password" class="input_field" name="Confirme" required placeholder="CONFIRME SUA SENHA" id="Confirme" />
-            </div>
-
-            <p id="alerta"></p>
+            <p id="alerta" class="alerta"></p>
+            <div class="containerButton">
             <button type="submit">CADASTRAR</button>
+            </div>
+            </>
         </form>
     </main>
     <script src="~/js/validacoes.js"></script>

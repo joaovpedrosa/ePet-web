@@ -1,10 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +6,6 @@
     <link rel="stylesheet" href="~/css/entrar.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
-
     <title>Apadrinhamento</title>
 </head>
 <body>
@@ -22,32 +15,34 @@
                 <div class="tituloEntrar">
                     <p>Login</p>
                     <div class="linhaBranca"></div>
+                </div>
+                <form method="post" asp-controller="Auth" asp-action="LoginADM">
+                    <div class="containerInput1">
+                        <p>Gmail:</p>
+                        <input type="text" name="email" required>
                     </div>
                     <div class="containerInput1">
-                            <p>Gmail:</p>
-                        <input type="text">
-                    </div>
-                    <div class="containerInput1">
-                            <p>Senha:</p>
-                        <input type="text">
+                        <p>Senha:</p>
+                        <input type="password" name="senha" required>
                     </div>
                     <div class="containerButton">
                         <div class="button1">
-                            <button>Entrar</button>
+                            <button type="submit" >Entrar</button>
                         </div>
                         <div class="button1">
-                            <button>Adm</button>
+                            <button type="submit" >Adm</button>
                         </div>
                     </div>
+                </form>
                 <div class="containerNConta">
                     <p class="conta">Não tem conta?</p>
                     <div class="cadastrese-container">
-                      <a class="preto" asp-controller="Home" asp-action="Cadastro" >  <p class="cadastrese">Cadastre-se!</p></a>
+                        <a class="preto" asp-controller="Home" asp-action="Cadastro"><p class="cadastrese">Cadastre-se!</p></a>
                         <div class="linha"></div>
                     </div>
                 </div>
-                </div>
             </div>
-        </main>
+        </div>
+    </main>
 </body>
 </html>

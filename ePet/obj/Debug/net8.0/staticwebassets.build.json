@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q2dw3+0051Nl+u+UJExtrNlR1EDB4WWPuCqF+v0gppI=",
+  "Hash": "JneyzwfV5bxlXWORkPHxDrtegfuFat2DzT8uXX/NfqU=",
   "Source": "ePet",
   "BasePath": "_content/ePet",
   "Mode": "Default",
@@ -186,25 +186,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\deletar.css"
-    },
-    {
-      "Identity": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\css\\disk.css",
-      "SourceId": "ePet",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\",
-      "BasePath": "_content/ePet",
-      "RelativePath": "css/disk.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\disk.css"
     },
     {
       "Identity": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\css\\entrar.css",

@@ -29,32 +29,47 @@
             </div>
 
             <div class="item_cadastro">
-                <label>TIPO SANGUÍNEO:</label>
-                <input type="text" class="input_field" name="t_sanguinio" />
+                <label>IDADE:</label>
+                <input type="text" class="input_field" name="idade" />
             </div>
 
             <div class="item_cadastro">
-                <label>CÓDIGO DONO:</label>
-                <input type="text" class="input_field" name="codigo_dono" />
+                <label>COMPORTAMENTO:</label>
+                <input type="text" class="input_field" name="comportamento" />
             </div>
 
             <div class="item_cadastro">
-                <label>AUTORIDADE RESPONSÁVEL:</label>
-                <input type="text" class="input_field" name="autoridade_responsavel" />
+                <label>CÓDIGO DO ANIMAL:</label>
+                <input type="text" class="input_field" name="codigo_animal" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>CASTRAÇÃO:</label>
+                <input type="text" class="input_field" name="castracao"/>
             </div>
 
             <div class="item_cadastro">
                 <label>STATUS:</label>
-                <input type="text" class="input_field" name="status"/>
+                <input type="text" class="input_field" name="status" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>EMAIL:</label>
+                <input type="text" class="input_field" name="email" />
             </div>
 
             <div class="input-files-container">
-                <input type="file" accept="image/*" name="arq">
-                <img scr="#" alt="" id="preview">
+                <label for="file-upload" class="custom-file-upload">
+                    Selecione um arquivo
+                </label>
+                <input id="file-upload" type="file" accept="image/*" name="arq">
+                <img src="#" alt="" id="preview">
             </div>
 
+            <div class="botaoCadastrar">
             <p id="alerta"></p>
             <button type="submit">CADASTRAR</button>
+            </div>
         </form>
         
     </main>

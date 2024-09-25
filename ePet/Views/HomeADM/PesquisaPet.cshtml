@@ -16,23 +16,24 @@
 </head>
 <body>
     <main>
+        <div class="tituloPes">
+            <p>Todos os pets!</p>
+        </div>
+
         <form method="post" class="cadastro" asp-action="ListarAnimal">
-            <br>
-            <h2>PESQUISA PET</h2>
-            <br><br>
-            <h3 id="cod">Informe o código do animal a ser pesquisado: <input type="text" class="input_field" id="input" name="cod_animal" /></h3>
-            <br>
-            <br>
+            <div class="tabela">
             <table>
                 <thead>
                     <tr>
-                        <th scope="col">CÓD</th>
                         <th scope="col">NOME</th>
-                        <th scope="col">TIPO SANG.</th>
-                        <th scope="col">ID RESPONS.</th>
-                        <th scope="col">STATUS</th>
+                        <th scope="col">IDADE</th>
+                        <th scope="col">COMPORTAMENTO</th>
                         <th scope="col">TIPO ANIMAL</th>
-                        <th scope="col">CPF DONO</th>
+                        <th scope="col">CASTRAÇÃO</th>
+                        <th scope="col">CÓD. ANIMAL</th>
+                        <th scope="col">STATUS</th>
+                        <th scope="col">EMAIL</th>
+                        <th scope="col">#</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -44,10 +45,15 @@
                 <td>@animais.Status</td>
                 <td>@animais.T_Animal</td>
                 <td>@animais.CodDono</td>
+                <td>@animais.CodDono</td>
+                <td class="exEd">
+                    <img src="~/img/image 62.png" />
+                    <img src="~/img/image 63.png" />
+                </td>
+
                 </tbody>
             </table>
-            <br>
-            <button type="submit" id="botao">PESQUISAR</button>
+            </div>
         </form>
     </main>
 </body>

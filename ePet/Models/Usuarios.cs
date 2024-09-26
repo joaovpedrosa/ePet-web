@@ -38,9 +38,11 @@ namespace ePet.Models
             this.senha = senha;
         }
 
+        public Usuarios() { }
+
         public static string ConexaoUsuarios()
         {
-            
+
             try
             {
                 con.Open();
@@ -60,11 +62,11 @@ namespace ePet.Models
             try
             {
                 con.Open();
-                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario VALUES (@Nome, @Email, @Telefone, @Endereco, @CPF, @Senha)", con);
+                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Nome, Email, Telefone, Rua, CPF, Senha) VALUES (@Nome, @Email, @Telefone, @Rua, @CPF, @Senha)", con);
                 qry.Parameters.AddWithValue("@Nome", this.nome);
                 qry.Parameters.AddWithValue("@Email", this.email);
                 qry.Parameters.AddWithValue("@Telefone", this.telefone);
-                qry.Parameters.AddWithValue("@Endereco", this.endereco);
+                qry.Parameters.AddWithValue("@Rua", this.endereco);
                 qry.Parameters.AddWithValue("@CPF", this.cpf);
                 qry.Parameters.AddWithValue("@Senha", this.senha);
                 qry.ExecuteNonQuery();
@@ -72,6 +74,7 @@ namespace ePet.Models
             }
             catch (Exception ex)
             {
+                con.Close();
                 return "Erro: " + ex.Message;
             }
             return "Inserido com sucesso!";
@@ -94,7 +97,7 @@ namespace ePet.Models
             return "Excluido com sucesso!";
         }
 
-        public  Usuarios BuscarUsuario(string cpf)
+        public Usuarios BuscarUsuario(string cpf)
         {
             Usuarios resultado = null;
             try

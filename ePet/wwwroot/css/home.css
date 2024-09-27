@@ -503,5 +503,90 @@ section h2 {
     transform: scale(1.1);
 }
 
+/* Estilização da Propaganda do aplicativo */
+
+.containerApp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start; 
+    justify-content: start;
+    padding: 0px 60px;
+}
+
+.containerDescricaoApp {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.containerImgApp {
+    flex: 1 1 250px; 
+    display: flex;
+    justify-content: center; 
+}
+
+    .containerImgApp img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+.descricaoApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.descricaoApp p{
+    margin: 0px !important;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.denunciarApp {
+    background-color: #ECA256;
+    padding: 10px;
+}
+
+    .denunciarApp p {
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0px !important;
+    }
+
+.containerDescricaoApp button{
+    background-color: #536038;
+    font-size: 35px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 20px;
+    color:aliceblue;
+    padding: 5px 20px;
+}
+
+.containerImgApp{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
 
 
+@media screen and (max-width: 1050px){
+    .containerImgApp {
+        flex: 1 1 1050px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+.containerImgApp img {
+    padding: 0px 0px 0px 30px;
+}
+
+}

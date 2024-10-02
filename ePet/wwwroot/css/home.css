@@ -508,9 +508,14 @@ section h2 {
 .containerApp {
     display: flex;
     flex-wrap: wrap;
-    align-items: start; 
+    align-items: start;
     justify-content: start;
     padding: 0px 60px;
+    gap: 5px;
+    background-image: url('../img/wave-haikei (1).png');
+    background-size: cover; /* Ajusta a imagem sem cortar */
+    background-repeat: no-repeat; /* Impede repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
 }
 
 .containerDescricaoApp {
@@ -527,6 +532,7 @@ section h2 {
     flex: 1 1 250px; 
     display: flex;
     justify-content: center; 
+    padding-left: 10px;
 }
 
     .containerImgApp img {
@@ -548,7 +554,7 @@ section h2 {
 }
 
 .denunciarApp {
-    background-color: #ECA256;
+    background-color: #A1B076;
     padding: 10px;
 }
 
@@ -559,13 +565,13 @@ section h2 {
         margin: 0px !important;
     }
 
-.containerDescricaoApp button{
-    background-color: #536038;
+.containerDescricaoApp button {
+    background-color: #ECA256;
     font-size: 35px;
     font-weight: 700;
     border: 0px;
     border-radius: 20px;
-    color:aliceblue;
+    color: aliceblue;
     padding: 5px 20px;
 }
 
@@ -588,5 +594,5 @@ section h2 {
 .containerImgApp img {
     padding: 0px 0px 0px 30px;
 }
-
 }
+

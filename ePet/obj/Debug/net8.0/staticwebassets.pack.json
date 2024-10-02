@@ -137,6 +137,22 @@
       "PackagePath": "staticwebassets\\img\\gato3.jpg"
     },
     {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\gatoanimado.jpg",
+      "PackagePath": "staticwebassets\\img\\gatoanimado.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\gatocalmo.jpeg",
+      "PackagePath": "staticwebassets\\img\\gatocalmo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\gatocon.jpg",
+      "PackagePath": "staticwebassets\\img\\gatocon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\gatolaranja1.PNG",
+      "PackagePath": "staticwebassets\\img\\gatolaranja1.PNG"
+    },
+    {
       "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\icon1.png",
       "PackagePath": "staticwebassets\\img\\icon1.png"
     },
@@ -227,6 +243,18 @@
     {
       "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\vectoresquerda.svg",
       "PackagePath": "staticwebassets\\img\\vectoresquerda.svg"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei (1).png",
+      "PackagePath": "staticwebassets\\img\\wave-haikei (1).png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei.png",
+      "PackagePath": "staticwebassets\\img\\wave-haikei.png"
+    },
+    {
+      "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\wave.png",
+      "PackagePath": "staticwebassets\\img\\wave.png"
     },
     {
       "Id": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\wwwroot\\img\\xis.png",

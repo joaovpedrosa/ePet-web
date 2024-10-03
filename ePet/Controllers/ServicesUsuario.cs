@@ -1,4 +1,5 @@
 ﻿using ePet.Models;
+using K4os.Compression.LZ4.Internal;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ePet.Controllers
@@ -10,7 +11,7 @@ namespace ePet.Controllers
         [HttpGet("Teste")]
         public IActionResult Index([FromBody] Usuarios u)
         {
-            u = new Usuarios(u.Nome, u.Email, u.Telefone, u.Endereco, u.Cpf, u.Senha);
+            u = new Usuarios(u.Email, u.Senha, u.Cpf, u.Nome, u.DataNasc, u.Cep, u.Cidade, u.Telefone, u.Bairro, u.Rua, u.Complemento);
 
             string resposta = u.CadastrarUsuario();
 

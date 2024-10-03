@@ -1,6 +1,6 @@
 ﻿@{
     TempData["NavBar"] = "adm";
-    Usuarios user = new Usuarios(null, null, null, null, null, null);
+    Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null);
     user = (Usuarios)ViewBag.user;
 }
 
@@ -38,8 +38,7 @@
                 <tbody>
                 <td>@user.Nome</td>
                 <td>@user.Email</td>
-                <td>@user.Telefone</td>
-                <td>@user.Endereco</td>
+                <td>@user.Telefone</td>          
                 <td>@user.Cpf</td>
                 <td>@user.Senha</td>
                 </tbody>

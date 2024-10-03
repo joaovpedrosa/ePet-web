@@ -6,11 +6,11 @@ namespace ePet.Controllers
     public class CadastroController : Controller
     {
         [HttpPost]
-        public IActionResult UsuarioCadastro(string nome, string email, string telefone, string endereco, string cpf, string senha)
+        public IActionResult UsuarioCadastro(string email, string senha, string cpf, string nome, string dataNasc, string cep, string cidade, string telefone, string bairro, string rua, string complemento)
         {
-            Usuarios u = new Usuarios(nome, cpf, email, endereco, telefone, senha);
+            Usuarios u = new Usuarios(email, senha, cpf, nome, dataNasc, cep, cidade, telefone, bairro, rua, complemento);
             TempData["msg"] = u.CadastrarUsuario();
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index", "Home");
         }
 
         public IActionResult UsuarioDeletar(string cpf)

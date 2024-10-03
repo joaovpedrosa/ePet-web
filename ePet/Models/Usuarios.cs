@@ -4,31 +4,44 @@ using System.ComponentModel;
 
 namespace ePet.Models
 {
-    public class Usuarios
+   
+     public class Usuarios
     {
-        protected string nome, email, telefone, endereco, cpf, senha;
+        protected string email, senha, cpf, nome, dataNasc, cep, cidade, telefone, bairro, rua, complemento;
         protected string v;
+
 
         static MySqlConnection con = ConectarMySql.getConexao();
 
 
-        public string Nome { get => nome; set => nome = value; }
         public string Email { get => email; set => email = value; }
-        public string Telefone { get => telefone; set => telefone = value; }
-        public string Endereco { get => endereco; set => endereco = value; }
-        public string Cpf { get => cpf; set => cpf = value; }
         public string Senha { get => senha; set => senha = value; }
+        public string Cpf { get => cpf; set => cpf = value; }
+        public string Nome { get => nome; set => nome = value; }
+        public string DataNasc { get => dataNasc; set => dataNasc = value; }
+        public string Cep { get => cep; set => cep = value; }
+        public string Cidade { get => cidade; set => cidade = value; }
+        public string Telefone { get => telefone; set => telefone = value; }
+        public string Bairro { get => bairro; set => bairro = value; }
+        public string Rua { get => rua; set => rua = value; }
+        public string Complemento { get => complemento; set => complemento = value; }
 
 
-
-        public Usuarios(string nome, string email, string telefone, string endereco, string cpf, string senha)
+        public Usuarios(string email, string senha, string cpf, string nome, string dataNasc, string cep, string cidade, string telefone, string bairro, string rua, string complemento)
         {
-            this.nome = nome;
+
             this.email = email;
-            this.telefone = telefone;
-            this.endereco = endereco;
-            this.cpf = cpf;
             this.senha = senha;
+            this.cpf = cpf;
+            this.nome = nome;
+            this.dataNasc = dataNasc;
+            this.cep = cep;
+            this.cidade = cidade;
+            this.telefone = telefone;
+            this.bairro = bairro;
+            this.rua = rua;
+            this.complemento = complemento;
+
 
         }
 
@@ -62,13 +75,18 @@ namespace ePet.Models
             try
             {
                 con.Open();
-                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Nome, Email, Telefone, Rua, CPF, Senha) VALUES (@Nome, @Email, @Telefone, @Rua, @CPF, @Senha)", con);
-                qry.Parameters.AddWithValue("@Nome", this.nome);
+                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Email,Senha, Cpf, Nome, DataNasc,Cep,Cidade, Telefone, Bairro,Rua, Complemento) VALUES (@Email,@Senha,@CPF,@Nome,@DataNasc,@Cep,@Cidade,@Telefone,@Bairro,@Rua,@Complemento)", con);
                 qry.Parameters.AddWithValue("@Email", this.email);
-                qry.Parameters.AddWithValue("@Telefone", this.telefone);
-                qry.Parameters.AddWithValue("@Rua", this.endereco);
-                qry.Parameters.AddWithValue("@CPF", this.cpf);
                 qry.Parameters.AddWithValue("@Senha", this.senha);
+                qry.Parameters.AddWithValue("@CPF", this.cpf);
+                qry.Parameters.AddWithValue("@CPF", this.nome);
+                qry.Parameters.AddWithValue("@CPF", this.dataNasc);
+                qry.Parameters.AddWithValue("@CPF", this.cep);
+                qry.Parameters.AddWithValue("@CPF", this.cidade);
+                qry.Parameters.AddWithValue("@CPF", this.telefone);
+                qry.Parameters.AddWithValue("@CPF", this.bairro);
+                qry.Parameters.AddWithValue("@CPF", this.rua);
+                qry.Parameters.AddWithValue("@CPF", this.complemento);
                 qry.ExecuteNonQuery();
                 con.Close();
             }
@@ -108,12 +126,18 @@ namespace ePet.Models
                 MySqlDataReader ler = qry.ExecuteReader();
                 while (ler.Read())
                 {
-                    resultado = new Usuarios(ler["nome"].ToString(),
+                    resultado = new Usuarios(
                     ler["email"].ToString(),
-                    ler["telefone"].ToString(),
-                    ler["endereco"].ToString(),
+                    ler["senha"].ToString(),
                     ler["cpf"].ToString(),
-                    ler["senha"].ToString());
+                    ler["nome"].ToString(),
+                    ler["dataNasc"].ToString(),
+                    ler["cep"].ToString(),
+                    ler["cidade"].ToString(),
+                    ler["telefone"].ToString(),
+                    ler["bairro"].ToString(),
+                    ler["rua"].ToString(),
+                    ler["complemento"].ToString());
                 }
                 con.Close();
 
@@ -135,12 +159,17 @@ namespace ePet.Models
                 MySqlDataReader ler = qry.ExecuteReader();
                 while (ler.Read())
                 {
-                    Usuarios linha = new Usuarios(ler["nome"].ToString(),
-                    ler["email"].ToString(),
-                    ler["telefone"].ToString(),
-                    ler["endereco"].ToString(),
+                    Usuarios linha = new Usuarios(ler["email"].ToString(),
+                    ler["senha"].ToString(),
                     ler["cpf"].ToString(),
-                    ler["senha"].ToString());
+                    ler["nome"].ToString(),
+                    ler["dataNasc"].ToString(),
+                    ler["cep"].ToString(),
+                    ler["cidade"].ToString(),
+                    ler["telefone"].ToString(),
+                    ler["bairro"].ToString(),
+                    ler["rua"].ToString(),
+                    ler["complemento"].ToString());
                     lista.Add(linha);
                 }
                 con.Close();

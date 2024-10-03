@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ePet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c45de02cd08a648750fac464ff6ba3b6da10c934")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f3d4dfd313d19ad7895b34bdf7592d9dacedf68")]
->>>>>>> ae2442c47a26793b7a61d43baf3ad1719be29f64
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+217aac8d703f86eaa077a5a3d9412b7abd2f5677")]
 [assembly: System.Reflection.AssemblyProductAttribute("ePet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ePet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

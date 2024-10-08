@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@{
+    TempData["NavBar"] = "adm";
+    Administrador user = new Administrador(null, null);
+    user = (Administrador)ViewBag.user;
+}
+
+
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -16,21 +24,23 @@
                     <p>Login</p>
                     <div class="linhaBranca"></div>
                 </div>
-                <form method="post" asp-controller="Auth" asp-action="LoginADM">
+                <form method="post" asp-controller="Entrar" asp-action="login">
                     <div class="containerInput1">
                         <p>Gmail:</p>
-                        <input type="text" name="email" required>
+                        <input id="email" type="text" name="email" required>
                     </div>
                     <div class="containerInput1">
                         <p>Senha:</p>
-                        <input type="password" name="senha" required>
+                        <input id="senha" type="password" name="senha" required>
                     </div>
                     <div class="containerButton">
-                        <div class="button1">
+
+                        @* <div class="button1">
                             <button type="submit" >Entrar</button>
-                        </div>
-                        <div class="button1">
-                            <button type="submit" >Adm</button>
+                        </div>*@
+                        <div class="button1"> 
+
+                            <a class="preto" asp-controller="Home" asp-action="HomeADM">  <button type="submit">Adm</button></a>
                         </div>
                     </div>
                 </form>

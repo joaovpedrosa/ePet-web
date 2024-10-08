@@ -9,79 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ePet
 build_property.RootNamespace = ePet
-build_property.ProjectDir = C:\Users\aluno\Documents\gabrielfabri\webgit\ePet-web\ePet\
+build_property.ProjectDir = C:\Users\aluno\Documents\gabrielfabri\githubWeb\ePet-web\ePet\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aluno\Documents\gabrielfabri\webgit\ePet-web\ePet
+build_property.MSBuildProjectDirectory = C:\Users\aluno\Documents\gabrielfabri\githubWeb\ePet-web\ePet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Adote/Adocao.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Adote/Adocao.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRvdGVcQWRvY2FvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/HomeADM/Alterar.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/HomeADM/Alterar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUFETVxBbHRlcmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/HomeADM/CadastroPet.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/HomeADM/CadastroPet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUFETVxDYWRhc3Ryb1BldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/HomeADM/PesquisaPet.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/HomeADM/PesquisaPet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUFETVxQZXNxdWlzYVBldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/HomeADM/PesquisaUsuario.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/HomeADM/PesquisaUsuario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUFETVxQZXNxdWlzYVVzdWFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/Adote.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/Adote.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG90ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/Apadrinhe.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/Apadrinhe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBcGFkcmluaGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/Cadastro.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/Cadastro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWRhc3Ryby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/Entrar.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/Entrar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbnRyYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/HomeADM.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/HomeADM.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lQURNLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/Index.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Home/TelaPet.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Home/TelaPet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWxhUGV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Shared/Error.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Shared/HomeADM.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Shared/HomeADM.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEhvbWVBRE0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/_ViewImports.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/_ViewStart.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aluno/Documents/gabrielfabri/webgit/ePet-web/ePet/Views/Shared/_Layout.cshtml]
+[C:/Users/aluno/Documents/gabrielfabri/githubWeb/ePet-web/ePet/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-971mrahpkz

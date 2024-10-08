@@ -24,6 +24,8 @@ namespace ePet.Models
         {
             //Variável que vai devolver o estado do login
             string situacao = "";
+ 
+
 
             try
             {
@@ -43,20 +45,21 @@ namespace ePet.Models
                         if (usuario.Senha == Senha)
                         {
                             situacao = "logado";
-
+                    
                             //Pegar o id do banco
                             break;
                         }
                         else
                         {
                             situacao = "Senha incorreta!";
-
+                            
                             break;
                         }
                     }
                     else
                     {
                         situacao = "Email não cadastrado!";
+             
 
                     }
                 }

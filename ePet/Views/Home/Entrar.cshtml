@@ -1,12 +1,4 @@
-﻿@{
-    TempData["NavBar"] = "adm";
-    Administrador user = new Administrador(null, null);
-    user = (Administrador)ViewBag.user;
-}
-
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -15,6 +7,11 @@
     <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
     <title>Apadrinhamento</title>
+    <script>
+        function showError(message) {
+            alert(message); // Aqui você pode usar um pop-up mais estilizado
+        }
+    </script>
 </head>
 <body>
     <main>
@@ -34,13 +31,8 @@
                         <input id="senha" type="password" name="senha" required>
                     </div>
                     <div class="containerButton">
-
-                        @* <div class="button1">
-                            <button type="submit" >Entrar</button>
-                        </div>*@
-                        <div class="button1"> 
-
-                            <a class="preto" asp-controller="Home" asp-action="HomeADM">  <button type="submit">Adm</button></a>
+                        <div class="button1">
+                            <button type="submit">Entrar</button>
                         </div>
                     </div>
                 </form>
@@ -54,5 +46,12 @@
             </div>
         </div>
     </main>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <script>
+            showError('@ViewBag.ErrorMessage');
+        </script>
+    }
 </body>
 </html>

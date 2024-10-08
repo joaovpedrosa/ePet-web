@@ -72,80 +72,29 @@ namespace ePet.Controllers
 
         //Logar usuário
         [HttpPost]
-        public IActionResult Login(string email, string senha)
+        public IActionResult login(string email, string senha)
         {
-            //CRIANDO OBJETO DO USUÁRIO PARA CONFERIR NO BANCO SE ELE EXISTE E SE A SENHA BATE
             Usuarios usuario = new Usuarios(email, senha);
-            string loginEstado = usuario.logarUsuario();
-            TempData["SituacaoLogin"] = loginEstado;
+            Usuarios usuarioAutenticado = usuario.logarUsuario(); // Agora retorna o objeto ou null
 
-            //CASO ELE CONSIGA LOGAR, SER DIRECIONADO PARA A PÁGINA INICIAL
-            if (loginEstado == "logado")
+            if (usuarioAutenticado != null)
             {
-                //Criar uma sessão para armazenar os dados do usuário
-                HttpContext.Session.SetString("usuario", JsonConvert.SerializeObject(usuario));
-                return Redirect("/Home/Adote");
-            }
-
-
-            else
-            {
-                    Administrador adm = new Administrador(email, senha);
-                string loginAdm = adm.logarUsuario();
-                if (loginAdm == "logado")
+                // Verifica se o usuário é administrador
+                if (usuarioAutenticado.IsAdm == "sim") // Aqui verificamos se o valor é "sim"
                 {
-                    //Criar uma sessão para armazenar os dados do usuário
-                    HttpContext.Session.SetString("usuario", JsonConvert.SerializeObject(usuario));
-                    return Redirect("/Home/HomeADM");
+                    return RedirectToAction("HomeADM", "Home");
                 }
-                else
+                else // Caso contrário, redireciona para a página normal
                 {
-                    return Redirect("/Home/Index");
+                    return RedirectToAction("Index", "Home");
                 }
-                
-            }
-        }
-
-        //Logar usuário
-        [HttpPost]
-        public IActionResult LoginADM(string email, string senha)
-        {
-            //CRIANDO OBJETO DO USUÁRIO PARA CONFERIR NO BANCO SE ELE EXISTE E SE A SENHA BATE
-            Administrador usuario = new Administrador(email, senha);
-            string loginEstado = usuario.logarUsuario();
-            TempData["SituacaoLogin"] = loginEstado;
-
-            //CASO ELE CONSIGA LOGAR, SER DIRECIONADO PARA A PÁGINA INICIAL
-            if (loginEstado == "logado")
-            {
-                //Criar uma sessão para armazenar os dados do usuário
-                HttpContext.Session.SetString("usuario", JsonConvert.SerializeObject(usuario));
-                return Redirect("/Home/HomeADM");
             }
 
-
-            else
-            {
-                return Redirect("/Home/Index"); ;
-            }
-        }
-
-        [HttpPost]
-        public IActionResult Ocorrencia(string email, string senha)
-        {
-            return null;
-        }
-
-
-            public IActionResult Privacy()
-        {
+            // Se o login falhar, retorna uma mensagem de erro
+            ModelState.AddModelError("", "Usuário ou senha inválidos.");
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        }
+
     }
 }

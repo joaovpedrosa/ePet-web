@@ -32,7 +32,7 @@ namespace ePet.Controllers
         {
             if (ViewBag.user == null)
             {
-                ViewBag.user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null);
+                ViewBag.user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, null);
             }
             return View();
         }
@@ -104,7 +104,7 @@ namespace ePet.Controllers
         [HttpPost]
         public IActionResult BuscarUsuario(string cod_usuario)
         {
-            Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null);
+            Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, null);
             user = user.BuscarUsuario(cod_usuario);
             ViewBag.user = user;
             return View("PesquisaUsuario");

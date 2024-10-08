@@ -1,18 +1,15 @@
 ﻿using ePet.Conexões;
 using MySql.Data.MySqlClient;
-using System.ComponentModel;
+using System;
+using System.Collections.Generic;
 
 namespace ePet.Models
 {
-   
-     public class Usuarios
+    public class Usuarios
     {
-        protected string email, senha, cpf, nome, dataNasc, cep, cidade, telefone, bairro, rua, complemento;
-        protected string v;
-
+        protected string email, senha, cpf, nome, dataNasc, cep, cidade, telefone, bairro, rua, complemento, isAdm;
 
         static MySqlConnection con = ConectarMySql.getConexao();
-
 
         public string Email { get => email; set => email = value; }
         public string Senha { get => senha; set => senha = value; }
@@ -25,11 +22,10 @@ namespace ePet.Models
         public string Bairro { get => bairro; set => bairro = value; }
         public string Rua { get => rua; set => rua = value; }
         public string Complemento { get => complemento; set => complemento = value; }
+        public string IsAdm { get => isAdm; set => isAdm = value; }
 
-
-        public Usuarios(string email, string senha, string cpf, string nome, string dataNasc, string cep, string cidade, string telefone, string bairro, string rua, string complemento)
+        public Usuarios(string email, string senha, string cpf, string nome, string dataNasc, string cep, string cidade, string telefone, string bairro, string rua, string complemento, string isAdm)
         {
-
             this.email = email;
             this.senha = senha;
             this.cpf = cpf;
@@ -41,8 +37,7 @@ namespace ePet.Models
             this.bairro = bairro;
             this.rua = rua;
             this.complemento = complemento;
-
-
+            this.isAdm = isAdm;
         }
 
         public Usuarios(string email, string senha)
@@ -53,21 +48,21 @@ namespace ePet.Models
 
         public Usuarios() { }
 
-        public static string ConexaoUsuarios()
+        public string ConexaoUsuarios()
         {
-
             try
             {
                 con.Open();
-                Console.WriteLine("Conectado com sucesso!");
-                con.Close();
+                return "Conectado com sucesso!";
             }
             catch (Exception ex)
             {
                 return "Erro: " + ex.Message;
-                Console.WriteLine(ex.StackTrace);
             }
-            return "Inserido com sucesso!";
+            finally
+            {
+                con.Close();
+            }
         }
 
         public string CadastrarUsuario()
@@ -75,27 +70,30 @@ namespace ePet.Models
             try
             {
                 con.Open();
-                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Email,Senha, Cpf, Nome, DataNasc,Cep,Cidade, Telefone, Bairro,Rua, Complemento) VALUES (@Email,@Senha,@CPF,@Nome,@DataNasc,@Cep,@Cidade,@Telefone,@Bairro,@Rua,@Complemento)", con);
+                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Email, Senha, Cpf, Nome, DataNasc, Cep, Cidade, Telefone, Bairro, Rua, Complemento, isAdm) VALUES (@Email, @Senha, @Cpf, @Nome, @DataNasc, @Cep, @Cidade, @Telefone, @Bairro, @Rua, @Complemento, @IsAdm)", con);
                 qry.Parameters.AddWithValue("@Email", this.email);
                 qry.Parameters.AddWithValue("@Senha", this.senha);
-                qry.Parameters.AddWithValue("@CPF", this.cpf);
-                qry.Parameters.AddWithValue("@CPF", this.nome);
-                qry.Parameters.AddWithValue("@CPF", this.dataNasc);
-                qry.Parameters.AddWithValue("@CPF", this.cep);
-                qry.Parameters.AddWithValue("@CPF", this.cidade);
-                qry.Parameters.AddWithValue("@CPF", this.telefone);
-                qry.Parameters.AddWithValue("@CPF", this.bairro);
-                qry.Parameters.AddWithValue("@CPF", this.rua);
-                qry.Parameters.AddWithValue("@CPF", this.complemento);
+                qry.Parameters.AddWithValue("@Cpf", this.cpf);
+                qry.Parameters.AddWithValue("@Nome", this.nome);
+                qry.Parameters.AddWithValue("@DataNasc", this.dataNasc);
+                qry.Parameters.AddWithValue("@Cep", this.cep);
+                qry.Parameters.AddWithValue("@Cidade", this.cidade);
+                qry.Parameters.AddWithValue("@Telefone", this.telefone);
+                qry.Parameters.AddWithValue("@Bairro", this.bairro);
+                qry.Parameters.AddWithValue("@Rua", this.rua);
+                qry.Parameters.AddWithValue("@Complemento", this.complemento);
+                qry.Parameters.AddWithValue("@IsAdm", this.isAdm);
                 qry.ExecuteNonQuery();
-                con.Close();
+                return "Inserido com sucesso!";
             }
             catch (Exception ex)
             {
-                con.Close();
                 return "Erro: " + ex.Message;
             }
-            return "Inserido com sucesso!";
+            finally
+            {
+                con.Close();
+            }
         }
 
         public string DeletarUsuario()
@@ -106,13 +104,16 @@ namespace ePet.Models
                 MySqlCommand qry = new MySqlCommand("DELETE FROM usuario WHERE Cpf = @CPF", con);
                 qry.Parameters.AddWithValue("@CPF", cpf);
                 qry.ExecuteNonQuery();
-                con.Close();
+                return "Excluído com sucesso!";
             }
             catch (Exception ex)
             {
                 return "Erro: " + ex.Message;
             }
-            return "Excluido com sucesso!";
+            finally
+            {
+                con.Close();
+            }
         }
 
         public Usuarios BuscarUsuario(string cpf)
@@ -124,27 +125,32 @@ namespace ePet.Models
                 MySqlCommand qry = new MySqlCommand("SELECT * FROM usuario WHERE Cpf = @CPF", con);
                 qry.Parameters.AddWithValue("@CPF", cpf);
                 MySqlDataReader ler = qry.ExecuteReader();
-                while (ler.Read())
+                if (ler.Read())
                 {
                     resultado = new Usuarios(
-                    ler["email"].ToString(),
-                    ler["senha"].ToString(),
-                    ler["cpf"].ToString(),
-                    ler["nome"].ToString(),
-                    ler["dataNasc"].ToString(),
-                    ler["cep"].ToString(),
-                    ler["cidade"].ToString(),
-                    ler["telefone"].ToString(),
-                    ler["bairro"].ToString(),
-                    ler["rua"].ToString(),
-                    ler["complemento"].ToString());
+                        ler["Email"].ToString(),
+                        ler["Senha"].ToString(),
+                        ler["Cpf"].ToString(),
+                        ler["Nome"].ToString(),
+                        ler["DataNasc"].ToString(),
+                        ler["Cep"].ToString(),
+                        ler["Cidade"].ToString(),
+                        ler["Telefone"].ToString(),
+                        ler["Bairro"].ToString(),
+                        ler["Rua"].ToString(),
+                        ler["Complemento"].ToString(),
+                        ler["isAdm"].ToString()
+                    );
                 }
-                con.Close();
-
             }
             catch (Exception ex)
             {
+                // Trate a exceção adequadamente
                 return null;
+            }
+            finally
+            {
+                con.Close();
             }
             return resultado;
         }
@@ -159,81 +165,72 @@ namespace ePet.Models
                 MySqlDataReader ler = qry.ExecuteReader();
                 while (ler.Read())
                 {
-                    Usuarios linha = new Usuarios(ler["email"].ToString(),
-                    ler["senha"].ToString(),
-                    ler["cpf"].ToString(),
-                    ler["nome"].ToString(),
-                    ler["dataNasc"].ToString(),
-                    ler["cep"].ToString(),
-                    ler["cidade"].ToString(),
-                    ler["telefone"].ToString(),
-                    ler["bairro"].ToString(),
-                    ler["rua"].ToString(),
-                    ler["complemento"].ToString());
+                    Usuarios linha = new Usuarios(
+                        ler["Email"].ToString(),
+                        ler["Senha"].ToString(),
+                        ler["Cpf"].ToString(),
+                        ler["Nome"].ToString(),
+                        ler["DataNasc"].ToString(),
+                        ler["Cep"].ToString(),
+                        ler["Cidade"].ToString(),
+                        ler["Telefone"].ToString(),
+                        ler["Bairro"].ToString(),
+                        ler["Rua"].ToString(),
+                        ler["Complemento"].ToString(),
+                        ler["isAdm"].ToString()
+                    );
                     lista.Add(linha);
                 }
-                con.Close();
             }
             catch (Exception ex)
             {
                 return null;
             }
+            finally
+            {
+                con.Close();
+            }
             return lista;
         }
 
-        public string logarUsuario()
+        public Usuarios logarUsuario()
         {
-            //Variável que vai devolver o estado do login
-            string situacao = "";
-
             try
             {
                 con.Open();
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM usuario WHERE Email = @Email", con);
+                cmd.Parameters.AddWithValue("@Email", this.email);
+                MySqlDataReader reader = cmd.ExecuteReader();
 
-                //CRIANDO COMANDO DE INSERIR USUÁRIOS NO BANCO DE DADOS
-                MySqlCommand buscarUsuario = new MySqlCommand("SELECT * FROM USUARIO", con);
-                MySqlDataReader listaUsuario = buscarUsuario.ExecuteReader();
-
-                while (listaUsuario.Read())
+                if (reader.Read())
                 {
-                    Usuarios usuario = new Usuarios((string)listaUsuario["telefone"], (string)listaUsuario["senha"]);
-                    //CONFERINDO SE AQUELE USUÁRIO EXISTE NO BANCO
-                    if (usuario.Email == Email)
+                    string senhaBanco = reader["Senha"].ToString();
+                    if (senhaBanco == this.senha) // Verifica se a senha está correta
                     {
-                        //A SENHA É A SENHA CADASTRADA PELO USUÁRIO?
-                        if (usuario.Senha == Senha)
-                        {
-                            situacao = "logado";
-
-                            //Pegar o id do banco
-                            break;
-                        }
-                        else
-                        {
-                            situacao = "Senha incorreta!";
-
-                            break;
-                        }
+                        // Se a senha estiver correta, retorna o objeto Usuarios
+                        this.isAdm = reader["isAdm"].ToString(); // Captura o valor de isAdm
+                        return this;
                     }
                     else
                     {
-                        situacao = "Email não cadastrado!";
-
+                        return null; // Senha incorreta
                     }
                 }
-
+                else
+                {
+                    return null; // Email não cadastrado
+                }
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                situacao = "Erro de conexão!" + e;
+                // Lidar com exceções
+                return null; // Ou retornar um erro, conforme sua lógica
             }
             finally
             {
                 con.Close();
             }
-
-            return situacao;
         }
-
     }
 }
+

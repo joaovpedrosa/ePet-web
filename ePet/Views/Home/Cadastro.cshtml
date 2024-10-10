@@ -1,5 +1,8 @@
 ﻿@{
     TempData["NavBar"] = "user";
+    Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, "nao");
+    user = (Usuarios)ViewBag.user;
+
 }
 
 <!DOCTYPE html>
@@ -14,10 +17,10 @@
 </head>
 <body>
     <main>
-        <form action="/Home/UsuarioCadastro" method="post" class="cadastro">
+        <form method="post" asp-controller="Cadastro" asp-action="UsuarioCadastro">
 
             <div class="cadastrese">
-            <p>CADASTRE-SE</p>
+                <p>CADASTRE-SE</p>
             </div>
 
 
@@ -45,7 +48,7 @@
                         <div class="descricaoInput">
                             <p>CEP:</p>
                         </div>
-                        <input type="text" class="input_field" name="endereco" required placeholder="CEP" />
+                        <input type="text" class="input_field" name="cep" required placeholder="CEP" />
                     </div>
                 </div>
 
@@ -54,7 +57,7 @@
                         <div class="descricaoInput">
                             <p>Cidade:</p>
                         </div>
-                        <input type="text" class="input_field" name="email" required placeholder="CIDADE" />
+                        <input type="text" class="input_field" name="cidade" required placeholder="CIDADE" />
                     </div>
                 </div>
 
@@ -63,7 +66,7 @@
                         <div class="descricaoInput">
                             <p>Bairro:</p>
                         </div>
-                        <input type="text" class="input_field" name="email" required placeholder="BAIRRO" />
+                        <input type="text" class="input_field" name="bairro" required placeholder="BAIRRO" />
                     </div>
                 </div>
 
@@ -72,7 +75,7 @@
                         <div class="descricaoInput">
                             <p>Rua</p>
                         </div>
-                        <input type="text" class="input_field" name="email" required placeholder="RUA" />
+                        <input type="text" class="input_field" name="rua" required placeholder="RUA" />
                     </div>
                 </div>
 
@@ -81,7 +84,7 @@
                         <div class="descricaoInput">
                             <p>Complemento:</p>
                         </div>
-                        <input type="text" class="input_field" name="email" required placeholder="COMPLEMENTO" />
+                        <input type="text" class="input_field" name="complemento" required placeholder="COMPLEMENTO" />
                     </div>
                 </div>
 
@@ -108,7 +111,7 @@
                         <div class="descricaoInput">
                             <p>Data de nascimento:</p>
                         </div>
-                        <input type="date" class="input_field" name="senha" required placeholder="DATA DE NASCIMENTO"  />
+                        <input type="date" class="input_field" name="dataNasc" required placeholder="DATA DE NASCIMENTO" />
                     </div>
                 </div>
 
@@ -134,7 +137,7 @@
 
             <p id="alerta" class="alerta"></p>
             <div class="containerButton">
-            <button type="submit">CADASTRAR</button>
+                <button type="submit">CADASTRAR</button>
             </div>
             </>
         </form>

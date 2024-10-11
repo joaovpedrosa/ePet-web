@@ -41,7 +41,7 @@ namespace ePet.Controllers
         {
             if(ViewBag.animal == null)
             {
-                ViewBag.animal = new Animais(null, null, null, null, null, null, null);
+                ViewBag.animal = new Animais(null, null, null, null, null, null, null,null,null,null,null);
             }
             return View();
         }
@@ -54,11 +54,11 @@ namespace ePet.Controllers
 
         //MAnipulação
         [HttpPost]
-        public IActionResult CadastrarAnimal(string codigo_animal, string t_animal, string t_sanguinio, string codigo_dono, string status, string autoridade_responsavel, string nome, IFormCollection form)
+        public IActionResult CadastrarAnimal(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, IFormCollection form)
         {
             IFormFile imagem;
             imagem = form.Files.First();
-            Animais animal = new Animais(codigo_animal, t_animal, t_sanguinio, codigo_dono, status, autoridade_responsavel, nome);
+            Animais animal = new Animais( codigo_animal,  t_animal,  status,  autoridade_Responsavel,  nome,  idade,  castracao, raca,  porte,  peso,comportamento);
             string msg = animal.CadastrarAnimal(imagem);
             if (msg == "Inserido com sucesso!")
             {
@@ -85,22 +85,22 @@ namespace ePet.Controllers
             }
         }
 
-        [HttpPost]
-        public IActionResult AlterarAnimal(string nome, string T_sanguineo, string autoridade_responsavel, string status, string cod_animal)
-            {
-            Animais animal = new Animais(cod_animal, null, T_sanguineo, null, status, autoridade_responsavel, nome);
-            animal.AlterarAnimal(cod_animal);
-            return RedirectToAction("HomeADM", "Home");
-        }
+        //[HttpPost]
+        //public IActionResult AlterarAnimal(string nome, string T_sanguineo, string autoridade_responsavel, string status, string cod_animal)
+        //    {
+        //    Animais animal = new Animais(cod_animal, null, T_sanguineo, null, status, autoridade_responsavel, nome);
+        //    animal.AlterarAnimal(cod_animal);
+        //    return RedirectToAction("HomeADM", "Home");
+        //}
 
-        [HttpPost]
-        public IActionResult ListarAnimal(string cod_animal)
-        {
-            Animais animal = new Animais(null,null,null,null,null,null,null);
-            animal = animal.BuscarAnimal(cod_animal);
-            ViewBag.animal = animal;
-            return View("PesquisaPet");
-        }
+        //[HttpPost]
+        //public IActionResult ListarAnimal(string cod_animal)
+        //{
+        //    Animais animal = new Animais(null,null,null,null,null,null,null);
+        //    animal = animal.BuscarAnimal(cod_animal);
+        //    ViewBag.animal = animal;
+        //    return View("PesquisaPet");
+        //}
         [HttpPost]
         public IActionResult BuscarUsuario(string cod_usuario)
         {

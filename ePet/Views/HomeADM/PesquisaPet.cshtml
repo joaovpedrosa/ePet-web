@@ -1,8 +1,8 @@
-﻿@{
+﻿@* @{
     TempData["NavBar"] = "adm";
-    Animais animais = new Animais(null, null, null, null, null, null, null);
+    Animais animais = new Animais(null, null, null, null, null, null, null, null, null, null, null, null);
     animais = (Animais) ViewBag.animal;
-}
+} *@
 
 <!DOCTYPE html>
 <html lang="en">
@@ -38,18 +38,15 @@
                 </thead>
                 <tbody>
 
-                <td>@animais.CodAnimal</td>
+@*                 <td>@animais.CodAnimal</td>
                 <td>@animais.Nome</td>
-                <td>@animais.TipoSanguineo</td>
                 <td>@animais.Autoridade_Responsavel</td>
                 <td>@animais.Status</td>
                 <td>@animais.T_Animal</td>
-                <td>@animais.CodDono</td>
-                <td>@animais.CodDono</td>
                 <td class="exEd">
                     <img src="~/img/image 62.png" />
                     <img src="~/img/image 63.png" />
-                </td>
+                </td> *@
 
                 </tbody>
             </table>

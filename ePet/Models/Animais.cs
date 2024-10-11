@@ -1,10 +1,11 @@
 ﻿using MySql.Data.MySqlClient;
 using ePet.Conexões;
+using System.Globalization;
 namespace ePet.Models;
 
 public class Animais
 {
-    protected string nome, codigo_animal, t_animal, t_sanguinio, codigo_dono, status, autoridade_responsavel;
+    protected string nome, codigo_animal, t_animal, idade, comportamento, castracao, raca, porte, peso,  status, autoridade_responsavel;
     static MySqlConnection con = ConectarMySql.getConexao();
     private byte[] arrayBytes;
 
@@ -12,23 +13,29 @@ public class Animais
     public string Nome { get => nome; set => nome = value; }
     public string CodAnimal { get => codigo_animal; set => codigo_animal = value; }
     public string T_Animal { get => t_animal; set => t_animal = value; }
-    public string TipoSanguineo { get => t_sanguinio; set => t_sanguinio = value; }
-    public string CodDono { get => codigo_dono; set => codigo_dono = value; }
+    public string Idade { get => idade; set => idade = value; }
+    public string Comportamento { get => comportamento; set => comportamento = value; }
+    public string Castracao { get => castracao; set => castracao = value; }
+    public string Raca { get => raca; set => raca = value; }
+    public string Porte { get => porte; set => porte = value; }
+    public string Peso { get => peso; set => peso = value; }
+    public string Status { get => status; set => status = value; }
     public string Autoridade_Responsavel { get => autoridade_responsavel; set => autoridade_responsavel = value; }
     public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
 
 
-    public string Status { get => status; set => status = value; }
-
-    public Animais(string codigo_animal, string t_animal, string t_sanguinio, string codigo_dono, string status, string autoridade_Responsavel, string nome)
+    public Animais(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento )
     {
         this.codigo_animal = codigo_animal;
         this.t_animal = t_animal;
-        this.t_sanguinio = t_sanguinio;
-        this.codigo_dono = codigo_dono;
         this.status = status;
         this.autoridade_responsavel = autoridade_Responsavel;
         this.Nome = nome;
+        this.idade = idade;
+        this.castracao = castracao;
+        this.raca = raca;
+        this.peso = peso;
+        this.comportamento = comportamento;       
     }
 
     //construtor só com o cod
@@ -58,18 +65,27 @@ public class Animais
         try
         {
             con.Open();
-            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (T_animal,T_sanguinio,status,autoridade_responsavel,nome,Imagem_Animal) VALUES (@T_Animal, @T_Sanguinio, @Status, @Autoridade_Responsavel, @Nome, @Imagem_Animal)", con); 
-            qry.Parameters.AddWithValue("@T_Animal", this.t_animal);
-            qry.Parameters.AddWithValue("@T_Sanguinio", this.t_sanguinio);
-            qry.Parameters.AddWithValue("@Status", this.status);
-            qry.Parameters.AddWithValue("@Autoridade_Responsavel", this.autoridade_responsavel);
+            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, foto, Nome, cod_Animal, Castracao, status,autoridade_responsavel, Peso, Raca, Porte) VALUES (@Idade, @Comportamento, @Especie, @foto, @Nome, @cod_Animal, @Castracao, @status, @email, @Peso, @Raca, @Porte)", con);
 
-            qry.Parameters.AddWithValue("@Nome", this.nome);
+            // Adicionando os parâmetros na ordem correta
+            qry.Parameters.AddWithValue("@Idade", this.idade);
+            qry.Parameters.AddWithValue("@Comportamento", this.comportamento);
+            qry.Parameters.AddWithValue("@Especie", this.t_animal);
             byte[] imagemAnimal = ConverterImagem(imagem);
-            qry.Parameters.AddWithValue("@Imagem_Animal", imagemAnimal);
+            qry.Parameters.AddWithValue("@foto", imagemAnimal);
+            qry.Parameters.AddWithValue("@Nome", this.nome);
+            qry.Parameters.AddWithValue("@cod_Animal", this.codigo_animal);
+            qry.Parameters.AddWithValue("@Castracao", this.castracao);
+            qry.Parameters.AddWithValue("@status", this.status);
+            qry.Parameters.AddWithValue("@email", this.autoridade_responsavel);
+            qry.Parameters.AddWithValue("@Peso", this.peso);
+            qry.Parameters.AddWithValue("@Raca", this.raca);
+            qry.Parameters.AddWithValue("@Porte", this.porte);
+
             qry.ExecuteNonQuery();
             con.Close();
         }
+
         catch (Exception ex)
         {
             return "Erro: " + ex.Message;
@@ -125,14 +141,17 @@ public class Animais
             while (leitor.Read())
             {
                 resultado = new Animais(
+                    leitor["Idade"].ToString(),
+                    leitor["comportamento"].ToString(),
+                    leitor["especie"].ToString(),
+                    leitor["nome"].ToString(),
                     leitor["codigo_animal"].ToString(),
-                    leitor["t_animal"].ToString(),
-                    leitor["t_sanguinio"].ToString(),
-                    leitor["codigo_dono"].ToString(),
-                    leitor["status"].ToString(),
+                    leitor["castracao"].ToString(),
+                    leitor["status "].ToString(),
                     leitor["autoridade_responsavel"].ToString(),
-                    leitor["nome"].ToString()
-                    );
+                    leitor["peso"].ToString(),
+                    leitor["raca"].ToString(),
+                    leitor["porte"].ToString());
             }
             con.Close();
 
@@ -154,16 +173,15 @@ public class Animais
             MySqlDataReader ler = qry.ExecuteReader();
             while (ler.Read())
             {
-                Animais linha = new Animais(
-                ler["nome"].ToString(),
-                ler["codigo_animal"].ToString(),
-                ler["t_animal"].ToString(),
-                ler["t_sanguinio"].ToString(),
-                ler["codigo_dono"].ToString(),
-                ler["status"].ToString(),
-                ler["autoridade_responsavel"].ToString());
+                //Animais linha = new Animais(
+                //ler["nome"].ToString(),
+                //ler["codigo_animal"].ToString(),
+                //ler["t_animal"].ToString(),
+                //ler["t_sanguinio"].ToString(),
+                //ler["status"].ToString(),
+                //ler["autoridade_responsavel"].ToString());
 
-                lista.Add(linha);
+                //lista.Add(linha);
             }
             con.Close();
         }
@@ -180,13 +198,12 @@ public class Animais
         {
             con.Open();
             MySqlCommand qry = new MySqlCommand("UPDATE animal SET nome = @nome, T_Sanguinio = @T_Sanguinio, autoridade_responsavel = @autoridade_responsavel, Status = @Status WHERE Codigo_Animal = @Codigo_Animal", con);
-            qry.Parameters.AddWithValue("@codigo_animal", codigo_animal);
-            qry.Parameters.AddWithValue("@nome", this.nome);
-            qry.Parameters.AddWithValue("@T_Sanguinio", this.t_sanguinio);
-            qry.Parameters.AddWithValue("@autoridade_responsavel", this.codigo_dono);
-            qry.Parameters.AddWithValue("@Status", this.status);
-            qry.ExecuteNonQuery();
-            con.Close();
+            //qry.Parameters.AddWithValue("@codigo_animal", codigo_animal);
+            //qry.Parameters.AddWithValue("@nome", this.nome);
+            //qry.Parameters.AddWithValue("@T_Sanguinio", this.t_sanguinio);
+            //qry.Parameters.AddWithValue("@Status", this.status);
+            //qry.ExecuteNonQuery();
+            //con.Close();
         }
         catch (Exception ex)
         {

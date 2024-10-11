@@ -1,6 +1,9 @@
-﻿@{
+﻿ @{
     TempData["NavBar"] = "adm";
-}
+    Animais animais = new Animais(null, null, null, null, null, null, null, null, null, null, null);
+    animais = (Animais) ViewBag.animal;
+} 
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +17,7 @@
 </head>
 <body>
     <main>
-        <form method="post" id="cadastro" class="cadastro" enctype="multipart/form-data" asp-controller="HomeADM" asp-action="CadastrarAnimal">
+        <form method="post" id="cadastro" class="cadastro" enctype="multipart/form-data" asp-controller="CadastroPet" asp-action="CadastroAnimal">
 
             <h2 id="titulo">CADASTRO DO PET</h2>
             <br>
@@ -39,11 +42,6 @@
             </div>
 
             <div class="item_cadastro">
-                <label>CÓDIGO DO ANIMAL:</label>
-                <input type="text" class="input_field" name="codigo_animal" />
-            </div>
-
-            <div class="item_cadastro">
                 <label>CASTRAÇÃO:</label>
                 <input type="text" class="input_field" name="castracao"/>
             </div>
@@ -55,7 +53,22 @@
 
             <div class="item_cadastro">
                 <label>EMAIL:</label>
-                <input type="text" class="input_field" name="email" />
+                <input type="text" class="input_field" name="autoridade_Responsavel" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>PESO:</label>
+                <input type="text" class="input_field" name="peso" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>RAÇA:</label>
+                <input type="text" class="input_field" name="raca" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>PORTE:</label>
+                <input type="text" class="input_field" name="porte" />
             </div>
 
             <div class="input-files-container">
@@ -70,6 +83,7 @@
             <p id="alerta"></p>
             <button type="submit">CADASTRAR</button>
             </div>
+
         </form>
         
     </main>

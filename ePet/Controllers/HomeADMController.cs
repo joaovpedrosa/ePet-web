@@ -59,7 +59,7 @@ namespace ePet.Controllers
             IFormFile imagem;
             imagem = form.Files.First();
             Animais animal = new Animais( codigo_animal,  t_animal,  status,  autoridade_Responsavel,  nome,  idade,  castracao, raca,  porte,  peso,comportamento);
-            string msg = animal.CadastrarAnimal(imagem);
+            string msg = animal.CadastrarAnimal();
             if (msg == "Inserido com sucesso!")
             {
                 return RedirectToAction("HomeADM", "Home");

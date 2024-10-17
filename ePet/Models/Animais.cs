@@ -60,21 +60,18 @@ public class Animais
         return "Inserido com sucesso!";
     }
 
-    public string CadastrarAnimal(IFormFile imagem)
+    public string CadastrarAnimal()
     {
         try
         {
             con.Open();
-            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, foto, Nome, cod_Animal, Castracao, status,autoridade_responsavel, Peso, Raca, Porte) VALUES (@Idade, @Comportamento, @Especie, @foto, @Nome, @cod_Animal, @Castracao, @status, @email, @Peso, @Raca, @Porte)", con);
+            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte)", con);
 
             // Adicionando os parâmetros na ordem correta
             qry.Parameters.AddWithValue("@Idade", this.idade);
             qry.Parameters.AddWithValue("@Comportamento", this.comportamento);
             qry.Parameters.AddWithValue("@Especie", this.t_animal);
-            byte[] imagemAnimal = ConverterImagem(imagem);
-            qry.Parameters.AddWithValue("@foto", imagemAnimal);
             qry.Parameters.AddWithValue("@Nome", this.nome);
-            qry.Parameters.AddWithValue("@cod_Animal", this.codigo_animal);
             qry.Parameters.AddWithValue("@Castracao", this.castracao);
             qry.Parameters.AddWithValue("@status", this.status);
             qry.Parameters.AddWithValue("@email", this.autoridade_responsavel);
@@ -88,6 +85,7 @@ public class Animais
 
         catch (Exception ex)
         {
+            con.Close();
             return "Erro: " + ex.Message;
         }
         return "Inserido com sucesso!";

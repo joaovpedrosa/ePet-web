@@ -10,6 +10,7 @@ namespace ePet.Controllers
         public IActionResult CadastroAnimal(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento)
         {
             Animais animal = new Animais(codigo_animal, t_animal, status, autoridade_Responsavel, nome, idade, castracao, raca, porte, peso, comportamento);
+            animal.CadastrarAnimal();
             return RedirectToAction("Index", "Home");
         }
 

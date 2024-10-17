@@ -5,7 +5,7 @@ namespace ePet.Models;
 
 public class Animais
 {
-    protected string nome, codigo_animal, t_animal, idade, comportamento, castracao, raca, porte, peso,  status, autoridade_responsavel;
+    protected string nome, codigo_animal, t_animal, idade, comportamento, castracao, raca, porte, peso,  status, sexo;
     static MySqlConnection con = ConectarMySql.getConexao();
     private byte[] arrayBytes;
 
@@ -20,22 +20,24 @@ public class Animais
     public string Porte { get => porte; set => porte = value; }
     public string Peso { get => peso; set => peso = value; }
     public string Status { get => status; set => status = value; }
-    public string Autoridade_Responsavel { get => autoridade_responsavel; set => autoridade_responsavel = value; }
+    public string Sexo { get => sexo; set => sexo = value; }
     public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
 
 
-    public Animais(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento )
+    public Animais(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo)
     {
         this.codigo_animal = codigo_animal;
         this.t_animal = t_animal;
         this.status = status;
-        this.autoridade_responsavel = autoridade_Responsavel;
         this.Nome = nome;
         this.idade = idade;
         this.castracao = castracao;
         this.raca = raca;
         this.peso = peso;
-        this.comportamento = comportamento;       
+        this.comportamento = comportamento;
+        this.Sexo = sexo;
+
+
     }
 
     //construtor só com o cod
@@ -65,7 +67,7 @@ public class Animais
         try
         {
             con.Open();
-            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte)", con);
+            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte, Sexo) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte, @Sexo)", con);
 
             // Adicionando os parâmetros na ordem correta
             qry.Parameters.AddWithValue("@Idade", this.idade);
@@ -74,10 +76,11 @@ public class Animais
             qry.Parameters.AddWithValue("@Nome", this.nome);
             qry.Parameters.AddWithValue("@Castracao", this.castracao);
             qry.Parameters.AddWithValue("@status", this.status);
-            qry.Parameters.AddWithValue("@email", this.autoridade_responsavel);
             qry.Parameters.AddWithValue("@Peso", this.peso);
             qry.Parameters.AddWithValue("@Raca", this.raca);
             qry.Parameters.AddWithValue("@Porte", this.porte);
+            qry.Parameters.AddWithValue("@Sexo", this.sexo);
+
 
             qry.ExecuteNonQuery();
             con.Close();
@@ -146,10 +149,11 @@ public class Animais
                     leitor["codigo_animal"].ToString(),
                     leitor["castracao"].ToString(),
                     leitor["status "].ToString(),
-                    leitor["autoridade_responsavel"].ToString(),
                     leitor["peso"].ToString(),
                     leitor["raca"].ToString(),
-                    leitor["porte"].ToString());
+                    leitor["porte"].ToString(),
+                    leitor["sexo"].ToString());
+
             }
             con.Close();
 

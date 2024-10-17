@@ -7,9 +7,9 @@ namespace ePet.Controllers
     public class CadastroPetController : Controller
     {
         [HttpPost]
-        public IActionResult CadastroAnimal(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento)
+        public IActionResult CadastroAnimal(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo)
         {
-            Animais animal = new Animais(codigo_animal, t_animal, status, autoridade_Responsavel, nome, idade, castracao, raca, porte, peso, comportamento);
+            Animais animal = new Animais(codigo_animal, t_animal, status, nome, idade, castracao, raca, porte, peso, comportamento, sexo);
             animal.CadastrarAnimal();
             return RedirectToAction("Index", "Home");
         }

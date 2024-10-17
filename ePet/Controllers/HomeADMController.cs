@@ -54,11 +54,11 @@ namespace ePet.Controllers
 
         //MAnipulação
         [HttpPost]
-        public IActionResult CadastrarAnimal(string codigo_animal, string t_animal, string status, string autoridade_Responsavel, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, IFormCollection form)
+        public IActionResult CadastrarAnimal(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo,IFormCollection form)
         {
             IFormFile imagem;
             imagem = form.Files.First();
-            Animais animal = new Animais( codigo_animal,  t_animal,  status,  autoridade_Responsavel,  nome,  idade,  castracao, raca,  porte,  peso,comportamento);
+            Animais animal = new Animais( codigo_animal,  t_animal,  status,  nome,  idade,  castracao, raca,  porte,  peso,comportamento, sexo);
             string msg = animal.CadastrarAnimal();
             if (msg == "Inserido com sucesso!")
             {

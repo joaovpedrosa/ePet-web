@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj": {}
+    "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj": {
+    "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj",
         "projectName": "ePet",
-        "projectPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj",
+        "projectPath": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.4.0, )"
@@ -72,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

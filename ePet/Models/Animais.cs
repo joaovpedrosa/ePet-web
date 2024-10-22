@@ -67,7 +67,7 @@ public class Animais
         try
         {
             con.Open();
-            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte, Sexo) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte, @Sexo)", con);
+            MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte, Sexo, Foto) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte, @Sexo, @Foto)", con);
 
             // Adicionando os parâmetros na ordem correta
             qry.Parameters.AddWithValue("@Idade", this.idade);
@@ -80,6 +80,7 @@ public class Animais
             qry.Parameters.AddWithValue("@Raca", this.raca);
             qry.Parameters.AddWithValue("@Porte", this.porte);
             qry.Parameters.AddWithValue("@Sexo", this.sexo);
+            qry.Parameters.AddWithValue("@Foto", this.arrayBytes);
 
 
             qry.ExecuteNonQuery();
@@ -94,25 +95,8 @@ public class Animais
         return "Inserido com sucesso!";
     }
 
-    //Metodo que adiciona uma imagem ao banco de dados
-    public byte[] ConverterImagem(IFormFile arq)
-    {
-        //Descobre qual o tipo de arquivo foi enviado
-        String tipoArquivo = arq.ContentType;
 
-        if (tipoArquivo.Contains("image")) //Vê se o arquivo enviado é uma imagem
-        {
-            MemoryStream s = new MemoryStream();
-            arq.CopyTo(s);
-            byte[] bytesArquivo = s.ToArray(); //Transforma o arquivo em uma sequencia de bytes para enviar ao banco
-            return bytesArquivo;
-        }
-        else
-        {
-            return null;
-        }
-
-    }
+   
     public string DeletarAnimal()
     {
         try

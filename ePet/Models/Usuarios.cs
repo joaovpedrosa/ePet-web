@@ -25,7 +25,7 @@ namespace ePet.Models
         public string Bairro { get => bairro; set => bairro = value; }
         public string Rua { get => rua; set => rua = value; }
         public string Complemento { get => complemento; set => complemento = value; }
-        public string IsAdm { get => isAdm; set => complemento = value; }
+        public string IsAdm { get => isAdm; set => isAdm = value; }
 
 
         public Usuarios(string nome, string telefone, string cep, string cidade, string bairro, string rua, string complemento, string cpf, string email, string dataNasc, string senha, string isAdm)
@@ -76,7 +76,7 @@ namespace ePet.Models
             try
             {
                 con.Open();
-                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Nome,Telefone,Cep,Cidade,Bairro,Rua,Complemento,Cpf,Email,DataNasc,Senha,IsAdm) VALUES (@Nome,@Telefone,@Cep,@Cidade,@Bairro,@Rua,@Complemento,@Cpf,@Email,@DataNasc,@Senha, IsAdm)", con);
+                MySqlCommand qry = new MySqlCommand("INSERT INTO usuario (Nome,Telefone,Cep,Cidade,Bairro,Rua,Complemento,Cpf,Email,DataNasc,Senha,IsAdm) VALUES (@Nome,@Telefone,@Cep,@Cidade,@Bairro,@Rua,@Complemento,@Cpf,@Email,@DataNasc,@Senha,@IsAdm)", con);
 
                 qry.Parameters.AddWithValue("@Nome", this.nome);
                 qry.Parameters.AddWithValue("@Telefone", this.telefone);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj": {}
+    "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj": {
+    "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj",
         "projectName": "ePet",
-        "projectPath": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\ePet.csproj",
+        "projectPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\ePet.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\gabriel\\webnovo\\ePet\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-web\\ePet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

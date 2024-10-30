@@ -1,21 +1,20 @@
 ﻿using ePet.Models;
+using ePet.Repository;
 using K4os.Compression.LZ4.Internal;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ePet.Controllers
+namespace ePet.Services
 {
     [ApiController]
     [Route("api/[controller]")]
     public class ServicesUsuario : ControllerBase
     {
+        private UserRepository userRepository = new UserRepository();
+
         [HttpGet("Teste")]
         public IActionResult Index([FromBody] Usuarios u)
-        {
-            u = new Usuarios(u.Nome, u.Telefone, u.Cep, u.Cidade, u.Bairro, u.Rua, u.Complemento, u.Cpf, u.Email, u.DataNasc,  u.Senha, u.IsAdm);
-
-            string resposta = u.CadastrarUsuario();
-
-            return Ok(resposta);
+        {   
+            return Ok(userRepository.CadastrarUsuario(u));
         }
 
 

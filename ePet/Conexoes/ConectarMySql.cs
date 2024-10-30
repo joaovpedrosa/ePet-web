@@ -6,15 +6,10 @@ namespace ePet.Conexões
 {
     public class ConectarMySql
     {
-        static string conexao = "cc";
-
         public static MySqlConnection getConexao()
         {
             return new MySqlConnection(
                 Configuration().GetConnectionString("Default"));
-
-            //Casa
-            //Default
         }
 
         private static IConfigurationRoot Configuration()

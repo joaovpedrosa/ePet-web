@@ -1,0 +1,194 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Cascadia Mono;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;\red0\green0\blue255;\red43\green145\blue175;\red0\green128\blue0;\red163\green21\blue21;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\cf1\highlight2\f0\fs19\lang9\par
+Ol\'e1 Fabri, \'e9 o Kaio.\par
+\par
+Para ajustar algumas coisas, decidi criar um documento para que voc\'ea possa avaliar se \cf3 as\cf1  altera\'e7\'f5es s\'e3o funcionais ou n\'e3o. Ent\'e3o, aqui estou eu!\par
+\par
+Primeiramente, percebi que existe uma model chamada Administrador, e vi que essa entidade n\'e3o tem nada de diferente \cf3 do\cf1  Usuario comum. Portanto, a deletei para n\'e3o ficar avulsa. Testei agora para ver se compilava, e compilou. (Se compilou, funciona? Voc\'ea que me diz, ksskskkssksks.)\par
+\par
+Para melhorar um pouco o manejo \cf3 do\cf1  usu\'e1rio, decidi criar uma pasta exclusiva para isso, tornando o acesso mais seguro. Assim, se ocorrer um erro, podemos ir direto ao reposit\'f3rio. Apenas copiei os m\'e9todos que voc\'ea utiliza para logar, cadastrar e coloquei tudo em uma \'fanica classe chamada UserRepository.\par
+\par
+Percebi tamb\'e9m a presen\'e7a de m\'e9todos est\'e1ticos:\par
+\par
+\cf3 public\cf1  \cf3 static\cf1  List<Usuarios> ListarUsuario();\par
+\cf3 public\cf1  \cf3 static\cf1  \cf3 string\cf1  ConexaoUsuarios();\par
+Procure n\'e3o utilizar m\'e9todos est\'e1ticos em funcionalidades que podem ser acessadas por duas ou mais pessoas. Isso pode deixar o aplicativo muito pesado ou at\'e9 quebrar o c\'f3digo (experi\'eancia pr\'f3pria). Vou fazer uma troca nesses m\'e9todos.\par
+\par
+Creio que fiz a escolha certa, mas ainda n\'e3o testei.\par
+\par
+Criei um construtor para que, sempre que voc\'ea chamar essa classe, ela pegue uma conex\'e3o com seu banco de dados. A classe ConectarMySQL ser\'e1 utilizada para inicializar a vari\'e1vel mySqlConnection. Aqui est\'e1 o construtor:\par
+\par
+\cf3 public\cf1  \cf3 class\cf1  \cf4 UserRepository\cf1\par
+\{\par
+    \cf3 private\cf1  \cf3 readonly\cf1  MySqlConnection mySqlConnection;\par
+\par
+    \cf3 public\cf1  \cf4 UserRepository\cf1 (MySqlConnection mySqlConnection)\par
+    \{\par
+        mySqlConnection = ConectarMySql.getConexao();\par
+    \}\par
+\}\par
+Agora, estou no EntrarController, onde coloquei o nosso reposit\'f3rio de usu\'e1rio para cuidar da verifica\'e7\'e3o da exist\'eancia \cf3 do\cf1  usu\'e1rio e outras funcionalidades:\par
+\par
+\cf3 public\cf1  \cf3 class\cf1  \cf4 EntrarController\cf1  : Controller\par
+\{\par
+    UserRepository userRepository = \cf3 new\cf1  UserRepository();\par
+\par
+    \cf3 public\cf1  IActionResult Index()\par
+    \{\par
+        \cf3 return\cf1  View();\par
+    \}\par
+\}\par
+Agora, ao inv\'e9s disso:\par
+\par
+[HttpPost]\par
+\cf3 public\cf1  IActionResult Login(\cf3 string\cf1  email, \cf3 string\cf1  senha)\par
+\{\par
+    Usuarios usuario = \cf3 new\cf1  Usuarios(email, senha);\par
+    Usuarios usuarioAutenticado = usuario.logarUsuario(); \cf5 // Agora retorna um objeto Usuarios\cf1\par
+\}\par
+Teremos:\par
+\par
+[HttpPost]\par
+\cf3 public\cf1  IActionResult Login(\cf3 string\cf1  email, \cf3 string\cf1  senha)\par
+\{\par
+    Usuarios usuario = userRepository.LogarUsuario(email, senha);\par
+\}\par
+Assim fica mais f\'e1cil!\par
+\par
+Deixei o resto como estava, mas essa parte precisa ser modificada:\par
+\par
+\cf5 // Verifica se o usu\'e1rio \'e9 administrador\cf1\par
+\cf3 if\cf1  (usuarioAutenticado.IsAdm == \cf6 "sim"\cf1 ) \cf5 // Aqui verificamos se o valor \'e9 "sim"\cf1\par
+\{\par
+    HttpContext.Session.SetString(\cf6 "usuario"\cf1 , JsonConvert.SerializeObject(usuarioAutenticado));\par
+\cf3 return\cf1  RedirectToAction(\cf6 "HomeADM"\cf1 , \cf6 "Home"\cf1 ); \cf5 // Redireciona para HomeADM\cf1\par
+\}\par
+\cf3 else\cf1\par
+\{\par
+    \cf4 HttpContext\cf1 .Session.SetString(\cf6 "usuario"\cf1 , \cf4 JsonConvert\cf1 .SerializeObject(usuarioAutenticado));\par
+    \cf3 return\cf1  RedirectToAction(\cf6 "Index"\cf1 , \cf6 "Home"\cf1 ); \cf5 // Redireciona para Index\cf1\par
+\}\par
+Nessa parte, caso o usu\'e1rio seja administrador ou um usu\'e1rio normal, ele continua sendo tratado como usu\'e1rio. Recomendo trocar para algo como:\par
+\par
+\par
+HttpContext.Session.SetString(\cf6 "userADM"\cf1 , JsonConvert.SerializeObject(usuarioAutenticado));\par
+Como voc\'ea j\'e1 chegou \'e0 documenta\'e7\'e3o, vou adicionar uma pasta com todos os CREATE statements, para que, caso testemos em outro lugar, tudo esteja de f\'e1cil acesso! Adicionado tamb\'e9m, vou deixar esse arquivo l\'e1.\par
+\par
+Seguindo em frente...\par
+\par
+Para n\'e3o ficar muito massivo, vou focar apenas na classe Usuario, para que ela seja respons\'e1vel apenas por ter os m\'e9todos getter e setter, al\'e9m \cf3 do\cf1  seu construtor.\par
+\par
+Ficou assim:\par
+\cf3 namespace\cf1  ePet.Models\par
+\{\par
+    \cf3 public\cf1  \cf3 class\cf1  \cf4 Usuarios\cf1\par
+    \{\par
+        \cf3 protected\cf1  \cf3 string\cf1\par
+            email,\par
+            senha,\par
+            cpf,\par
+            nome,\par
+            dataNasc,\par
+            cep,\par
+            cidade,\par
+            telefone,\par
+            bairro,\par
+            rua,\par
+            complemento,\par
+            isAdm;\par
+\par
+        \cf3 public\cf1  \cf3 string\cf1  Email \{ \cf3 get\cf1  => email; \cf3 set\cf1  => email = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Senha \{ \cf3 get\cf1  => senha; \cf3 set\cf1  => senha = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Cpf \{ \cf3 get\cf1  => cpf; \cf3 set\cf1  => cpf = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Nome \{ \cf3 get\cf1  => nome; \cf3 set\cf1  => nome = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  DataNasc \{ \cf3 get\cf1  => dataNasc; \cf3 set\cf1  => dataNasc = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Cep \{ \cf3 get\cf1  => cep; \cf3 set\cf1  => cep = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Cidade \{ \cf3 get\cf1  => cidade; \cf3 set\cf1  => cidade = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Telefone \{ \cf3 get\cf1  => telefone; \cf3 set\cf1  => telefone = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Bairro \{ \cf3 get\cf1  => bairro; \cf3 set\cf1  => bairro = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Rua \{ \cf3 get\cf1  => rua; \cf3 set\cf1  => rua = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  Complemento \{ \cf3 get\cf1  => complemento; \cf3 set\cf1  => complemento = \cf3 value\cf1 ; \}\par
+        \cf3 public\cf1  \cf3 string\cf1  IsAdm \{ \cf3 get\cf1  => isAdm; \cf3 set\cf1  => isAdm = \cf3 value\cf1 ; \}\par
+\par
+        \cf3 public\cf1  \cf4 Usuarios\cf1 (\cf3 string\cf1  nome, \cf3 string\cf1  telefone, \cf3 string\cf1  cep, \cf3 string\cf1  cidade, \cf3 string\cf1  bairro, \cf3 string\cf1  rua, \cf3 string\cf1  complemento, \cf3 string\cf1  cpf, \cf3 string\cf1  email, \cf3 string\cf1  dataNasc, \cf3 string\cf1  senha, \cf3 string\cf1  isAdm)\par
+        \{\par
+            \cf3 this\cf1 .email = email;\par
+            \cf3 this\cf1 .senha = senha;\par
+            \cf3 this\cf1 .cpf = cpf;\par
+            \cf3 this\cf1 .nome = nome;\par
+            \cf3 this\cf1 .dataNasc = dataNasc;\par
+            \cf3 this\cf1 .cep = cep;\par
+            \cf3 this\cf1 .cidade = cidade;\par
+            \cf3 this\cf1 .telefone = telefone;\par
+            \cf3 this\cf1 .bairro = bairro;\par
+            \cf3 this\cf1 .rua = rua;\par
+            \cf3 this\cf1 .complemento = complemento;\par
+            \cf3 this\cf1 .isAdm = isAdm;\par
+        \}\par
+    \}\par
+\}\par
+Agora que fiz isso, vou atualizar os locais onde utilizava esses m\'e9todos para utilizar o UserRepository. Aqui est\'e1 a troca feita em extenso (ignorar caso n\'e3o queira):\par
+\par
+\cf3 using\cf1  ePet.Models;\par
+\cf3 using\cf1  ePet.Repository;\par
+\cf3 using\cf1  Microsoft.AspNetCore.Mvc;\par
+\par
+\cf3 namespace\cf1  ePet.Controllers\par
+\{\par
+    \cf3 public\cf1  \cf3 class\cf1  \cf4 CadastroController\cf1  : \cf4 Controller\cf1\par
+    \{\par
+        \cf3 private\cf1  \cf3 readonly\cf1  \cf4 UserRepository\cf1  userRepository = \cf3 new\cf1  \cf4 UserRepository\cf1 ();\par
+\par
+        [\cf4 HttpPost\cf1 ]\par
+        \cf3 public\cf1  \cf4 IActionResult\cf1  UsuarioCadastro(\cf3 string\cf1  nome, \cf3 string\cf1  telefone, \cf3 string\cf1  cep, \cf3 string\cf1  cidade, \cf3 string\cf1  bairro, \cf3 string\cf1  rua, \cf3 string\cf1  complemento, \cf3 string\cf1  cpf, \cf3 string\cf1  email, \cf3 string\cf1  dataNasc, \cf3 string\cf1  senha, \cf3 string\cf1  isAdm)\par
+        \{\par
+            TempData[\cf6 "msg"\cf1 ] = userRepository.CadastrarUsuario(\cf3 new\cf1  \cf4 Usuarios\cf1 (nome, telefone, cep, cidade, bairro, rua, complemento, cpf, email, dataNasc, senha, \cf6 "nao"\cf1 ));\par
+            \cf3 return\cf1  RedirectToAction(\cf6 "Index"\cf1 , \cf6 "Home"\cf1 );\par
+        \}\par
+\par
+        \cf3 public\cf1  \cf4 IActionResult\cf1  UsuarioDeletar(\cf3 string\cf1  cpf)\par
+        \{\par
+            TempData[\cf6 "msg"\cf1 ] = userRepository.DeletarUsuario(cpf);\par
+            \cf3 return\cf1  RedirectToAction(\cf6 "Index"\cf1 , \cf6 "Home"\cf1 );\par
+        \}\par
+\par
+        \cf3 public\cf1  \cf4 IActionResult\cf1  UsuarioListar()\par
+        \{\par
+            \cf3 return\cf1  View(userRepository.ListarUsuarios());\par
+        \}\par
+\par
+        \cf3 public\cf1  \cf4 IActionResult\cf1  Usuario()\par
+        \{\par
+            \cf3 return\cf1  View();\par
+        \}\par
+    \}\par
+\}\par
+Percebi que existem muitos lugares onde n\'e3o seria necess\'e1rio manipular um usu\'e1rio. N\'e3o sei como alterar, mas deve haver uma maneira de isolar isso.\par
+\par
+No HomeController, h\'e1 um m\'e9todo de login, mas no EntrarController tamb\'e9m tem um login. Qual deles voc\'ea usa? O EntrarController tem uma l\'f3gica melhor, por\'e9m o nome \cf3 do\cf1  controller n\'e3o est\'e1 t\'e3o bem definido quanto o HomeController. Eu pegaria o m\'e9todo de login \cf3 do\cf1  EntrarController e colocaria em cima \cf3 do\cf1  login \cf3 do\cf1  HomeController, caso este fosse o principal (claro).\par
+\par
+Neste trecho:\par
+\par
+\cf3 private\cf1  \cf4 UserRepository\cf1  userRepository = \cf3 new\cf1  \cf4 UserRepository\cf1 ();\par
+\par
+[\cf4 HttpGet\cf1 (\cf6 "Teste"\cf1 )]\par
+\cf3 public\cf1  \cf4 IActionResult\cf1  Index([\cf4 FromBody\cf1 ] \cf4 Usuarios\cf1  u)\par
+\{\par
+    u = \cf3 new\cf1  \cf4 Usuarios\cf1 (u.Nome, u.Telefone, u.Cep, u.Cidade, u.Bairro, u.Rua, u.Complemento, u.Cpf, u.Email, u.DataNasc, u.Senha, u.IsAdm);\par
+    \cf3 string\cf1  resposta = userRepository.CadastrarUsuario(u);\par
+    \cf3 return\cf1  Ok(resposta);\par
+\}\par
+Est\'e1 com erro de l\'f3gica. Seria melhor apenas passar assim:\par
+\par
+[\cf4 HttpGet\cf1 (\cf6 "Teste"\cf1 )]\par
+\cf3 public\cf1  \cf4 IActionResult\cf1  Index([\cf4 FromBody\cf1 ] \cf4 Usuarios\cf1  u)\par
+\{\par
+    \cf3 return\cf1  Ok(userRepository.CadastrarUsuario(u));\par
+\}\par
+Funciona da mesma forma, por\'e9m \'e9 mais r\'e1pido.\par
+\par
+\cf0\highlight0\f1\fs22\par
+}
+ 

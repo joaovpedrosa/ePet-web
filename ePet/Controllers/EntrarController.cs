@@ -1,4 +1,5 @@
 ﻿using ePet.Models;
+using ePet.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
@@ -6,6 +7,7 @@ namespace ePet.Controllers
 {
     public class EntrarController : Controller
     {
+        UserRepository userRepository = new UserRepository();
         public IActionResult Index()
         {
             return View();
@@ -15,8 +17,7 @@ namespace ePet.Controllers
         public IActionResult Login(string email, string senha)
         {
             // Criando objeto do usuário para conferir no banco se ele existe e se a senha bate
-            Usuarios usuario = new Usuarios(email, senha);
-            Usuarios usuarioAutenticado = usuario.logarUsuario(); // Agora retorna um objeto Usuarios
+            Usuarios usuarioAutenticado = userRepository.LogarUsuario(email, senha);
 
             // Armazenar a situação do login
             if (usuarioAutenticado != null)

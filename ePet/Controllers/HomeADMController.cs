@@ -1,4 +1,5 @@
 ﻿using ePet.Models;
+using ePet.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Org.BouncyCastle.Bcpg.OpenPgp;
 using Org.BouncyCastle.Tls.Crypto;
@@ -85,27 +86,12 @@ namespace ePet.Controllers
             }
         }
 
-        //[HttpPost]
-        //public IActionResult AlterarAnimal(string nome, string T_sanguineo, string autoridade_responsavel, string status, string cod_animal)
-        //    {
-        //    Animais animal = new Animais(cod_animal, null, T_sanguineo, null, status, autoridade_responsavel, nome);
-        //    animal.AlterarAnimal(cod_animal);
-        //    return RedirectToAction("HomeADM", "Home");
-        //}
-
-        //[HttpPost]
-        //public IActionResult ListarAnimal(string cod_animal)
-        //{
-        //    Animais animal = new Animais(null,null,null,null,null,null,null);
-        //    animal = animal.BuscarAnimal(cod_animal);
-        //    ViewBag.animal = animal;
-        //    return View("PesquisaPet");
-        //}
         [HttpPost]
         public IActionResult BuscarUsuario(string cod_usuario)
         {
-            Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, null);
-            user = user.BuscarUsuario(cod_usuario);
+            UserRepository userRepository = new UserRepository();
+            
+            var user = userRepository.BuscarUsuario(cod_usuario);
             ViewBag.user = user;
             return View("PesquisaUsuario");
         }

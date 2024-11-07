@@ -9,10 +9,10 @@ namespace ePet.Controllers
 {
     public class HomeADMController : Controller
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        //public IActionResult Index()
+        //{
+        //    return View();
+        //}
 
         public IActionResult CadastroPet()
         {
@@ -31,11 +31,10 @@ namespace ePet.Controllers
 
         public IActionResult PesquisaUsuario()
         {
-            if (ViewBag.user == null)
-            {
-                ViewBag.user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, null);
-            }
-            return View();
+            UserRepository u = new UserRepository();
+            List<Usuarios> lista = u.ListarUsuarios();
+
+            return View(lista);
         }
 
         public IActionResult PesquisaPet()

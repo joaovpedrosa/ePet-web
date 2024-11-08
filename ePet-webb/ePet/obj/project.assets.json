@@ -7544,11 +7544,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\antiga\\ePet-web\\ePet\\ePet.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-webb\\ePet\\ePet.csproj",
       "projectName": "ePet",
-      "projectPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\antiga\\ePet-web\\ePet\\ePet.csproj",
+      "projectPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-webb\\ePet\\ePet.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\antiga\\ePet-web\\ePet\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Documents\\gabrielfabri\\githubWeb\\ePet-webb\\ePet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

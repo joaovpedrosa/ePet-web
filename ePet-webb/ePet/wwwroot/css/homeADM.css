@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* slogan */
+.slogan img {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+/* FAQ */
+.slogan::after {
+    background-color: var(--verde-claro);
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    width: 20vw;
+}
+
+section h2 {
+    padding: 2em;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+    /*dentro do dropdown*/
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 14px 14px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        /*hover cinza escuro ao selecionar*/
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

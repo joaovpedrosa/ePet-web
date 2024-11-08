@@ -1,0 +1,99 @@
+﻿ @{
+    TempData["NavBar"] = "adm";
+    Animais animais = new Animais(null, null, null, null, null, null, null, null, null, null, null);
+    animais = (Animais) ViewBag.animal;
+} 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/cadastroPet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>ePet - Cadastro Pet</title>
+</head>
+<body>
+    <main>
+        <form method="post" id="cadastro" class="cadastro" enctype="multipart/form-data" asp-controller="CadastroPet" asp-action="CadastroAnimal">
+
+            <h2 id="titulo">CADASTRO DO PET</h2>
+            <br>
+            <div class="item_cadastro">
+                <label>NOME:</label>
+                <input type="text" class="input_field" name="nome" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>TIPO ANIMAL:</label>
+                <input type="text" class="input_field" name="t_animal" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>IDADE:</label>
+                <input type="text" class="input_field" name="idade" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>COMPORTAMENTO:</label>
+                <input type="text" class="input_field" name="comportamento" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>CASTRAÇÃO:</label>
+                <input type="text" class="input_field" name="castracao"/>
+            </div>
+
+            <div class="item_cadastro">
+                <label>STATUS:</label>
+                <input type="text" class="input_field" name="status" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>EMAIL:</label>
+                <input type="text" class="input_field" name="autoridade_Responsavel" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>PESO:</label>
+                <input type="text" class="input_field" name="peso" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>RAÇA:</label>
+                <input type="text" class="input_field" name="raca" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>PORTE:</label>
+                <input type="text" class="input_field" name="porte" />
+            </div>
+
+            <div class="item_cadastro">
+                <label>SEXO:</label>
+                <input type="text" class="input_field" name="sexo" />
+            </div>
+
+            <div class="input-files-container">
+                <label for="file-upload" class="custom-file-upload">
+                    Selecione um arquivo
+                </label>
+                <input id="file-upload" type="file" accept="image/*" name="arq">
+                <img src="#" alt="" id="preview">
+            </div>
+
+            <div class="botaoCadastrar">
+            <p id="alerta"></p>
+            <button type="submit">CADASTRAR</button>
+            </div>
+
+        </form>
+        
+    </main>
+
+    <script src="~/js/validacoes.js"></script>
+    
+</body>
+</html>

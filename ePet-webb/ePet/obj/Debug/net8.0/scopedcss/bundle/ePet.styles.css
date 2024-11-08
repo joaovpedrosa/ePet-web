@@ -1,0 +1,112 @@
+@import '_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css';
+
+/* _content/ePet/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-971mrahpkz] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-971mrahpkz] {
+  color: #0077cc;
+}
+
+.btn-primary[b-971mrahpkz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-971mrahpkz], .nav-pills .show > .nav-link[b-971mrahpkz] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Estilos básicos para a navbar */
+.navbar[b-971mrahpkz] {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+    .navbar a[b-971mrahpkz] {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+        .navbar a:hover[b-971mrahpkz] {
+            color: #ff9800; /* Cor de destaque ao passar o mouse */
+            transition: color 0.3s, transform 0.3s; /* Transições suaves */
+            transform: scale(1.1); /* Leve aumento de tamanho */
+        }
+
+.nav-filhos[b-971mrahpkz] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+    .nav-filhos li[b-971mrahpkz] {
+        margin: 0 10px;
+    }
+
+.dropdown[b-971mrahpkz] {
+    position: relative;
+}
+
+.dropdown-content[b-971mrahpkz] {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a[b-971mrahpkz] {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover[b-971mrahpkz] {
+            background-color: #f1f1f1;
+        }
+
+.dropbtn:hover .dropdown-content[b-971mrahpkz] {
+    display: block;
+}
+
+
+.border-top[b-971mrahpkz] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-971mrahpkz] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-971mrahpkz] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-971mrahpkz] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-971mrahpkz] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

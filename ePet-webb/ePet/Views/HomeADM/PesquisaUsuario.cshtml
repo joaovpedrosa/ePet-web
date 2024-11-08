@@ -1,0 +1,113 @@
+﻿@model IEnumerable<ePet.Models.Usuarios>
+
+@{
+    ViewData["Title"] = "ListarUsuario";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pesquisaP.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ePet - pesquisar Usuário</title>
+</head>
+<body>
+    <main>
+
+        <div class="tituloPes">
+            <p>Todos os Usuários!</p>
+        </div>
+        <form method="post" class="HomeADM" asp-action="PesquisaUsuario">
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome
+                                @* @Html.DisplayNameFor(model => model.Nome) *@
+                            </th>
+                            <th>
+                                CPF
+                                @* @Html.DisplayNameFor(model => model.Cpf) *@
+                            </th>
+                            <th>
+                                Email
+                                @* @Html.DisplayNameFor(model => model.Email) *@
+                            </th>
+                            <th>
+                                Senha
+                                @* @Html.DisplayNameFor(model => model.Senha) *@
+                            </th>
+                            <th>
+                                Data de nascimento
+                                @* @Html.DisplayNameFor(model => model.DataNasc) *@
+                            </th>
+                            <th>
+                                CEP
+                                @* @Html.DisplayNameFor(model => model.Cep) *@
+                            </th>
+                            <th>
+                                Cidade
+                                @* @Html.DisplayNameFor(model => model.Cidade) *@
+                            </th>
+                            <th>
+                                Bairro
+                                @* @Html.DisplayNameFor(model => model.Bairro) *@
+                            </th>
+                            <th>
+                                Rua
+                                @* @Html.DisplayNameFor(model => model.Rua) *@
+                            </th>
+                            <th>
+                                Complemento
+                                @* @Html.DisplayNameFor(model => model.Complemento) *@
+                            </th>
+                            <th>
+                                Telefone
+                                @* @Html.DisplayNameFor(model => model.Telefone) *@
+                            </th>
+                            <th>#</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Cpf)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Senha)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.DataNasc)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Cep)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Cidade)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Bairro)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Rua)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Complemento)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Telefone)</td>
+                                    @* <td class="exEd">
+                            <img src="~/img/image 62.png" alt="Editar" />
+                            <img src="~/img/image 63.png" alt="Excluir" />
+                            </td> *@
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="12">Nenhum usuário encontrado.</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

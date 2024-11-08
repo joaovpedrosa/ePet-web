@@ -1,0 +1,101 @@
+.cadastrese {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+    .cadastrese p {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    p{
+        margin: 0px !important;
+    }
+
+.form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.descricaoInput p{
+    font-size: 23px;
+    color: black;
+    font-weight: 500;
+}
+
+.item_cadastro input {
+    color: #fff;
+    font-size: 1.1em;
+    background-color: var(--verde-claro);
+    width: 500px;
+    padding: 6px;
+}
+
+        .item_cadastro input::placeholder {
+            color: #fff;
+            text-transform: lowercase;
+        }
+
+        .item_cadastro input:focus {
+            background-color: white;
+            text-transform: lowercase;
+            color: #000;
+            transition: 0.5s;
+        }
+
+            .item_cadastro input:focus::placeholder {
+                color: #000;
+            }
+
+    .item_cadastro label {
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+button {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: uppercase;
+    background-color: var(--verde-escuro);
+    border: none;
+    border-radius: 1rem;
+    background: #536036;
+    padding: 6px 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.containerButton {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 660px) {
+    .item_cadastro input {
+        width: 300px;
+    }
+}
+
+.alerta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    color: red;
+    font-size: 23px;
+    font-weight: 500;
+}

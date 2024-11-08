@@ -1,0 +1,57 @@
+﻿ @{
+    TempData["NavBar"] = "adm";
+    // Animais animais = new Animais(null, null, null, null, null, null, null, null, null, null, null, null);
+    // animais = (Animais) ViewBag.animal;
+} 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pesquisaP.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>ePet - Pesquisar Pet</title>
+</head>
+<body>
+    <main>
+        <div class="tituloPes">
+            <p>Todos os pets!</p>
+        </div>
+
+        <form method="post" class="cadastro" asp-action="ListarAnimal">
+            <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">NOME</th>
+                        <th scope="col">IDADE</th>
+                        <th scope="col">COMPORTA.</th>
+                        <th scope="col">TIPO ANIMAL</th>
+                        <th scope="col">CASTRAÇÃO</th>
+                        <th scope="col">CÓD. ANIMAL</th>
+                        <th scope="col">STATUS</th>
+                        <th scope="col">EMAIL</th>
+                        <th scope="col">#</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+@*                 <td>@animais.CodAnimal</td>
+                <td>@animais.Nome</td>
+                <td>@animais.Autoridade_Responsavel</td>
+                <td>@animais.Status</td>
+                <td>@animais.T_Animal</td>
+                <td class="exEd">
+                    <img src="~/img/image 62.png" />
+                    <img src="~/img/image 63.png" />
+                </td> *@
+
+                </tbody>
+            </table>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

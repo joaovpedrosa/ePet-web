@@ -1,0 +1,147 @@
+﻿@{
+    TempData["NavBar"] = "user";
+    Usuarios user = new Usuarios(null, null, null, null, null, null, null, null, null, null, null, null);
+    user = (Usuarios)ViewBag.user;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <main>
+        <form method="post" asp-controller="Cadastro" asp-action="UsuarioCadastro">
+
+            <div class="cadastrese">
+                <p>CADASTRE-SE</p>
+            </div>
+
+
+            <div class="form-container">
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Nome:</p>
+                        </div>
+                        <input type="text" class="input_field" name="nome" required placeholder="NOME" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Telefone:</p>
+                        </div>
+                        <input type="text" class="input_field" name="telefone" required placeholder="TELEFONE" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>CEP:</p>
+                        </div>
+                        <input type="text" class="input_field" name="cep" required placeholder="CEP" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Cidade:</p>
+                        </div>
+                        <input type="text" class="input_field" name="cidade" required placeholder="CIDADE" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Bairro:</p>
+                        </div>
+                        <input type="text" class="input_field" name="bairro" required placeholder="BAIRRO" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Rua</p>
+                        </div>
+                        <input type="text" class="input_field" name="rua" required placeholder="RUA" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Complemento:</p>
+                        </div>
+                        <input type="text" class="input_field" name="complemento" required placeholder="COMPLEMENTO" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>CPF:</p>
+                        </div>
+                        <input type="text" class="input_field" name="cpf" required placeholder="CPF" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Email:</p>
+                        </div>
+                        <input type="text" class="input_field" name="email" required placeholder="EMAIL" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Data de nascimento:</p>
+                        </div>
+                        <input type="date" class="input_field" name="dataNasc" required placeholder="DATA DE NASCIMENTO" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Senha:</p>
+                        </div>
+                        <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
+                    </div>
+                </div>
+
+                <div class="item_cadastro">
+                    <div class="containerICadastro">
+                        <div class="descricaoInput">
+                            <p>Confirme sua senha:</p>
+                        </div>
+                        <input type="password" class="input_field" name="Confirme" required placeholder="CONFIRME SUA SENHA" id="Confirme" />
+                    </div>
+                </div>
+            </div>
+
+
+            <p id="alerta" class="alerta"></p>
+            <div class="containerButton">
+                <button type="submit">CADASTRAR</button>
+            </div>
+            </>
+        </form>
+    </main>
+    <script src="~/js/validacoes.js"></script>
+</body>
+</html>

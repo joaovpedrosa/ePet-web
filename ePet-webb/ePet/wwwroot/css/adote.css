@@ -1,0 +1,291 @@
+
+/* Titulo da pag com a linha laranja0 */
+.containerTitulo{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    padding: 20px 0px 35px 0px;
+    gap: 5px;
+}
+
+.titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+
+    .titulo p {
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0px !important;
+    }
+
+.containerLinhaLaranja {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+}
+
+.linhaLaranja {
+    width: 400px;
+    height: 10px;
+    background-color: #ECA256;
+}
+
+/*Texto de alerta de adoção*/
+
+.containerTexto {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #536038;
+    padding: 20px;
+}
+
+.texto , .textoMaior {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+    .texto p {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0px !important;
+        color: aliceblue;
+    }
+
+    .textoMaior p {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0px !important;
+        color: aliceblue;
+    }
+/* Container principal do corpo da página */
+.containerCorpoPag {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 60px 50px;
+}
+
+/* Filtro de pesquisa e opções */
+.containerFiltro {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 20px;
+    margin-left: 140px;
+}
+
+/* Estilo do campo de pesquisa */
+.inputPesquisar {
+    width: 100%;
+    height: 55px;
+    background-color: antiquewhite;
+    border: 2px solid #6C584D;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.inputPesquisar input {
+    background-color: antiquewhite;
+    color: black;
+    font-size: 20px;
+    border: none;
+    padding-right: 50px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.inputPesquisar .imgLupa {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inputPesquisar .imgLupa img {
+    width: 30px;
+    height: auto;
+}
+
+/* Estilo dos selects e botões */
+.escolher {
+    width: 100%;
+    height: 55px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: 2px solid #6C584D;
+    border-radius: 10px;
+}
+
+    .escolher:focus {
+        border-color: #6C584D; 
+       border: 2px solid;
+    }
+
+.containerButton button {
+    width: 100%;
+    height: 60px;
+    background-color: #6C584D;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+/*Estilos  dos cards*/
+
+.containerPets {
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 30px; 
+}
+
+.perfilLinha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center; 
+    gap: 40px;
+}
+
+.containerPerfil {
+    width: 300px;
+    height: auto;
+    background-color: #6C584D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+    .containerPerfil img {
+        width: 100%; /* Faz a imagem preencher a largura do container */
+        height: 400px; /* Ajusta a altura proporcionalmente */
+        border-radius: 20px 20px 135px 135px; /* Mantém a borda arredondada */
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
+    }
+
+/* Descrição do perfil do pet */
+.containerDescricao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+/* Informações principais */
+.infoPrincipal {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+    .infoPrincipal img {
+        width: 40px;
+        height: 40px;
+    }
+
+/* Nome do pet e linha abaixo */
+.nomePet {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+    .nomePet p {
+        font-size: 21px;
+        color: aliceblue;
+        margin: 0;
+    }
+
+.linhaLaranjaNome {
+    width: 83px;
+    height: 4px;
+    background-color: #ECA256;
+    margin-top: 5px;
+}
+
+/* Descrição e botão de adoção */
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0; /* Adiciona margem vertical */
+}
+
+    .descricao p {
+        font-size: 16px;
+        color: aliceblue;
+        margin: 0;
+    }
+
+.buttonAdote {
+    width: 130px;
+    height: 40px;
+}
+
+    .buttonAdote button {
+        width: 100%; /* Faz o botão preencher a largura do container */
+        max-width: 141px; /* Define a largura máxima */
+        height: 44px;
+        background-color: #A1B079;
+        color: aliceblue;
+        font-size: 21px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer; /* Adiciona cursor pointer para indicar que é clicável */
+    }
+
+@media (max-width: 850px) {
+    .containerCorpoPag {
+        flex-direction: column;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .containerPets {
+        gap: 30px;
+    }
+
+    .perfilLinha {
+        align-items: center;
+        justify-content: end;
+        flex-direction: column;
+    }
+
+    .containerFiltro{
+        margin: 0px;
+        padding: 30px 20px;
+    }
+    
+}

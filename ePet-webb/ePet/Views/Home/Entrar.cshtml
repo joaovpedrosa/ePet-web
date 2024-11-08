@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/entrar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Apadrinhamento</title>
+    <script>
+        function showError(message) {
+            alert(message); // Aqui você pode usar um pop-up mais estilizado
+        }
+    </script>
+</head>
+<body>
+    <main>
+        <div class="containerCorpoPag">
+            <div class="containerEntrar">
+                <div class="tituloEntrar">
+                    <p>Login</p>
+                    <div class="linhaBranca"></div>
+                </div>
+                <form method="post" asp-controller="Entrar" asp-action="login">
+                    <div class="containerInput1">
+                        <p>Gmail:</p>
+                        <input id="email" type="text" name="email" required>
+                    </div>
+                    <div class="containerInput1">
+                        <p>Senha:</p>
+                        <input id="senha" type="password" name="senha" required>
+                    </div>
+                    <div class="containerButton">
+                        <div class="button1">
+                            <button type="submit">Entrar</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="containerNConta">
+                    <p class="conta">Não tem conta?</p>
+                    <div class="cadastrese-container">
+                        <a class="preto" asp-controller="Home" asp-action="Cadastro"><p class="cadastrese">Cadastre-se!</p></a>
+                        <div class="linha"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    @if (ViewBag.ErrorMessage != null)
+    {
+        <script>
+            showError('@ViewBag.ErrorMessage');
+        </script>
+    }
+</body>
+</html>

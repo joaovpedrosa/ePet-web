@@ -1,0 +1,598 @@
+/* slogan */
+.slogan img {
+    width: 80vw;
+    margin: 0 auto;
+    display: block;
+}
+
+/* FAQ */
+
+.slogan::after {
+    background-color: var(--verde-claro);
+    content: "";
+    display: inline-block;
+    height: 10px;
+    position: relative;
+    left: 40%;
+    right: 40%;
+    width: 20vw;
+}
+
+section h2 {
+    padding: 100px 100px 10px 100px;
+}
+
+.frequentes::after {
+    content: '';
+    top: 5px;
+    right: -140px;
+    position: relative;
+    display: block;
+    height: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.containerPerguntas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.containerLinhaLaranja {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding-left: 180px;
+    padding-bottom: 50px;
+}
+
+.linhaLaranja {
+    width: 20%;
+    height: 10px;
+    background-color: #EDA24E;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1400px){
+    .linhaLaranja {
+        width: 250px;
+    }
+    }
+
+@media screen and (max-width: 532px) {
+
+    .containerLinhaLaranja {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        padding: 0px 300px 100px 50px;
+ 
+    }
+
+    .linhaLaranja {
+        width: 250px;
+        height: 10px;
+        background-color: #EDA24E;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+.perguntas {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+    .pergunta {
+        margin: 2em 0;
+    }
+
+    .faq {
+        margin: 0 auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        background-color: var(--verde-escuro);
+        color: #fff;
+        box-shadow: 5px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+        .faq p {
+            font-size: 50px;
+            padding: 0 30px;
+        }
+
+            .faq p:hover {
+                cursor: pointer;
+            }
+
+    .resposta {
+        align-items: end;
+        padding: 15px;
+        background-color: var(--verde-claro);
+        color: #ffff;
+        box-shadow: 3px 2px 2px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .escondido {
+        display: none;
+    }
+
+    .apareceu {
+        display: block;
+        transition: transform 1s, opacity 0.3s;
+    }
+
+
+/*slider pagina principal*/
+
+.containerSlider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px 10px 30px;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 100%;
+    max-width: 1200px; 
+    height: auto; 
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    width: 400%;
+    height: 100%;
+    transition: margin 0.5s;
+
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerAdocao {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--verde-claro);
+    color: white;
+    padding: 20px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+    .containerAdocao button {
+        background-color: var(--verde-escuro); 
+        color: white; 
+        border: none; 
+        padding: 10px 100px; 
+        border-radius: 30px; 
+        cursor: pointer; 
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+.containerAdocao p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.navigation-bar {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.slides input {
+    display: none;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: var(--verde-claro);
+    transition: 0.4s;
+}
+
+#radio1:checked ~ .slides .first .containerAdocao {
+    display: block; 
+}
+
+#radio1:checked ~ .first {
+       margin-left: 0;
+
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+
+#slide3 {
+    cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+    .containerAdocao {
+        bottom: 90px;
+        padding: 20px;
+    }
+
+        .containerAdocao button {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 80px;
+        }
+
+        .containerAdocao p {
+            font-size: 20px;
+        }
+}
+
+@media (max-width: 825px) {
+    .containerAdocao {
+        bottom: 90px;
+        padding: 20px;
+    }
+
+        .containerAdocao button {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 50px;
+        }
+
+        .containerAdocao p {
+            font-size: 15px;
+        }
+}
+
+@media (max-width: 665px) {
+    .containerAdocao {
+        bottom: 90px;
+        padding: 20px;
+    }
+
+        .containerAdocao button {
+            font-size: 20px;
+            font-weight: 700;
+            padding: 10px 30px;
+        }
+
+        .containerAdocao p {
+            font-size: 10px;
+        }
+}
+
+/*Estilização de como você pode ajudar*/
+.containerAjudar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 10px 5px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px; /* Espaçamento entre os itens */
+}
+
+.imgLinhatempo img {
+    width: 100%;
+}
+
+.containerDescricoes {
+    display: flex;
+    flex-direction: column;
+    gap: 35px; /* Espaçamento entre os parágrafos */
+}
+
+    .containerDescricoes p {
+        font-size: 25px;
+        margin: 0 !important; /* Remove margens padrão */
+        font-weight: 500;
+    }
+
+.descricao1, .descricao2, .descricao3, .descricao4 {
+    width: 350px;
+    padding: 10px;
+}
+
+.descricao1, .descricao3 {
+    background-color: #536038;
+}
+
+.descricao2, .descricao4 {
+    background-color: #ADC17C;
+}
+
+.descricao1 p, .descricao3 p {
+    color: aliceblue;
+}
+
+.descricao3, .descricao2 {
+    margin-top: 10px; 
+}
+
+.textoDiferente {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; 
+}
+
+
+.laranjaAqui {
+    color: #ECA256 !important;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+    .laranjaAqui:hover {
+        transform: scale(1.1); 
+    }
+
+
+/* Estilização de Como funcionar adoção*/
+
+.containerLinhaCorte img{
+    width: 100%;
+    height: auto;
+    padding: 50px 0px 0px 0px;
+}
+
+.containerLinhaCorte2 img {
+    width: 100%;
+    height: auto;
+}
+
+.containerComoAdotar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DDE5B8;
+    padding: 20px 0px 40px 20px;
+}
+
+.containerComoAdotar p{
+    margin: 0px !important;
+}
+
+.tituloCAdotar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 30px 0px;
+}
+
+.tituloCAdotar p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.containerCorpoCAdotar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.espaco1CA {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.containerImgCA {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECA256;
+    border-radius: 300px;
+    padding: 30px 0px;
+}
+
+.imgCA{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.containerTituloCA {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTituloCA p{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.containerDescricaoCA {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+    .containerDescricaoCA p {
+       font-size: 20px;
+    }
+
+.textoDiferente2 p {
+    color: #ECA256;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    text-decoration: none !important;
+}
+
+.textoDiferente2 p:hover {
+    transform: scale(1.1);
+}
+
+/* Estilização da Propaganda do aplicativo */
+
+.containerApp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: start;
+    padding: 0px 60px;
+    gap: 5px;
+    background-image: url('../img/wave-haikei (1).png');
+    background-size: cover; /* Ajusta a imagem sem cortar */
+    background-repeat: no-repeat; /* Impede repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.containerDescricaoApp {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+
+.containerImgApp {
+    flex: 1 1 250px; 
+    display: flex;
+    justify-content: center; 
+    padding-left: 10px;
+}
+
+    .containerImgApp img {
+        max-width: 100%; 
+        height: auto; 
+    }
+
+.descricaoApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.descricaoApp p{
+    margin: 0px !important;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.denunciarApp {
+    background-color: #A1B076;
+    padding: 10px;
+}
+
+    .denunciarApp p {
+        color: aliceblue;
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0px !important;
+    }
+
+.containerDescricaoApp button {
+    background-color: #ECA256;
+    font-size: 35px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 20px;
+    color: aliceblue;
+    padding: 5px 20px;
+}
+
+.containerImgApp{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+}
+
+
+@media screen and (max-width: 1050px){
+    .containerImgApp {
+        flex: 1 1 1050px;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+.containerImgApp img {
+    padding: 0px 0px 0px 30px;
+}
+}
+

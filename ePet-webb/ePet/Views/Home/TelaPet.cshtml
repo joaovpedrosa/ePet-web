@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/perfilPet.css" asp-append-version="true" />
+
+    <title>Perfil do Pet</title>
+</head>
+<body>
+    <main>
+        <div class="containerCorpoPagPet">
+            <div class="containerInfoPet">
+                <div class="nomePet">
+                    <p>Letty</p>
+                    <div class="linhaMarrom"></div>
+                </div>
+                <div class="containerInfoPrincipais">
+                    <div class="infoPrincipais">
+                        <p>Idade: 3 anos</p>
+                        <p>Porte: Pequeno</p>
+                        <p>Gênero: Femea</p>
+                    </div>
+                </div>
+                <div class="descricao">
+                    <p>Letty é uma gatinha sociável mas estressada as vezes! Ela foi resgatada na R. Francisco Glicerio, e está pronta para ser recebida em um lar de muito amor e carinho!</p>
+                </div>
+                <div class="containerButton">
+                <a asp-controller="Adote" asp-action="Adocao" method="post">
+                    <button>Quero Adotar</button>
+                    </a>
+                </div>
+            </div>
+            <div class="containerFotoPet">
+                <div class="fotoPet">
+                    <img src="~/img/gatocalmo.jpeg" alt="Foto do Pet" />
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

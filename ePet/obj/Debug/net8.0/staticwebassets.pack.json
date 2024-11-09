@@ -1,519 +1,519 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePet.bundle.scp.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ePet.bundle.scp.css",
       "PackagePath": "staticwebassets\\ePet.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\adocao.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\adocao.css",
       "PackagePath": "staticwebassets\\css\\adocao.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\adote.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\adote.css",
       "PackagePath": "staticwebassets\\css\\adote.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\alterar.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\alterar.css",
       "PackagePath": "staticwebassets\\css\\alterar.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\apadrinhe.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\apadrinhe.css",
       "PackagePath": "staticwebassets\\css\\apadrinhe.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\cadastro.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\cadastro.css",
       "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\cadastroPet.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\cadastroPet.css",
       "PackagePath": "staticwebassets\\css\\cadastroPet.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\deletar.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\deletar.css",
       "PackagePath": "staticwebassets\\css\\deletar.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\entrar.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\entrar.css",
       "PackagePath": "staticwebassets\\css\\entrar.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\home.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\homeADM.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\homeADM.css",
       "PackagePath": "staticwebassets\\css\\homeADM.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\identidade.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\identidade.css",
       "PackagePath": "staticwebassets\\css\\identidade.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\perfilPet.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\perfilPet.css",
       "PackagePath": "staticwebassets\\css\\perfilPet.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\pesquisaD.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\pesquisaD.css",
       "PackagePath": "staticwebassets\\css\\pesquisaD.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\pesquisaP.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\pesquisaP.css",
       "PackagePath": "staticwebassets\\css\\pesquisaP.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\css\\pesquisaU.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\pesquisaU.css",
       "PackagePath": "staticwebassets\\css\\pesquisaU.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\banneradm.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\banneradm.png",
       "PackagePath": "staticwebassets\\img\\banneradm.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorro.jpeg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorro.jpeg",
       "PackagePath": "staticwebassets\\img\\cachorro.jpeg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato1.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato1.png",
       "PackagePath": "staticwebassets\\img\\cachorrogato1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato2.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato2.png",
       "PackagePath": "staticwebassets\\img\\cachorrogato2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato3.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorrogato3.PNG",
       "PackagePath": "staticwebassets\\img\\cachorrogato3.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconbranco.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconbranco.png",
       "PackagePath": "staticwebassets\\img\\cachorroiconbranco.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconpreto.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorroiconpreto.png",
       "PackagePath": "staticwebassets\\img\\cachorroiconpreto.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorrolegal.jpeg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorrolegal.jpeg",
       "PackagePath": "staticwebassets\\img\\cachorrolegal.jpeg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\cachorrotriste.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\cachorrotriste.PNG",
       "PackagePath": "staticwebassets\\img\\cachorrotriste.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\editarP.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\editarP.png",
       "PackagePath": "staticwebassets\\img\\editarP.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\facebook.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\fotoCachorroBranco.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\fotoCachorroBranco.png",
       "PackagePath": "staticwebassets\\img\\fotoCachorroBranco.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\fotodocelular.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\fotodocelular.png",
       "PackagePath": "staticwebassets\\img\\fotodocelular.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gato-adocao.jpeg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gato-adocao.jpeg",
       "PackagePath": "staticwebassets\\img\\gato-adocao.jpeg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gato1.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gato1.jpg",
       "PackagePath": "staticwebassets\\img\\gato1.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gato2.jfif",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gato2.jfif",
       "PackagePath": "staticwebassets\\img\\gato2.jfif"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gato3.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gato3.jpg",
       "PackagePath": "staticwebassets\\img\\gato3.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gatoanimado.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gatoanimado.jpg",
       "PackagePath": "staticwebassets\\img\\gatoanimado.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gatocalmo.jpeg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gatocalmo.jpeg",
       "PackagePath": "staticwebassets\\img\\gatocalmo.jpeg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gatocon.jpg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gatocon.jpg",
       "PackagePath": "staticwebassets\\img\\gatocon.jpg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\gatolaranja1.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\gatolaranja1.PNG",
       "PackagePath": "staticwebassets\\img\\gatolaranja1.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\icon1.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\icon1.png",
       "PackagePath": "staticwebassets\\img\\icon1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\icon2.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\icon2.png",
       "PackagePath": "staticwebassets\\img\\icon2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\icon3.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\icon3.png",
       "PackagePath": "staticwebassets\\img\\icon3.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\icon4.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\icon4.png",
       "PackagePath": "staticwebassets\\img\\icon4.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\iconCA1.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\iconCA1.png",
       "PackagePath": "staticwebassets\\img\\iconCA1.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\iconCA2.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\iconCA2.png",
       "PackagePath": "staticwebassets\\img\\iconCA2.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\iconCA3.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\iconCA3.png",
       "PackagePath": "staticwebassets\\img\\iconCA3.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\iconCA4.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\iconCA4.png",
       "PackagePath": "staticwebassets\\img\\iconCA4.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\image 17.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\image 17.png",
       "PackagePath": "staticwebassets\\img\\image 17.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\image 26.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\image 26.png",
       "PackagePath": "staticwebassets\\img\\image 26.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\image 42.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\image 42.png",
       "PackagePath": "staticwebassets\\img\\image 42.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\image 62.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\image 62.png",
       "PackagePath": "staticwebassets\\img\\image 62.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\image 63.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\image 63.png",
       "PackagePath": "staticwebassets\\img\\image 63.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\imgCorteSite.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\imgCorteSite.PNG",
       "PackagePath": "staticwebassets\\img\\imgCorteSite.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\imgCorteSite2.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\imgCorteSite2.PNG",
       "PackagePath": "staticwebassets\\img\\imgCorteSite2.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\instagram.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\instagram.png",
       "PackagePath": "staticwebassets\\img\\instagram.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\linhatempo.PNG",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\linhatempo.PNG",
       "PackagePath": "staticwebassets\\img\\linhatempo.PNG"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\logo-sem-fundo.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\logo-sem-fundo.png",
       "PackagePath": "staticwebassets\\img\\logo-sem-fundo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\papagaio.jpeg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\papagaio.jpeg",
       "PackagePath": "staticwebassets\\img\\papagaio.jpeg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\pata-logo.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\pata-logo.png",
       "PackagePath": "staticwebassets\\img\\pata-logo.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\tt.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\tt.png",
       "PackagePath": "staticwebassets\\img\\tt.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\vectordireita.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\vectordireita.svg",
       "PackagePath": "staticwebassets\\img\\vectordireita.svg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\vectoresquerda.svg",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\vectoresquerda.svg",
       "PackagePath": "staticwebassets\\img\\vectoresquerda.svg"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei (1).png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei (1).png",
       "PackagePath": "staticwebassets\\img\\wave-haikei (1).png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\wave-haikei.png",
       "PackagePath": "staticwebassets\\img\\wave-haikei.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\wave.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\wave.png",
       "PackagePath": "staticwebassets\\img\\wave.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\img\\xis.png",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\img\\xis.png",
       "PackagePath": "staticwebassets\\img\\xis.png"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\faq.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\faq.js",
       "PackagePath": "staticwebassets\\js\\faq.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\geral.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\geral.js",
       "PackagePath": "staticwebassets\\js\\geral.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\menu-hamburger.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\menu-hamburger.js",
       "PackagePath": "staticwebassets\\js\\menu-hamburger.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\pop-up.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\pop-up.js",
       "PackagePath": "staticwebassets\\js\\pop-up.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\slider.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\slider.js",
       "PackagePath": "staticwebassets\\js\\slider.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\upload.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\upload.js",
       "PackagePath": "staticwebassets\\js\\upload.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\js\\validacoes.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\js\\validacoes.js",
       "PackagePath": "staticwebassets\\js\\validacoes.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\aluno\\Documents\\JoaoPedrosa\\GIT\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

@@ -40,6 +40,8 @@ namespace ePet.Controllers
             return View();
         }
 
+      
+
         //linkar na nav-bar o cadastro
         public ActionResult Cadastro()
         {

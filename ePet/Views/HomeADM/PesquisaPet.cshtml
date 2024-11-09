@@ -1,9 +1,9 @@
-﻿ @{
-    TempData["NavBar"] = "adm";
-    // Animais animais = new Animais(null, null, null, null, null, null, null, null, null, null, null, null);
-    // animais = (Animais) ViewBag.animal;
-} 
+﻿@model IEnumerable<ePet.Models.Animais>
 
+@{
+    ViewData["Title"] = "ListarAnimal";
+    Layout = null;
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +20,7 @@
             <p>Todos os pets!</p>
         </div>
 
-        <form method="post" class="cadastro" asp-action="ListarAnimal">
+        <form method="post" class="HomeADM" asp-action="PesquisaPet">
             <div class="tabela">
             <table>
                 <thead>
@@ -31,22 +31,40 @@
                         <th scope="col">TIPO ANIMAL</th>
                         <th scope="col">CASTRAÇÃO</th>
                         <th scope="col">CÓD. ANIMAL</th>
+                        <th scope="col">RACA</th>
+                        <th scope="col">PORTE</th>
+                        <th scope="col">PESO</th>
                         <th scope="col">STATUS</th>
-                        <th scope="col">EMAIL</th>
+                        <th scope="col">SEXO</th>
                         <th scope="col">#</th>
                     </tr>
                 </thead>
                 <tbody>
-
-@*                 <td>@animais.CodAnimal</td>
-                <td>@animais.Nome</td>
-                <td>@animais.Autoridade_Responsavel</td>
-                <td>@animais.Status</td>
-                <td>@animais.T_Animal</td>
-                <td class="exEd">
-                    <img src="~/img/image 62.png" />
-                    <img src="~/img/image 63.png" />
-                </td> *@
+                        @if (Model != null && Model.Any())
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => item.Nome)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Idade)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Comportamento)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.T_Animal)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Castracao)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.CodAnimal)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Raca)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Porte)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Peso)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Sexo)</td>
+                                </tr>
+                            }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td colspan="12">Nenhum usuário encontrado.</td>
+                            </tr>
+                        }
 
                 </tbody>
             </table>

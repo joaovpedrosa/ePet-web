@@ -1,4 +1,5 @@
 ﻿using ePet.Models;
+using ePet.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
 using MySqlX.XDevAPI.Common;
@@ -30,30 +31,33 @@ namespace ePet.Controllers
                         //crio um jogo que sera adicionado com os campos
                         Animais animal = new Animais(codigo_animal, t_animal, status, nome, idade, castracao, raca, porte, peso, comportamento, sexo);
                         animal.ArrayBytes = imagem;
-                        animal.CadastrarAnimal();
+                        PetRepository pet = new PetRepository();
+                        pet.CadastrarAnimal(animal);
                     }
                     else
                     {
                         View("ERRO AO CADASTRAR ANIMAL, PQ NÃO TEM UMA IMAGEM");
                     }
                 }
-            }catch(Exception ex) { 
-                View(ex.Message); 
             }
-            
+            catch (Exception ex)
+            {
+                View(ex.Message);
+            }
+
             return RedirectToAction("Index", "Home");
         }
 
         public IActionResult DeletarAnimal(string codigo_animal)
         {
             Animais animal = new Animais(codigo_animal);
-            TempData["msg"] = animal.DeletarAnimal();
+            //TempData["msg"] = animal.DeletarAnimal();
             return RedirectToAction("Listar");
         }
 
         public IActionResult ListarAnimal()
         {
-            return View(Animais.ListarAnimal());
+            return View();
         }
 
         public IActionResult Animal()

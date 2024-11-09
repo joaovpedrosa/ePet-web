@@ -11,8 +11,10 @@ namespace ePet.Repository
 
         public UserRepository()
         {
-            this.mySqlConnection = ConectarMySql.getConexao();
+            this.mySqlConnection = ConectarMySql.getConexao(); // Conexão com o banco
         }
+
+
 
         public string CadastrarUsuario(Usuarios usuario)
         {
@@ -67,6 +69,7 @@ namespace ePet.Repository
             }
         }
 
+        // Método para buscar usuário por CPF
         public Usuarios BuscarUsuario(string cpf)
         {
             Usuarios resultado = null;
@@ -76,7 +79,7 @@ namespace ePet.Repository
                 MySqlCommand qry = new MySqlCommand("SELECT * FROM usuario WHERE Cpf = @CPF", mySqlConnection);
                 qry.Parameters.AddWithValue("@CPF", cpf);
                 MySqlDataReader ler = qry.ExecuteReader();
-                while (ler.Read())
+                if (ler.Read())
                 {
                     resultado = new Usuarios(
                         ler["Nome"].ToString(),
@@ -93,7 +96,7 @@ namespace ePet.Repository
                         ler["IsAdm"].ToString());
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return null;
             }
@@ -103,6 +106,7 @@ namespace ePet.Repository
             }
             return resultado;
         }
+
 
         public List<Usuarios> ListarUsuarios()
         {
@@ -139,6 +143,40 @@ namespace ePet.Repository
                 mySqlConnection.Close();
             }
             return lista;
+        }
+
+        public string AtualizarUsuario(Usuarios usuario)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                string query = "UPDATE usuario SET Nome = @Nome, Telefone = @Telefone, Cep = @Cep, Cidade = @Cidade, Bairro = @Bairro, Rua = @Rua, Complemento = @Complemento, Email = @Email, DataNasc = @DataNasc, Senha = @Senha WHERE Cpf = @Cpf";
+                MySqlCommand cmd = new MySqlCommand(query, mySqlConnection);
+
+                // Atribui os parâmetros ao comando
+                cmd.Parameters.AddWithValue("@Nome", usuario.Nome);
+                cmd.Parameters.AddWithValue("@Telefone", usuario.Telefone);
+                cmd.Parameters.AddWithValue("@Cep", usuario.Cep);
+                cmd.Parameters.AddWithValue("@Cidade", usuario.Cidade);
+                cmd.Parameters.AddWithValue("@Bairro", usuario.Bairro);
+                cmd.Parameters.AddWithValue("@Rua", usuario.Rua);
+                cmd.Parameters.AddWithValue("@Complemento", usuario.Complemento);
+                cmd.Parameters.AddWithValue("@Email", usuario.Email);
+                cmd.Parameters.AddWithValue("@DataNasc", usuario.DataNasc);
+                cmd.Parameters.AddWithValue("@Senha", usuario.Senha);
+                cmd.Parameters.AddWithValue("@Cpf", usuario.Cpf);
+
+                cmd.ExecuteNonQuery();
+                return "Atualizado com sucesso!";
+            }
+            catch (Exception ex)
+            {
+                return "Erro: " + ex.Message;
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
         }
 
         public Usuarios LogarUsuario(string email, string senha)

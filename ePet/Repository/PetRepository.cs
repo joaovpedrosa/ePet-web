@@ -1,0 +1,155 @@
+﻿using ePet.Conexões;
+using ePet.Models;
+using MySql.Data.MySqlClient;
+
+namespace ePet.Repository
+    
+{
+    public class PetRepository
+    {
+        private readonly MySqlConnection mySqlConnection;
+
+        public PetRepository()
+        {
+            this.mySqlConnection = ConectarMySql.getConexao();
+        }
+
+        public string CadastrarAnimal(Animais animais)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("INSERT INTO animal (Idade, Comportamento, Especie, Nome, Castracao, status, Peso, Raca, Porte, Sexo, Foto) VALUES (@Idade, @Comportamento, @Especie, @Nome, @Castracao, @status, @Peso, @Raca, @Porte, @Sexo, @Foto)", mySqlConnection);
+
+                // Adicionando os parâmetros na ordem correta
+                qry.Parameters.AddWithValue("@Idade", animais.Idade);
+                qry.Parameters.AddWithValue("@Comportamento", animais.Comportamento);
+                qry.Parameters.AddWithValue("@Especie", animais.T_Animal);
+                qry.Parameters.AddWithValue("@Nome", animais.Nome);
+                qry.Parameters.AddWithValue("@Castracao", animais.Castracao);
+                qry.Parameters.AddWithValue("@status", animais.Status);
+                qry.Parameters.AddWithValue("@Peso", animais.Peso);
+                qry.Parameters.AddWithValue("@Raca", animais.Raca);
+                qry.Parameters.AddWithValue("@Porte", animais.Porte);
+                qry.Parameters.AddWithValue("@Sexo", animais.Sexo);
+                qry.Parameters.AddWithValue("@Foto", animais.ArrayBytes);
+
+
+                qry.ExecuteNonQuery();
+                mySqlConnection.Close();
+            }
+
+            catch (Exception ex)
+            {
+                mySqlConnection.Close();
+                return "Erro: " + ex.Message;
+            }
+            return "Inserido com sucesso!";
+        }
+        public string DeletarAnimal(string codigo_animal)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("DELETE FROM animal WHERE Codigo_Animal = @Codigo_Animal", mySqlConnection);
+                qry.Parameters.AddWithValue("@Codigo_Animal", codigo_animal);
+                qry.ExecuteNonQuery();
+                mySqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                return "Erro: " + ex.Message;
+            }
+            return "Excluido com sucesso!";
+        }
+        public Animais BuscarAnimal(string codigo_animal)
+        {
+            Animais resultado = null;
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal WHERE Codigo_Animal = @Codigo_Animal", mySqlConnection);
+                qry.Parameters.AddWithValue("@Codigo_Animal", codigo_animal);
+                MySqlDataReader leitor = qry.ExecuteReader();
+                while (leitor.Read())
+                {
+                    resultado = new Animais(
+                        leitor["Idade"].ToString(),
+                        leitor["comportamento"].ToString(),
+                        leitor["especie"].ToString(),
+                        leitor["nome"].ToString(),
+                        leitor["codigo_animal"].ToString(),
+                        leitor["castracao"].ToString(),
+                        leitor["status "].ToString(),
+                        leitor["peso"].ToString(),
+                        leitor["raca"].ToString(),
+                        leitor["porte"].ToString(),
+                        leitor["sexo"].ToString());
+
+                }
+                mySqlConnection.Close();
+
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return resultado;
+        }
+        public static List<Animais> ListarAnimal(MySqlConnection mySqlConnection)
+        {
+
+            List<Animais> lista = new List<Animais>();
+            try
+            {
+                
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal",mySqlConnection);
+                MySqlDataReader ler = qry.ExecuteReader();
+                while (ler.Read())
+                {
+                    Animais linha = new Animais(
+                        ler["Idade"].ToString(),
+                        ler["comportamento"].ToString(),
+                        ler["especie"].ToString(),
+                        ler["nome"].ToString(),
+                        ler["codigo_animal"].ToString(),
+                        ler["castracao"].ToString(),
+                        ler["status "].ToString(),
+                        ler["peso"].ToString(),
+                        ler["raca"].ToString(),
+                        ler["porte"].ToString(),
+                        ler["sexo"].ToString());
+                    lista.Add(linha);
+                }
+                mySqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            return lista;
+        }
+
+        public void AlterarAnimal(string codigo_animal)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("UPDATE animal SET nome = @nome, T_Sanguinio = @T_Sanguinio, autoridade_responsavel = @autoridade_responsavel, Status = @Status WHERE Codigo_Animal = @Codigo_Animal", mySqlConnection);
+                //qry.Parameters.AddWithValue("@codigo_animal", codigo_animal);
+                //qry.Parameters.AddWithValue("@nome", this.nome);
+                //qry.Parameters.AddWithValue("@T_Sanguinio", this.t_sanguinio);
+                //qry.Parameters.AddWithValue("@Status", this.status);
+                //qry.ExecuteNonQuery();
+                //con.Close();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ocorreu um erro: " + ex.Message);
+            }
+        }
+
+
+    }
+}

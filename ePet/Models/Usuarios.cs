@@ -32,6 +32,9 @@ namespace ePet.Models
         public string IsAdm { get => isAdm; set => isAdm = value; }
 
 
+        public Usuarios() { }
+
+
         public Usuarios(string nome, string telefone, string cep, string cidade, string bairro, string rua, string complemento, string cpf, string email, string dataNasc, string senha, string isAdm)
         {
 

@@ -21,6 +21,7 @@ public class Animais
     public string Peso { get => peso; set => peso = value; }
     public string Status { get => status; set => status = value; }
     public string Sexo { get => sexo; set => sexo = value; }
+
     public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
 
 
@@ -34,8 +35,10 @@ public class Animais
         this.castracao = castracao;
         this.raca = raca;
         this.peso = peso;
+        this.porte = porte;
         this.comportamento = comportamento;
         this.Sexo = sexo;
+
 
 
     }
@@ -46,20 +49,6 @@ public class Animais
         this.codigo_animal = codigo_animal;
     }
 
-    public static string ConexaoAnimal()
-    {
-        try
-        {
-            con.Open();
-            Console.WriteLine("Conectado com sucesso!");
-            con.Close();
-        }
-        catch (Exception ex)
-        {
-            return "Erro: " + ex.Message;
-            Console.WriteLine(ex.StackTrace);
-        }
-        return "Inserido com sucesso!";
-    }
+
 }
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ffatTdDYhQcl/alBj/ZwyGxIfN7L38f2wTZPVUWxiQ8=",
+  "Hash": "HGLSyAyyk6oa99NZuV1GPUzyR+YgAv2nq8x1TlD1fbA=",
   "Source": "ePet",
   "BasePath": "_content/ePet",
   "Mode": "Default",
@@ -224,6 +224,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\deletar.css"
+    },
+    {
+      "Identity": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\EditarUser.css",
+      "SourceId": "ePet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\",
+      "BasePath": "_content/ePet",
+      "RelativePath": "css/EditarUser.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\EditarUser.css"
     },
     {
       "Identity": "C:\\Users\\aluno\\Documents\\ana caroline\\NOVO2\\ePet-web\\ePet\\wwwroot\\css\\entrar.css",

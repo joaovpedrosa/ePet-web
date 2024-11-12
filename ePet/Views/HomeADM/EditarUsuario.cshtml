@@ -1,5 +1,6 @@
 ﻿@model ePet.Models.Usuarios
 
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/editarUser.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
     <title>Editar Usuário</title>
 </head>
@@ -25,132 +27,134 @@
         }
         else
         {
-            <form method="post" action="@Url.Action("AtualizarUsuario", "HomeADM")">
-                <!-- Campo Nome -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Nome:</p>
+            <div class="containerInputs">
+                <form method="post" action="@Url.Action("AtualizarUsuario", "HomeADM")">
+                    <!-- Campo Nome -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Nome:</p>
+                            </div>
+                            <input type="text" class="input_field" name="nome" value="@Model?.Nome" required placeholder="NOME" />
                         </div>
-                        <input type="text" class="input_field" name="nome" value="@Model?.Nome" required placeholder="NOME" />
                     </div>
-                </div>
 
-                <!-- Campo Telefone -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Telefone:</p>
+                    <!-- Campo Telefone -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Telefone:</p>
+                            </div>
+                            <input type="text" class="input_field" name="telefone" value="@Model?.Telefone" required placeholder="TELEFONE" />
                         </div>
-                        <input type="text" class="input_field" name="telefone" value="@Model?.Telefone" required placeholder="TELEFONE" />
                     </div>
-                </div>
 
-                <!-- Campo CPF -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>CPF:</p>
+                    <!-- Campo CPF -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>CPF:</p>
+                            </div>
+                            <input type="text" class="input_field" name="cpf" value="@Model?.Cpf" required placeholder="CPF" />
                         </div>
-                        <input type="text" class="input_field" name="cpf" value="@Model?.Cpf" required placeholder="CPF" />
                     </div>
-                </div>
 
-                <!-- Campo Email -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Email:</p>
+                    <!-- Campo Email -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Email:</p>
+                            </div>
+                            <input type="email" class="input_field" name="email" value="@Model?.Email" required placeholder="EMAIL" />
                         </div>
-                        <input type="email" class="input_field" name="email" value="@Model?.Email" required placeholder="EMAIL" />
                     </div>
-                </div>
 
-                <!-- Campo Data de Nascimento -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Data de nascimento:</p>
+                    <!-- Campo Data de Nascimento -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Data de nascimento:</p>
+                            </div>
+                            <input type="date" class="input_field" name="dataNasc" value="@Model?.DataNasc" required />
                         </div>
-                        <input type="date" class="input_field" name="dataNasc" value="@Model?.DataNasc" required />
                     </div>
-                </div>
 
-                <!-- Campo CEP -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>CEP:</p>
+                    <!-- Campo CEP -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>CEP:</p>
+                            </div>
+                            <input type="text" class="input_field" name="cep" value="@Model?.Cep" required placeholder="CEP" />
                         </div>
-                        <input type="text" class="input_field" name="cep" value="@Model?.Cep" required placeholder="CEP" />
                     </div>
-                </div>
 
-                <!-- Campo Cidade -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Cidade:</p>
+                    <!-- Campo Cidade -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Cidade:</p>
+                            </div>
+                            <input type="text" class="input_field" name="cidade" value="@Model?.Cidade" required placeholder="CIDADE" />
                         </div>
-                        <input type="text" class="input_field" name="cidade" value="@Model?.Cidade" required placeholder="CIDADE" />
                     </div>
-                </div>
 
-                <!-- Campo Bairro -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Bairro:</p>
+                    <!-- Campo Bairro -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Bairro:</p>
+                            </div>
+                            <input type="text" class="input_field" name="bairro" value="@Model?.Bairro" required placeholder="BAIRRO" />
                         </div>
-                        <input type="text" class="input_field" name="bairro" value="@Model?.Bairro" required placeholder="BAIRRO" />
                     </div>
-                </div>
 
-                <!-- Campo Rua -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Rua:</p>
+                    <!-- Campo Rua -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Rua:</p>
+                            </div>
+                            <input type="text" class="input_field" name="rua" value="@Model?.Rua" required placeholder="RUA" />
                         </div>
-                        <input type="text" class="input_field" name="rua" value="@Model?.Rua" required placeholder="RUA" />
                     </div>
-                </div>
 
-                <!-- Campo Complemento -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Complemento:</p>
+                    <!-- Campo Complemento -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Complemento:</p>
+                            </div>
+                            <input type="text" class="input_field" name="complemento" value="@Model?.Complemento" required placeholder="COMPLEMENTO" />
                         </div>
-                        <input type="text" class="input_field" name="complemento" value="@Model?.Complemento" required placeholder="COMPLEMENTO" />
                     </div>
-                </div>
 
-                <!-- Campo Senha -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Senha:</p>
+                    <!-- Campo Senha -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Senha:</p>
+                            </div>
+                            <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
                         </div>
-                        <input type="password" class="input_field" name="senha" required placeholder="SENHA" id="senha" />
                     </div>
-                </div>
 
-                <!-- Campo Confirmar Senha -->
-                <div class="item_cadastro">
-                    <div class="containerICadastro">
-                        <div class="descricaoInput">
-                            <p>Confirme sua senha:</p>
+                    <!-- Campo Confirmar Senha -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Confirme sua senha:</p>
+                            </div>
+                            <input type="password" class="input_field" name="confirme" required placeholder="CONFIRME SUA SENHA" id="confirme" />
                         </div>
-                        <input type="password" class="input_field" name="confirme" required placeholder="CONFIRME SUA SENHA" id="confirme" />
                     </div>
-                </div>
 
-                <!-- Botão de Atualização -->
-                <div class="containerButton">
-                    <button type="submit">Atualizar Usuário</button>
-                </div>
-            </form>
+                    <!-- Botão de Atualização -->
+                    <div class="containerButton">
+                        <button type="submit">Atualizar Usuário</button>
+                    </div>
+                </form>
+            </div>
         }
     </main>
     <script src="~/js/validacoes.js"></script>

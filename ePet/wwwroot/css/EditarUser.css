@@ -1,0 +1,70 @@
+﻿.tituloPes, .alerta, .containerButton {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+    .tituloPes p {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .alerta p {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+.item_cadastro, .containerInputs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerICadastro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    padding: 15px 0px 0px 0px;
+}
+
+    .containerICadastro input {
+        width: 350px;
+        height: 30px;
+        padding: 5px 10px;
+    }
+
+.descricaoInput {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+    .descricaoInput p {
+        font-size: 25px;
+        font-weight: 400;
+        margin: 0px !important;
+    }
+
+.containerButton button {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 18px;
+    background-color: #536036;
+    color: aliceblue;
+    font-size: 25px;
+}

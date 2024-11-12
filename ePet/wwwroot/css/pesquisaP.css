@@ -71,7 +71,7 @@ tfoot {
 
 th,
 td {
-    width: 150px;
+    width: 80px;
     padding: 10px;
     border: 1px solid #fff;
     background-color: #536038;
@@ -94,7 +94,7 @@ tfoot td {
     font-weight: bold;
 }
 
-.tabela{
+.tabela {
     width: 100%;
     height: 100%;
     display: flex;
@@ -103,7 +103,7 @@ tfoot td {
     justify-content: center;
 }
 
-.exEd{
+.exEd {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -112,10 +112,10 @@ tfoot td {
     justify-content: center;
 }
 
-.exEd img{
-    width: 50px;
-    cursor: pointer;
-}
+    .exEd img {
+        width: 50px;
+        cursor: pointer;
+    }
 
 .tituloPes {
     width: 100%;
@@ -126,33 +126,33 @@ tfoot td {
     padding: 30px 0px 30px 0px;
 }
 
-.tituloPes p{
-    font-size: 45px;
-    font-weight: 700;
-}
+    .tituloPes p {
+        font-size: 45px;
+        font-weight: 700;
+    }
 
 .tabela-container {
-    overflow-x: auto; 
-    -webkit-overflow-scrolling: touch; 
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 table {
-    min-width: 600px; 
+    min-width: 600px;
 }
 
 @media (max-width: 1360px) {
     .tabela-container {
-        overflow-x: auto; 
+        overflow-x: auto;
     }
 
     table {
-        width: 100%; 
+        width: 100%;
     }
 
     th, td {
         width: 120px;
         padding: 5px;
-        font-size: 10px; 
+        font-size: 10px;
     }
 
     .exEd img {
@@ -166,16 +166,16 @@ table {
 
 @media (max-width: 1000px) {
     .tabela-container {
-        overflow-x: auto; 
+        overflow-x: auto;
     }
 
     table {
-        width: 100%; 
+        width: 100%;
     }
 
     th, td {
-        width: auto; 
-        padding: 3px; 
+        width: auto;
+        padding: 3px;
         font-size: 8px;
     }
 

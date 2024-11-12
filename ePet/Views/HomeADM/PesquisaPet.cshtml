@@ -1,9 +1,10 @@
 ﻿@model IEnumerable<ePet.Models.Animais>
 
 @{
-    ViewData["Title"] = "ListarAnimal";
+    ViewData["Title"] = "ListarAnimais";
     Layout = null;
 }
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,51 +21,63 @@
             <p>Todos os pets!</p>
         </div>
 
-        <form method="post" class="HomeADM" asp-action="PesquisaPet">
+        <form method="post" class="HomeADM" asp-action="ListarAnimais">
             <div class="tabela">
             <table>
                 <thead>
                     <tr>
-                        <th scope="col">NOME</th>
-                        <th scope="col">IDADE</th>
-                        <th scope="col">COMPORTA.</th>
-                        <th scope="col">TIPO ANIMAL</th>
-                        <th scope="col">CASTRAÇÃO</th>
-                        <th scope="col">CÓD. ANIMAL</th>
-                        <th scope="col">RACA</th>
-                        <th scope="col">PORTE</th>
-                        <th scope="col">PESO</th>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">SEXO</th>
-                        <th scope="col">#</th>
+                        <th >Nome</th>
+                        <th >Comporta</th>
+                        <th >especie</th>
+                        <th >Idade</th>
+                        <th >Castração</th>
+                        <th>Sexo</th>
+                        <th >Status</th>
+                        <th >Peso</th>
+                        <th >Raça</th>
+                        <th >Porte</th>
+                        <th>Código</th>
+                        <th>#</th>
                     </tr>
                 </thead>
                 <tbody>
+
                         @if (Model != null && Model.Any())
                         {
                             foreach (var item in Model)
                             {
                                 <tr>
                                     <td>@Html.DisplayFor(modelItem => item.Nome)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Idade)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Comportamento)</td>
                                     <td>@Html.DisplayFor(modelItem => item.T_Animal)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Idade)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Castracao)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.CodAnimal)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Sexo)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Peso)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Raca)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Porte)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Peso)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Status)</td>
-                                    <td>@Html.DisplayFor(modelItem => item.Sexo)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.CodAnimal)</td>
                                 </tr>
                             }
                         }
                         else
                         {
                             <tr>
-                                <td colspan="12">Nenhum usuário encontrado.</td>
+                                <td colspan="12">Nenhum  encontrado.</td>
                             </tr>
                         }
+
+
+@*                 <td>@animais.CodAnimal</td>
+                <td>@animais.Nome</td>
+                <td>@animais.Autoridade_Responsavel</td>
+                <td>@animais.Status</td>
+                <td>@animais.T_Animal</td>
+                <td class="exEd">
+                    <img src="~/img/image 62.png" />
+                    <img src="~/img/image 63.png" />
+                </td> *@
 
                 </tbody>
             </table>

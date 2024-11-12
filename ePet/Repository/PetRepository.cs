@@ -1,9 +1,10 @@
 ﻿using ePet.Conexões;
 using ePet.Models;
 using MySql.Data.MySqlClient;
+using System.Collections.Generic;
 
 namespace ePet.Repository
-    
+
 {
     public class PetRepository
     {
@@ -13,6 +14,23 @@ namespace ePet.Repository
         {
             this.mySqlConnection = ConectarMySql.getConexao();
         }
+
+        public static string ConexaoAnimal(MySqlConnection mySqlConnection)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                Console.WriteLine("Conectado com sucesso!");
+                mySqlConnection.Close();
+            }
+            catch (Exception ex)
+            {
+                return "Erro: " + ex.Message;
+                Console.WriteLine(ex.StackTrace);
+            }
+            return "Inserido com sucesso!";
+        }
+
 
         public string CadastrarAnimal(Animais animais)
         {
@@ -24,6 +42,7 @@ namespace ePet.Repository
                 // Adicionando os parâmetros na ordem correta
                 qry.Parameters.AddWithValue("@Idade", animais.Idade);
                 qry.Parameters.AddWithValue("@Comportamento", animais.Comportamento);
+
                 qry.Parameters.AddWithValue("@Especie", animais.T_Animal);
                 qry.Parameters.AddWithValue("@Nome", animais.Nome);
                 qry.Parameters.AddWithValue("@Castracao", animais.Castracao);
@@ -96,37 +115,40 @@ namespace ePet.Repository
             }
             return resultado;
         }
-        public static List<Animais> ListarAnimal(MySqlConnection mySqlConnection)
-        {
 
+
+        public List<Animais> ListarAnimais()
+        {
             List<Animais> lista = new List<Animais>();
             try
             {
-                
                 mySqlConnection.Open();
-                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal",mySqlConnection);
+                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal", mySqlConnection);
                 MySqlDataReader ler = qry.ExecuteReader();
                 while (ler.Read())
                 {
-                    Animais linha = new Animais(
-                        ler["Idade"].ToString(),
-                        ler["comportamento"].ToString(),
-                        ler["especie"].ToString(),
-                        ler["nome"].ToString(),
-                        ler["codigo_animal"].ToString(),
-                        ler["castracao"].ToString(),
-                        ler["status "].ToString(),
-                        ler["peso"].ToString(),
-                        ler["raca"].ToString(),
-                        ler["porte"].ToString(),
-                        ler["sexo"].ToString());
-                    lista.Add(linha);
+                    Animais animais = new Animais(
+                    ler["Idade"].ToString(),
+                    ler["comportamento"].ToString(),
+                    ler["especie"].ToString(),
+                    ler["nome"].ToString(),
+                    ler["cod_animal"].ToString(),
+                    ler["castracao"].ToString(),
+                    ler["status"].ToString(),
+                    ler["peso"].ToString(),
+                    ler["raca"].ToString(),
+                    ler["porte"].ToString(),
+                    ler["sexo"].ToString());
+                    lista.Add(animais);
                 }
-                mySqlConnection.Close();
             }
             catch (Exception ex)
             {
                 return null;
+            }
+            finally
+            {
+                mySqlConnection.Close();
             }
             return lista;
         }

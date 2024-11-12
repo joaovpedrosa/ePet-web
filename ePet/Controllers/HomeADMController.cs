@@ -99,17 +99,13 @@ namespace ePet.Controllers
                 return View("PesquisaUsuario"); // Retorna à página de pesquisa de usuários
             }
         }
-
         public IActionResult PesquisaPet()
         {
-            if (ViewBag.animal == null)
-            {
-                ViewBag.animal = new Animais(null, null, null, null, null, null, null, null, null, null, null);
-            }
-            return View();
+            PetRepository u = new PetRepository();
+            List<Animais> lista = u.ListarAnimais();
+
+            return View(lista);
         }
-
-
 
         public IActionResult Alterar()
         {

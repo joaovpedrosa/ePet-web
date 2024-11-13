@@ -24,8 +24,20 @@ public class Animais
 
     public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
 
+    public string ImageBase64
+    {
+        get
+        {
+            if (arrayBytes != null && arrayBytes.Length > 0)
+            {
+                return Convert.ToBase64String(arrayBytes); // Converte o byte[] para string Base64
+            }
+            return null; // Retorna null se não houver imagem
+        }
+    }
 
-    public Animais(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo)
+
+    public Animais(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo, byte[] arrayBytes)
     {
         this.codigo_animal = codigo_animal;
         this.t_animal = t_animal;
@@ -38,6 +50,9 @@ public class Animais
         this.porte = porte;
         this.comportamento = comportamento;
         this.Sexo = sexo;
+        this.ArrayBytes = arrayBytes;
+        
+        
 
 
 

@@ -9,7 +9,7 @@ namespace ePet.Controllers
     public class CadastroPetController : Controller
     {
         [HttpPost]
-        public IActionResult CadastroAnimal(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo)
+        public IActionResult CadastroAnimal(string codigo_animal, string t_animal, string status, string nome, string idade, string castracao, string raca, string porte, string peso, string comportamento, string sexo, byte[] arraybyte)
         {
             try
             {
@@ -29,7 +29,7 @@ namespace ePet.Controllers
                         byte[] imagem = memoryStream.ToArray();
 
                         //crio um jogo que sera adicionado com os campos
-                        Animais animal = new Animais(codigo_animal, t_animal, status, nome, idade, castracao, raca, porte, peso, comportamento, sexo);
+                        Animais animal = new Animais(codigo_animal, t_animal, status, nome, idade, castracao, raca, porte, peso, comportamento, sexo, arraybyte);
                         animal.ArrayBytes = imagem;
                         PetRepository pet = new PetRepository();
                         pet.CadastrarAnimal(animal);

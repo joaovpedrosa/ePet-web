@@ -42,7 +42,6 @@ namespace ePet.Repository
                 // Adicionando os parâmetros na ordem correta
                 qry.Parameters.AddWithValue("@Idade", animais.Idade);
                 qry.Parameters.AddWithValue("@Comportamento", animais.Comportamento);
-
                 qry.Parameters.AddWithValue("@Especie", animais.T_Animal);
                 qry.Parameters.AddWithValue("@Nome", animais.Nome);
                 qry.Parameters.AddWithValue("@Castracao", animais.Castracao);
@@ -92,18 +91,18 @@ namespace ePet.Repository
                 MySqlDataReader leitor = qry.ExecuteReader();
                 while (leitor.Read())
                 {
-                    resultado = new Animais(
-                        leitor["Idade"].ToString(),
-                        leitor["comportamento"].ToString(),
-                        leitor["especie"].ToString(),
-                        leitor["nome"].ToString(),
-                        leitor["codigo_animal"].ToString(),
-                        leitor["castracao"].ToString(),
-                        leitor["status "].ToString(),
-                        leitor["peso"].ToString(),
-                        leitor["raca"].ToString(),
-                        leitor["porte"].ToString(),
-                        leitor["sexo"].ToString());
+                    //resultado = new Animais(
+                    //    leitor["Idade"].ToString(),
+                    //    leitor["comportamento"].ToString(),
+                    //    leitor["especie"].ToString(),
+                    //    leitor["nome"].ToString(),
+                    //    leitor["codigo_animal"].ToString(),
+                    //    leitor["castracao"].ToString(),
+                    //    leitor["status "].ToString(),
+                    //    leitor["peso"].ToString(),
+                    //    leitor["raca"].ToString(),
+                    //    leitor["porte"].ToString(),
+                    //    leitor["sexo"].ToString());
 
                 }
                 mySqlConnection.Close();
@@ -127,6 +126,7 @@ namespace ePet.Repository
                 MySqlDataReader ler = qry.ExecuteReader();
                 while (ler.Read())
                 {
+                    byte[] imagemBytes = ler["foto"] != DBNull.Value ? (byte[])ler["foto"] : null;
                     Animais animais = new Animais(
                     ler["Idade"].ToString(),
                     ler["comportamento"].ToString(),
@@ -138,7 +138,8 @@ namespace ePet.Repository
                     ler["peso"].ToString(),
                     ler["raca"].ToString(),
                     ler["porte"].ToString(),
-                    ler["sexo"].ToString());
+                    ler["sexo"].ToString(),
+                    imagemBytes);
                     lista.Add(animais);
                 }
             }

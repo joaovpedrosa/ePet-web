@@ -23,24 +23,24 @@
 
         <form method="post" class="HomeADM" asp-action="ListarAnimais">
             <div class="tabela">
-            <table>
-                <thead>
-                    <tr>
-                        <th >Nome</th>
-                        <th >Comporta</th>
-                        <th >especie</th>
-                        <th >Idade</th>
-                        <th >Castração</th>
-                        <th>Sexo</th>
-                        <th >Status</th>
-                        <th >Peso</th>
-                        <th >Raça</th>
-                        <th >Porte</th>
-                        <th>Código</th>
-                        <th>#</th>
-                    </tr>
-                </thead>
-                <tbody>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Comportamento</th>
+                            <th>Espécie</th>
+                            <th>Idade</th>
+                            <th>Castração</th>
+                            <th>Sexo</th>
+                            <th>Status</th>
+                            <th>Peso</th>
+                            <th>Raça</th>
+                            <th>Porte</th>
+                            <th>Código</th>
+                            <th>Imagem</th> <!-- Nova coluna para imagem -->
+                        </tr>
+                    </thead>
+                    <tbody>
 
                         @if (Model != null && Model.Any())
                         {
@@ -58,29 +58,30 @@
                                     <td>@Html.DisplayFor(modelItem => item.Raca)</td>
                                     <td>@Html.DisplayFor(modelItem => item.Porte)</td>
                                     <td>@Html.DisplayFor(modelItem => item.CodAnimal)</td>
+
+                                    <!-- Exibe a imagem -->
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(item.ImageBase64))
+                                        {
+                                            <img src="data:image/jpeg;base64,@item.ImageBase64" alt="Imagem do animal" width="50" height="50" />
+                                        }
+                                        else
+                                        {
+                                            <span>Sem imagem</span>
+                                        }
+                                    </td>
                                 </tr>
                             }
                         }
                         else
                         {
                             <tr>
-                                <td colspan="12">Nenhum  encontrado.</td>
+                                <td colspan="12">Nenhum animal encontrado.</td>
                             </tr>
                         }
 
-
-@*                 <td>@animais.CodAnimal</td>
-                <td>@animais.Nome</td>
-                <td>@animais.Autoridade_Responsavel</td>
-                <td>@animais.Status</td>
-                <td>@animais.T_Animal</td>
-                <td class="exEd">
-                    <img src="~/img/image 62.png" />
-                    <img src="~/img/image 63.png" />
-                </td> *@
-
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
             </div>
         </form>
     </main>

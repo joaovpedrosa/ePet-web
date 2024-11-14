@@ -52,9 +52,7 @@ public class Animais
         this.Sexo = sexo;
         this.ArrayBytes = arrayBytes;
         
-        
-
-
+       
 
     }
 

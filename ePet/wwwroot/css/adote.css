@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
     background-color: #536038;
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .texto , .textoMaior {
@@ -77,7 +77,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 60px 50px;
+    padding: 60px 0px;
 }
 
 /* Filtro de pesquisa e opções */
@@ -186,8 +186,8 @@
 }
 
     .containerPerfil img {
-        width: 100%; /* Faz a imagem preencher a largura do container */
-        height: 400px; /* Ajusta a altura proporcionalmente */
+        width: 400px; 
+        height: 400px; 
         border-radius: 20px 20px 135px 135px; /* Mantém a borda arredondada */
         object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorção */
     }

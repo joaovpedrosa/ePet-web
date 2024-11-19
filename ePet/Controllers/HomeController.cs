@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using Newtonsoft.Json;
 using ePet.Repository;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace ePet.Controllers
@@ -24,7 +25,10 @@ namespace ePet.Controllers
         //linkar na nav-bar o adote
         public ActionResult Adote()
         {
-            return View();
+            PetRepository u = new PetRepository();
+            List<Animais> lista = u.ListarAnimais();
+
+            return View(lista);
         }
 
 
@@ -40,7 +44,18 @@ namespace ePet.Controllers
             return View();
         }
 
-      
+        public IActionResult PesquisaPet()
+        {
+            PetRepository u = new PetRepository();
+            List<Animais> lista = u.ListarAnimais();
+
+            return View(lista);
+        }
+
+        public IActionResult Alterar()
+        {
+            return View();
+        }
 
         //linkar na nav-bar o cadastro
         public ActionResult Cadastro()

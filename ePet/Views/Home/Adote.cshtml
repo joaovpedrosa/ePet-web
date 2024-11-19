@@ -1,5 +1,8 @@
-﻿@{
-    TempData["NavBar"] = "user";
+﻿@model IEnumerable<ePet.Models.Animais>
+
+@{
+    ViewData["Title"] = "ListarAnimais";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -7,14 +10,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="~/css/adote.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/adote.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
 
     <title>ePet - Início</title>
 </head>
 <body>
     <main>
+        <!-- Container do Título -->
         <div class="containerTitulo">
             <div class="titulo">
                 <p>ADOTE UM AMIGO</p>
@@ -24,6 +28,7 @@
             </div>
         </div>
 
+        <!-- Container de Texto -->
         <div class="containerTexto">
             <div class="texto">
                 <p>A expectativa de vida de um cão ou gato é de aproximadamente 15 anos.</p>
@@ -34,7 +39,9 @@
             </div>
         </div>
 
+        <!-- Container do Corpo da Página -->
         <div class="containerCorpoPag">
+            <!-- Container de Filtro -->
             <div class="containerFiltro">
                 <div class="inputPesquisar">
                     <input type="text" placeholder="Pesquise aqui..." />
@@ -70,151 +77,48 @@
                 </div>
             </div>
 
+            <!-- Container de Pets -->
             <div class="containerPets">
                 <div class="perfilLinha">
-                <div class="containerPerfil">
-                    <div class="fotoPet">
-                        <img src="~/img/gatolaranja1.PNG" />
-                    </div>
-                    <div class="containerDescricao">
-                        <div class="infoPrincipal">
-                            <div class="nomePet">
-                                <p>Annie</p>
-                                <div class="linhaLaranjaNome"></div>
+                    @foreach (var item in Model)
+                    {
+                        <div class="containerPerfil">
+                            <div class="fotoPet">
+                                @if (!string.IsNullOrEmpty(item.ImageBase64))
+                                {
+                                    <img src="data:image/jpeg;base64,@item.ImageBase64" alt="Imagem do animal" />
+                                }
+                                else
+                                {
+                                    <img src="~/img/placeholder.png" alt="Imagem padrão" />
+                                }
                             </div>
-                            <img src="~/img/image 17.png" />
-                        </div>
-                        <div class="descricao">
-                            <p>Bairro. Rua. - Campinas</p>
-                        </div>
-                        <div class="buttonAdote">
-                                <a asp-controller="Home" asp-action="TelaPet" method="post">
-                                    <button type="submit" class="btn btn-primary">ADOTE</button>
-                                </a>
-                            </div>
-                    </div>
-                </div>
-
-                <div class="containerPerfil">
-                    <div class="fotoPet">
-                        <img src="~/img/gatocon.jpg" />
-                    </div>
-                    <div class="containerDescricao">
-                        <div class="infoPrincipal">
-                            <div class="nomePet">
-                                <p>Gabbie</p>
-                                <div class="linhaLaranjaNome"></div>
-                            </div>
-                            <img src="~/img/image 17.png" />
-                        </div>
-                        <div class="descricao">
-                            <p>Bairro. Rua - Campinas</p>
-                        </div>
-                        <div class="buttonAdote">
-                            <button>ADOTE</button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="containerPerfil">
-                    <div class="fotoPet">
-                        <img src="~/img/gatocalmo.jpeg" />
-                    </div>
-                    <div class="containerDescricao">
-                        <div class="infoPrincipal">
-                            <div class="nomePet">
-                                <p>Letty</p>
-                                <div class="linhaLaranjaNome"></div>
-                            </div>
-                            <img src="~/img/image 17.png" />
-                        </div>
-                        <div class="descricao">
-                            <p>Bairro. Rua. - Campinas</p>
-                        </div>
-                        <div class="buttonAdote">
-                            <button>ADOTE</button>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="perfilLinha">
-                    <div class="containerPerfil">
-                        <div class="fotoPet">
-                            <img src="~/img/cachorrolegal.jpeg" />
-                        </div>
-                        <div class="containerDescricao">
-                            <div class="infoPrincipal">
-                                <div class="nomePet">
-                                    <p>Gabriel Fabri</p>
-                                    <div class="linhaLaranjaNome"></div>
+                            <div class="containerDescricao">
+                                <div class="infoPrincipal">
+                                    <div class="nomePet">
+                                        <p>@item.Nome</p>
+                                        <div class="linhaLaranjaNome"></div>
+                                    </div>
+                                    <img src="~/img/image 17.png" alt="Ícone decorativo" />
                                 </div>
-                                <img src="~/img/image 17.png" />
-                            </div>
-                            <div class="descricao">
-                                <p>Morador de Hortolandia</p>
-                            </div>
-                            <div class="buttonAdote">
-                                <button>ADOTE</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="containerPerfil">
-                        <div class="fotoPet">
-                            <img src="~/img/cachorrolegal.jpeg">
-                        </div>
-                        <div class="containerDescricao">
-                            <div class="infoPrincipal">
-                                <div class="nomePet">
-                                    <p>João Vitor</p>
-                                    <div class="linhaLaranjaNome"></div>
+                                <div class="descricao">
+                                    <p>@item.Comportamento</p>
                                 </div>
-                                <img src="~/img/image 17.png" />
-                            </div>
-                            <div class="descricao">
-                                <p>Moradora de algum lugar</p>
-                            </div>
-                            <div class="buttonAdote">
-                                <button>ADOTE</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="containerPerfil">
-                        <div class="fotoPet">
-                            <img src="~/img/gato1.jpg" />
-                        </div>
-                        <div class="containerDescricao">
-                            <div class="infoPrincipal">
-                                <div class="nomePet">
-                                    <p>Gabrielli Victória</p>
-                                    <div class="linhaLaranjaNome"></div>
+                                <div class="buttonAdote">
+                                    <a asp-controller="Home" asp-action="TelaPet" asp-route-id="@item.CodAnimal">
+                                        <button type="button" class="btn btn-primary">ADOTE</button>
+                                    </a>
                                 </div>
-                                <img src="~/img/image 17.png" />
-                            </div>
-                            <div class="descricao">
-                                <p>Moradora 13 de maio - Campinas</p>
-                            </div>
-                            <div class="buttonAdote">
-                                <button>ADOTE</button>
                             </div>
                         </div>
-                    </div>
+                    }
                 </div>
+
             </div>
         </div>
-    </div>
-
-
-
-
-
-        </div>
-        
     </main>
 
     <script src="~/js/geral.js"></script>
     <script src="~/js/menu-hamburguer.js"></script>
-
 </body>
 </html>

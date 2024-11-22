@@ -7,7 +7,7 @@ namespace ePet.Models
     {
         protected string descricao, cidade, bairro, rua, numero, complemento;
         static MySqlConnection con = ConectarMySql.getConexao();
-        private byte[] arrayBytes;
+     
 
       
         public string Descricao { get => descricao; set => descricao = value; }
@@ -16,10 +16,10 @@ namespace ePet.Models
         public string Rua { get => rua; set => rua = value; }
         public string Numero { get => numero; set => numero = value; }
         public string Complemento { get => complemento; set => complemento = value; }
-        public byte[] ArrayBytes { get => arrayBytes; set => arrayBytes = value; }
+    
 
 
-        public Denunciar(string descricao, string cidade, string bairro, string rua, string numero, string complemento, byte[] arrayBytes)
+        public Denunciar(string descricao, string cidade, string bairro, string rua, string numero, string complemento)
         {
             this.descricao = descricao;
             this.cidade = cidade;
@@ -27,21 +27,10 @@ namespace ePet.Models
             this.rua = rua;
             this.numero = numero;
             this.complemento = complemento;
-            this.ArrayBytes = arrayBytes;
+          
         }
 
 
-        public string ImageBase64
-        {
-            get
-            {
-                if (arrayBytes != null && arrayBytes.Length > 0)
-                {
-                    return Convert.ToBase64String(arrayBytes); // Converte o byte[] para string Base64
-                }
-                return null; // Retorna null se não houver imagem
-            }
-        }
 
      
 

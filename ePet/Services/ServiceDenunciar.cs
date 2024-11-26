@@ -10,10 +10,10 @@ namespace ePet.Services
     {
         private DenunciarRepository denunciarRepository = new DenunciarRepository();
 
-        [HttpGet("Denunciar")]
+        [HttpPost("Denunciar")]
         public IActionResult Denunciar([FromBody] Denunciar d)
         {
-            return Ok(denunciarRepository.DenunciarAbandono(d));
+            return Ok(new { mensagem = denunciarRepository.DenunciarAbandono(d) });
         }
     }
 }

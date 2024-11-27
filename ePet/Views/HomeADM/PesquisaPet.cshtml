@@ -70,6 +70,16 @@
                                             <span>Sem imagem</span>
                                         }
                                     </td>
+                                    <td class="exEd">
+                                        <a href="@Url.Action("", "HomeADM", new { cpf = item.CodAnimal })">
+                                            <img src="~/img/image 63.png" alt="Editar" />
+                                        </a>
+
+                                        <form method="post" asp-action="DeletarAnimal" asp-route-codAnimal="@item.CodAnimal" onsubmit="return confirm('Tem certeza que deseja excluir este Animal?');">
+                                            <button type="submit" style="border: none; background: transparent;">
+                                                <img src="~/img/image 62.png" alt="Excluir" />
+                                            </button>
+                                        </form>
                                 </tr>
                             }
                         }

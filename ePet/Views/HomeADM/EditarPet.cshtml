@@ -1,0 +1,142 @@
+﻿@model ePet.Models.Animais
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/editarUser.css" asp-append-version="true" />
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon">
+    <title>Editar Usuário</title>
+</head>
+
+<body>
+    <main>
+        <div class="tituloPes">
+            <p>Editar Animais</p>
+        </div>
+
+        @if (Model == null)
+        {
+            <div class="alerta">
+                <p>Usuário não encontrado.</p>
+            </div>
+        }
+        else
+        {
+            <div class="containerInputs">
+                <form method="post" action="@Url.Action("", "HomeADM")">
+                    <!-- Campo Nome -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Nome:</p>
+                            </div>
+                            <input type="text" class="input_field" name="nome" value="@Model?.Nome" required placeholder="NOME" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Telefone -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Telefone:</p>
+                            </div>
+                            <input type="text" class="input_field" name="idade" value="@Model?.Idade" required placeholder="Idade" />
+                        </div>
+                    </div>
+
+                    <!-- Campo CPF -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>CPF:</p>
+                            </div>
+                            <input type="text" class="input_field" name="especie" value="@Model?.T_Animal" required placeholder="Especie" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Email -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Email:</p>
+                            </div>
+                            <input type="email" class="input_field" name="comportamento" value="@Model?.Comportamento" required placeholder="Comportamento" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Data de Nascimento -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Castração:</p>
+                            </div>
+                            <input type="date" class="input_field" name="castracao" value="@Model?.Castracao" required />
+                        </div>
+                    </div>
+
+                    <!-- Campo CEP -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Status:</p>
+                            </div>
+                            <input type="text" class="input_field" name="status" value="@Model?.Status" required placeholder="Status" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Cidade -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Peso:</p>
+                            </div>
+                            <input type="text" class="input_field" name="cidade" value="@Model?.Peso" required placeholder="Peso" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Bairro -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Raça:</p>
+                            </div>
+                            <input type="text" class="input_field" name="raca" value="@Model?.Raca" required placeholder="Raca" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Rua -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Porte:</p>
+                            </div>
+                            <input type="text" class="input_field" name="porte" value="@Model?.Porte" required placeholder="Porte" />
+                        </div>
+                    </div>
+
+                    <!-- Campo Complemento -->
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Sexo:</p>
+                            </div>
+                            <input type="text" class="input_field" name="sexo" value="@Model?.Sexo" required placeholder="Sexo" />
+                        </div>
+                    </div>
+                    <!-- Botão de Atualização -->
+                    <div class="containerButton">
+                        <button type="submit">Atualizar Animal</button>
+                    </div>
+                </form>
+            </div>
+        }
+    </main>
+    <script src="~/js/validacoes.js"></script>
+</body>
+
+</html>

@@ -134,19 +134,35 @@ namespace ePet.Controllers
         }
 
         [HttpPost]
-        public IActionResult DeletarAnimal(string cod_animal)
+        public IActionResult DeletarAnimal(string codAnimal)
         {
-            Animais animal = new Animais(cod_animal);
-            string msg = petRepository.DeletarAnimal(cod_animal);
+            Animais animal = new Animais(codAnimal);
+            string msg = petRepository.DeletarAnimal(codAnimal);
             if (msg == "Excluido com sucesso!")
             {
-                return RedirectToAction("HomeADM", "Home");
+                return RedirectToAction("PesquisaPet");
             }
             else
             {
-                return RedirectToAction("Deletar");
+                return RedirectToAction("PesquisaPet");
             }
         }
+        //[HttpGet]
+        //public IActionResult EditarPet(string codAnimal)
+        //{
+        //    if (string.IsNullOrEmpty(codAnimal))
+        //    {
+        //        return BadRequest("Codigo do animal não fornecido.");
+        //    }
+
+        //    var animal = PetRepository.
+        //    if (animal == null)
+        //    {
+        //        return NotFound(); // Retorna 404 caso não encontre o Animal
+        //    }
+
+        //    return View(animal);
+        //}
 
         [HttpPost]
         public IActionResult BuscarUsuario(string cod_usuario)

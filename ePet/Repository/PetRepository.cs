@@ -69,7 +69,7 @@ namespace ePet.Repository
             try
             {
                 mySqlConnection.Open();
-                MySqlCommand qry = new MySqlCommand("DELETE FROM animal WHERE Codigo_Animal = @Codigo_Animal", mySqlConnection);
+                MySqlCommand qry = new MySqlCommand("DELETE FROM animal WHERE cod_animal = @Codigo_Animal", mySqlConnection);
                 qry.Parameters.AddWithValue("@Codigo_Animal", codigo_animal);
                 qry.ExecuteNonQuery();
                 mySqlConnection.Close();
@@ -86,23 +86,25 @@ namespace ePet.Repository
             try
             {
                 mySqlConnection.Open();
-                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal WHERE Codigo_Animal = @Codigo_Animal", mySqlConnection);
+                MySqlCommand qry = new MySqlCommand("SELECT * FROM animal WHERE cod_animal = @Codigo_Animal", mySqlConnection);
                 qry.Parameters.AddWithValue("@Codigo_Animal", codigo_animal);
                 MySqlDataReader leitor = qry.ExecuteReader();
                 while (leitor.Read())
                 {
-                    //resultado = new Animais(
-                    //    leitor["Idade"].ToString(),
-                    //    leitor["comportamento"].ToString(),
-                    //    leitor["especie"].ToString(),
-                    //    leitor["nome"].ToString(),
-                    //    leitor["codigo_animal"].ToString(),
-                    //    leitor["castracao"].ToString(),
-                    //    leitor["status "].ToString(),
-                    //    leitor["peso"].ToString(),
-                    //    leitor["raca"].ToString(),
-                    //    leitor["porte"].ToString(),
-                    //    leitor["sexo"].ToString());
+                    byte[] imagemBytes = leitor["foto"] != DBNull.Value ? (byte[])leitor["foto"] : null;
+                    resultado = new Animais(
+                    leitor["cod_animal"].ToString(),
+                    leitor["comportamento"].ToString(),
+                    leitor["especie"].ToString(),
+                    leitor["nome"].ToString(),
+                    leitor["Idade"].ToString(),
+                    leitor["castracao"].ToString(),
+                    leitor["status"].ToString(),
+                    leitor["peso"].ToString(),
+                    leitor["raca"].ToString(),
+                    leitor["porte"].ToString(),
+                    leitor["sexo"].ToString(),
+                    imagemBytes);
 
                 }
                 mySqlConnection.Close();
@@ -128,11 +130,11 @@ namespace ePet.Repository
                 {
                     byte[] imagemBytes = ler["foto"] != DBNull.Value ? (byte[])ler["foto"] : null;
                     Animais animais = new Animais(
-                    ler["Idade"].ToString(),
+                    ler["cod_animal"].ToString(),
                     ler["comportamento"].ToString(),
                     ler["especie"].ToString(),
                     ler["nome"].ToString(),
-                    ler["cod_animal"].ToString(),
+                    ler["Idade"].ToString(),
                     ler["castracao"].ToString(),
                     ler["status"].ToString(),
                     ler["peso"].ToString(),

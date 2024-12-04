@@ -80,6 +80,60 @@ namespace ePet.Repository
             }
             return "Excluido com sucesso!";
         }
+        public Animais GetPet(string codigoAnimal)
+        {
+            Animais animal = null;
+
+            try
+            {
+                mySqlConnection.Open();
+                using (var query = new MySqlCommand("SELECT * FROM animal WHERE cod_animal = @Codigo_Animal", mySqlConnection))
+                {
+                    query.Parameters.AddWithValue("@Codigo_Animal", codigoAnimal);
+
+                    using (var reader = query.ExecuteReader())
+                    {
+                        if (!reader.HasRows)
+                        {
+                            Console.WriteLine("Nenhum registro encontrado para o código: " + codigoAnimal);
+                            return null; // Retorna se nenhum dado for encontrado
+                        }
+
+                        while (reader.Read())
+                        {
+                            // Log temporário para depuração
+                            Console.WriteLine($"Dados recebidos para o código: {codigoAnimal}");
+
+                            animal = new Animais(
+                                codigo_animal: reader["cod_animal"].ToString(),
+                                t_animal: reader["Especie"].ToString(),
+                                status: reader["status"].ToString(),
+                                nome: reader["Nome"].ToString(),
+                                idade: reader["idade"].ToString(),
+                                castracao: reader["Castracao"].ToString(),
+                                raca: reader["Raca"].ToString(),
+                                porte: reader["Porte"].ToString(),
+                                peso: reader["Peso"].ToString(),
+                                comportamento: reader["comportamento"].ToString(),
+                                sexo: reader["Sexo"].ToString(),
+                                arrayBytes: reader["foto"] != DBNull.Value ? (byte[])reader["Foto"] : null
+                            );
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Erro no método GetPet: " + ex.Message);
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
+
+            return animal;
+        }
+
         public Animais BuscarAnimal(string codigo_animal)
         {
             Animais resultado = null;

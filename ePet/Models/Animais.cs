@@ -51,8 +51,8 @@ public class Animais
         this.comportamento = comportamento;
         this.Sexo = sexo;
         this.ArrayBytes = arrayBytes;
-        
-       
+
+
 
     }
 
@@ -62,6 +62,8 @@ public class Animais
         this.codigo_animal = codigo_animal;
     }
 
-
+    public Animais()
+    {
+    }
 }
 

@@ -105,9 +105,10 @@
                                     <p>@item.Comportamento</p>
                                 </div>
                                 <div class="buttonAdote">
-                                    <a asp-controller="Home" asp-action="TelaPet" asp-route-id="@item.CodAnimal">
-                                        <button type="button" class="btn btn-primary">ADOTE</button>
+                                    <a asp-controller="Home" asp-action="TelaPet" asp-route-codigo_animal="@item.CodAnimal">
+                                        <button type="button" class="btn btn-primary">VER MAIS</button>
                                     </a>
+
                                 </div>
                             </div>
                         </div>

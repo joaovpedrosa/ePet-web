@@ -10,6 +10,7 @@ namespace ePet.Controllers
 {
     public class HomeController : Controller
     {
+        private PetRepository animaR = new PetRepository();
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -77,9 +78,23 @@ namespace ePet.Controllers
         }
 
         //linkar tela do perfil do pet com a tela adoção
-        public ActionResult TelaPet()
+        public ActionResult TelaPet(string codigo_animal)
         {
-            return View();
+            if (string.IsNullOrEmpty(codigo_animal))
+            {
+                TempData["MensagemErro"] = "Código do animal não fornecido.";
+                return RedirectToAction("Adote"); // Redireciona para a lista se o código for inválido
+            }
+
+            var animal = animaR.GetPet(codigo_animal);
+
+            if (animal == null)
+            {
+                TempData["MensagemErro"] = "Animal não encontrado.";
+                return RedirectToAction("Adote"); // Redireciona para a lista se o animal não for encontrado
+            }
+
+            return View(animal); // Retorna o modelo do animal para a view
         }
 
         //linkar tela apadrinhamento

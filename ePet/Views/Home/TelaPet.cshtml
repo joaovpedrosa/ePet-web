@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@model ePet.Models.Animais
+
+@{
+    ViewData["Title"] = "Perfil do Pet";
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -14,28 +22,61 @@
         <div class="containerCorpoPagPet">
             <div class="containerInfoPet">
                 <div class="nomePet">
-                    <p>Letty</p>
+                    <p>
+                        @if (Model != null)
+                        {
+                        <p>Nome: @Model.Nome</p>
+                        }
+                        else
+                        {
+                        <p>Animal não encontrado.</p>
+                        }
+                    </p>
                     <div class="linhaMarrom"></div>
                 </div>
                 <div class="containerInfoPrincipais">
                     <div class="infoPrincipais">
-                        <p>Idade: 3 anos</p>
-                        <p>Porte: Pequeno</p>
-                        <p>Gênero: Femea</p>
+                        @if (Model != null)
+                        {
+                            <p>Idade: @Model.Idade</p>
+                            <p>Porte @Model.Porte</p>
+                            <p>Gênero: @Model.Sexo</p>
+                        }
+                        else
+                        {
+                            <p>Animal não encontrado.</p>
+                        }
+
                     </div>
                 </div>
                 <div class="descricao">
-                    <p>Letty é uma gatinha sociável mas estressada as vezes! Ela foi resgatada na R. Francisco Glicerio, e está pronta para ser recebida em um lar de muito amor e carinho!</p>
+                    <p>
+                        @if (Model != null)
+                        {
+                        <p>Comportamento: @Model.Comportamento</p>
+                        <p>Castração: @Model.Castracao</p>
+                        }
+                        else
+                        {
+                        <p>Animal não encontrado.</p>
+                        }</p>
                 </div>
                 <div class="containerButton">
-                <a asp-controller="Adote" asp-action="Adocao" method="post">
-                    <button>Quero Adotar</button>
+                    <a asp-controller="Adote" asp-action="Adocao" method="post">
+                        <button>Quero Adotar</button>
                     </a>
                 </div>
             </div>
             <div class="containerFotoPet">
                 <div class="fotoPet">
-                    <img src="~/img/gatocalmo.jpeg" alt="Foto do Pet" />
+                    @if (!string.IsNullOrEmpty(Model.ImageBase64))
+                    {
+                        <img src="data:image/jpeg;base64,@Model.ImageBase64" alt="Imagem do animal" />
+                    }
+                    else
+                    {
+                        <img src="~/img/placeholder.png" alt="Imagem padrão" />
+                    }
                 </div>
             </div>
         </div>

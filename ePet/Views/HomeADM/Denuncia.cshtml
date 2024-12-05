@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ePet.Models.Denunciar>
+
+@{
+    ViewData["Title"] = "ListarDenuncia";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/denuncia.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="all">
+        <div>
+            <h2 id="title">Todas as denúncias por abandono</h2>
+        </div>
+        <br>
+        <div id="all-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">RELATO</th>
+                        <th scope="col">CIDADE</th>
+                        <th scope="col">BAIRRO</th>
+                        <th scope="col">RUA</th>
+                        <th scope="col">COMPLEMENTO</th>
+                        <th scope="col">CÓDIGO</th>
+                        <th scope="col">#</th> <!-- A coluna onde os checkboxes ou outras interações podem aparecer -->
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Descricao)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Cidade)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Bairro)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Rua)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Complemento)</td>
+                                <td>@Html.DisplayFor(modelItem => item.CodigoDenun)</td>
+                                <td>
+                                    <form method="post" asp-action="DeletarDenuncia" asp-route-codigoDenun="@item.CodigoDenun" onsubmit="return confirm('Tem certeza que deseja excluir esta denuncia?');">
+                                        <button type="submit" style="border: none; background: transparent;">
+                                            <img src="~/img/image 62.png" alt="Excluir" />
+                                        </button>
+                                    </form>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6">Nenhuma denúncia registrada.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

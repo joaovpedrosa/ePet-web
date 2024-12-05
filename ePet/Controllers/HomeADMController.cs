@@ -13,6 +13,7 @@ namespace ePet.Controllers
         //{
         //    return View();
         //}
+        private readonly DenunciarRepository denunciaRepositorio = new DenunciarRepository();
         private readonly PetRepository petRepository = new PetRepository();
         private readonly UserRepository _userRepository;
 
@@ -62,9 +63,18 @@ namespace ePet.Controllers
                 return View(usuario);
             }
         }
-    
 
-    public IActionResult Deletar()
+        public IActionResult Denuncia()
+        {
+            DenunciarRepository u = new DenunciarRepository();
+            List<Denunciar> lista = u.ListaDenuncia();
+
+            return View(lista); 
+        }
+
+
+
+        public IActionResult Deletar()
         {
             return View();
         }
@@ -99,6 +109,23 @@ namespace ePet.Controllers
                 return View("PesquisaUsuario"); // Retorna à página de pesquisa de usuários
             }
         }
+
+        public IActionResult DeletarDenuncia(string codigoDenun)
+        {
+            DenunciarRepository denunciarRepository = new DenunciarRepository();  
+            string mensagem = denunciarRepository.DeletarDenuncia(codigoDenun);  
+
+            if (mensagem == "Excluído com sucesso!")
+            {
+                return RedirectToAction("Denuncia");
+            }
+            else
+            {
+                ViewBag.Erro = mensagem;
+                return View("Denuncia");
+            }
+        }
+
         public IActionResult PesquisaPet()
         {
             PetRepository u = new PetRepository();

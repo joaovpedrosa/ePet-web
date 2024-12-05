@@ -30,6 +30,63 @@ namespace ePet.Repository
             return "Inserido com sucesso!";
         }
 
+        public List<Denunciar> ListaDenuncia()
+        {
+            List<Denunciar> lista = new List<Denunciar>();
+
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("SELECT * FROM denuncia", mySqlConnection);
+                MySqlDataReader ler = qry.ExecuteReader();
+                while (ler.Read())
+                {
+                    Denunciar denuncia = new Denunciar(
+                        ler["Descricao"].ToString(),
+                        ler["Cidade"].ToString(),
+                        ler["Bairro"].ToString(),
+                        ler["Rua"].ToString(),
+                        ler["Complemento"].ToString(),
+                        ler["CodigoDenun"].ToString());
+                        lista.Add(denuncia);
+                }
+            }
+            catch (Exception ex)
+            {
+                return null;  
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
+            return lista;
+        }
+
+        public string DeletarDenuncia(string codigoDenun)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("DELETE FROM denuncia WHERE CodigoDenun = @CodigoDenun", mySqlConnection);
+                qry.Parameters.AddWithValue("@CodigoDenun", codigoDenun);
+                qry.ExecuteNonQuery();
+                return "Excluído com sucesso!";
+            }
+            catch (MySqlException ex)
+            {
+                return "Erro ao excluir: " + ex.Message;
+            }
+            catch (Exception ex)
+            {
+                return "Erro: " + ex.Message;
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
+        }
+
+
         public string DenunciarAbandono(Denunciar denunciar)
         {
             try

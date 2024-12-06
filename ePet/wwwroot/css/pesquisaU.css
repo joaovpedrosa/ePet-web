@@ -126,3 +126,23 @@ button {
     vertical-align: top;
     margin-left: 740px;
 }
+
+.busca-form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+    .buscarN {
+        padding: 10px;
+        width: 300px;
+    }
+
+    .busca-form button {
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0;
+    }

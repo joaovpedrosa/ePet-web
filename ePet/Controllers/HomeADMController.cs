@@ -65,6 +65,51 @@ namespace ePet.Controllers
             }
         }
 
+        [HttpGet]
+        public IActionResult PesquisaPet(string searchTerm)
+        {
+            List<Animais> lista = petRepository.ListarAnimais();
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                lista = lista.Where(a =>
+                    a.Nome.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                    a.Raca.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                    a.T_Animal.Contains(searchTerm, StringComparison.OrdinalIgnoreCase)).ToList();
+            }
+
+            ViewData["SearchTerm"] = searchTerm;
+            return View(lista);
+        }
+
+        [HttpGet]
+        public IActionResult PesquisaUsuario(string searchTerm)
+        {
+            UserRepository userRepository = new UserRepository();
+            List<Usuarios> listaUsuarios;
+
+            if (string.IsNullOrEmpty(searchTerm))
+            {
+                // Se não houver termo de busca, lista todos os usuários
+                listaUsuarios = userRepository.ListarUsuarios();
+            }
+            else
+            {
+                // Filtra os usuários com base no termo de busca
+                listaUsuarios = userRepository.ListarUsuarios()
+                    .Where(u =>
+                        u.Nome.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                        u.Cpf.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                        u.Email.Contains(searchTerm, StringComparison.OrdinalIgnoreCase) ||
+                        u.Cidade.Contains(searchTerm, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+            }
+
+            ViewData["SearchTerm"] = searchTerm; // Mantém o termo no campo de busca
+            return View(listaUsuarios); // Retorna a lista filtrada ou completa para a View
+        }
+
+
         public IActionResult Denuncia()
         {
             DenunciarRepository u = new DenunciarRepository();
@@ -116,22 +161,6 @@ namespace ePet.Controllers
             {
                 ViewBag.Erro = mensagem; // Exibe a mensagem de erro
                 return View("PesquisaUsuario"); // Retorna à página de pesquisa de usuários
-            }
-        }
-
-        public IActionResult DeletarDenuncia(string codigoDenun)
-        {
-            DenunciarRepository denunciarRepository = new DenunciarRepository();  
-            string mensagem = denunciarRepository.DeletarDenuncia(codigoDenun);  
-
-            if (mensagem == "Excluído com sucesso!")
-            {
-                return RedirectToAction("Denuncia");
-            }
-            else
-            {
-                ViewBag.Erro = mensagem;
-                return View("Denuncia");
             }
         }
 
@@ -216,15 +245,6 @@ namespace ePet.Controllers
         //    return View(animal);
         //}
 
-        [HttpPost]
-        public IActionResult BuscarUsuario(string cod_usuario)
-        {
-            UserRepository userRepository = new UserRepository();
-            
-            var user = userRepository.BuscarUsuario(cod_usuario);
-            ViewBag.user = user;
-            return View("PesquisaUsuario");
-        }
     
 }
 }

@@ -39,6 +39,13 @@
             <p>Todos os Usuários!</p>
         </div>
 
+        <div class="busca-form">
+        <form method="get" asp-action="PesquisaUsuario"  >
+            <input class="buscarN" type="text" name="searchTerm" value="@ViewData["SearchTerm"]" placeholder="Buscar por nome, CPF ou email" />
+            <button type="submit">Buscar</button>
+        </form>
+        </div>
+
         <form method="post" class="HomeADM" asp-action="PesquisaUsuario">
             <div class="tabela">
                 <table>

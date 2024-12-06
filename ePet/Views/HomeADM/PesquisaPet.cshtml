@@ -39,7 +39,15 @@
             <p>Todos os pets!</p>
         </div>
 
+        <form method="get" asp-action="PesquisaPet" class="busca-form">
+            <div class="containerBuscar">
+            <input type="text" name="searchTerm" placeholder="Buscar por nome, raça, etc." value="@ViewData["SearchTerm"]" />
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+
         <form method="post" class="HomeADM" asp-action="ListarAnimais">
+
             <div class="tabela">
                 <table>
                     <thead>
@@ -56,6 +64,7 @@
                             <th>Porte</th>
                             <th>Código</th>
                             <th>Imagem</th> <!-- Nova coluna para imagem -->
+                            <th>#</th>
                         </tr>
                     </thead>
                     <tbody>

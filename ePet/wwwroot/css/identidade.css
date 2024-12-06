@@ -83,7 +83,7 @@ h1, h2 {
 }
 
 .nav-filhos {
-    gap: 30px;
+    gap: 20px;
     list-style: none;
     display: flex;
     padding-left: 200px;
@@ -92,7 +92,7 @@ h1, h2 {
  .nav-filhos li {
      letter-spacing: 3px;
      margin-left: 20px;
-     font-size: 30px;
+     font-size: 20px;
      font-weight: 600;
      display: flex;
      flex-direction: row;

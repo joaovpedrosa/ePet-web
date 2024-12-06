@@ -13,6 +13,7 @@ namespace ePet.Controllers
         //{
         //    return View();
         //}
+        private readonly AdocaoRepository adocaoRepository = new AdocaoRepository();
         private readonly DenunciarRepository denunciaRepositorio = new DenunciarRepository();
         private readonly PetRepository petRepository = new PetRepository();
         private readonly UserRepository _userRepository;
@@ -92,6 +93,14 @@ namespace ePet.Controllers
             return View(lista);
         }
 
+        public IActionResult Adocao()
+        {
+            AdocaoRepository u = new AdocaoRepository();
+            List<Adocao> lista = u.ListaAdocao();
+
+            return View(lista);
+        }
+
         public IActionResult DeletarUsuario(string cpf)
         {
             UserRepository userRepository = new UserRepository();
@@ -123,6 +132,22 @@ namespace ePet.Controllers
             {
                 ViewBag.Erro = mensagem;
                 return View("Denuncia");
+            }
+        }
+
+        public IActionResult DeletarAdocao(string codigoAdo)
+        {
+            AdocaoRepository adocaoRepository = new AdocaoRepository();
+            string mensagem = adocaoRepository.DeletarAdocao(codigoAdo);
+
+            if (mensagem == "Excluído com sucesso!")
+            {
+                return RedirectToAction("Adocao");
+            }
+            else
+            {
+                ViewBag.Erro = mensagem;
+                return View("Adocao");
             }
         }
 

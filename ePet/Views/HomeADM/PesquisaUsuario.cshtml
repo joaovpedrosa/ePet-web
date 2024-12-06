@@ -17,6 +17,24 @@
 </head>
 <body>
     <main>
+        <header>
+            <div class="menu-hamburguer">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </div>
+
+            <nav class="navbar">
+                <a asp-controller="Home" asp-action="HomeADM"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+                <ul class="nav-filhos">
+                    <li><a class="preto" asp-controller="HomeADM" asp-action="CadastroPet"><img src="~/img/pata-logo.png" />CADASTRAR</a></li>
+                    <li><a class="preto" asp-controller="HomeADM" asp-action="PesquisaUsuario"><img src="~/img/pata-logo.png" />USUÁRIOS</a></li>
+                    <li><a class="preto" asp-controller="HomeADM" asp-action="PesquisaPet"><img src="~/img/pata-logo.png" />PETS</a></li>
+                    <li><a class="preto" asp-controller="HomeADM" asp-action="Denuncia"><img src="~/img/pata-logo.png" />DENUNCIAS</a></li>
+                    <li><a class="preto" asp-controller="HomeADM" asp-action="Adocao"><img src="~/img/pata-logo.png" />ADOÇÃO</a></li>
+                </ul>
+            </nav>
+        </header>
         <div class="tituloPes">
             <p>Todos os Usuários!</p>
         </div>

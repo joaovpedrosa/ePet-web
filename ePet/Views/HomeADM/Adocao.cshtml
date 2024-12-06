@@ -1,0 +1,85 @@
+﻿@model IEnumerable<ePet.Models.Adocao>
+
+@{
+    ViewData["Title"] = "Adocao";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/denuncia.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <title>Adoção</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-hamburguer">
+            <div class="linha1"></div>
+            <div class="linha2"></div>
+            <div class="linha3"></div>
+        </div>
+
+        <nav class="navbar">
+            <a asp-controller="Home" asp-action="HomeADM"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+            <ul class="nav-filhos">
+                <li><a class="preto" asp-controller="HomeADM" asp-action="CadastroPet">CADASTRAR</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="PesquisaUsuario">USUÁRIOS</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="PesquisaPet">PETS</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="Denuncia">DENUNCIAS</a></li>
+                <li><a class="preto" asp-controller="HomeADM" asp-action="Adocao">>ADOÇÃO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="all">
+        <div>
+            <h2 id="title">Todas Adoções requeridas</h2>
+        </div>
+        <br>
+        <div id="all-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Código Animal</th>
+                        <th scope="col">CPF</th>
+                        <th scope="col">Código da adoção</th>
+                        <th scope="col">#</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Cod_Animal)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Cpf)</td>
+                                <td>@Html.DisplayFor(modelItem => item.CodigoAdo)</td>
+                                <td>
+                                    <form method="post" asp-action="DeletarAdocao" asp-route-codigoDenun="@item.CodigoAdo" onsubmit="return confirm('Tem certeza que deseja excluir esta denuncia?');">
+                                        <button type="submit" style="border: none; background: transparent;">
+                                            <img src="~/img/image 62.png" alt="Excluir" />
+                                        </button>
+                                    </form>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6">Nenhuma denúncia registrada.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

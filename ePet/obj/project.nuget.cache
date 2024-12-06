@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzMgCcDGQs+t6AOZEwGnWRMWGWv+djTifuoSsS3rJkN7LZXGIZ8f/EBYUfKzl3wUtoeuQIRUVWh4UEedpsKCrA==",
+  "dgSpecHash": "DQGDFuRKYvb56vCCtBpiPQpAdBOIWnLneEonNt0slNwnUmZ4vkOMx6+pLIrU7z06fOkMpJDclmoBT5GkHYQtQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aluno\\Source\\Repos\\ePet-web\\ePet\\ePet.csproj",
+  "projectFilePath": "C:\\Users\\aluno\\source\\repos\\ePet-web\\ePet\\ePet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aluno\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\aluno\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

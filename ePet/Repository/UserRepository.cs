@@ -179,6 +179,7 @@ namespace ePet.Repository
             }
         }
 
+
         public Usuarios LogarUsuario(string email, string senha)
         {
             try

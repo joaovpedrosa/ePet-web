@@ -51,6 +51,8 @@ namespace ePet.Models
             this.complemento = complemento;
             this.isAdm = isAdm;
         }
+
+        public Usuarios() { }
     }
 }
 

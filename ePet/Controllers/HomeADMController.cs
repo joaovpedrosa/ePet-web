@@ -228,23 +228,40 @@ namespace ePet.Controllers
                 return RedirectToAction("PesquisaPet");
             }
         }
-        //[HttpGet]
-        //public IActionResult EditarPet(string codAnimal)
-        //{
-        //    if (string.IsNullOrEmpty(codAnimal))
-        //    {
-        //        return BadRequest("Codigo do animal não fornecido.");
-        //    }
+        [HttpGet]
+        public IActionResult EditarPet(string codAnimal)
+        {
+            if (string.IsNullOrEmpty(codAnimal))
+            {
+                return BadRequest("Codigo do animal não fornecido.");
+            }
 
-        //    var animal = PetRepository.
-        //    if (animal == null)
-        //    {
-        //        return NotFound(); // Retorna 404 caso não encontre o Animal
-        //    }
+            var animal = petRepository.BuscarAnimal(codAnimal);
+            if (animal == null)
+            {
+                return NotFound(); // Retorna 404 caso não encontre o Animal
+            }
 
-        //    return View(animal);
-        //}
+            return View(animal);
+        }
 
-    
-}
+        [HttpPost]
+        public IActionResult AtualizarAnimal(Animais animais)
+        {
+            // Aqui você pode chamar seu repositório para atualizar os dados no banco
+            var resultado = petRepository.AtualizarAnimal(animais);
+            if (resultado == "Atualizado com sucesso!")
+            {
+                return RedirectToAction("PesquisaPet"); // Redireciona para a lista de usuários
+            }
+            else
+            {
+                // Exibir uma mensagem de erro se a atualização falhar
+                ViewBag.Erro = "Erro ao atualizar usuário.";
+                return View(animais);
+            }
+        }
+
+
+    }
 }

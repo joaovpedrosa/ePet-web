@@ -1,5 +1,10 @@
 ﻿@model ePet.Models.Animais
 
+@{
+
+    Layout = null;
+}
+
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -28,107 +33,109 @@
         else
         {
             <div class="containerInputs">
-                <form method="post" action="@Url.Action("", "HomeADM")">
-                    <!-- Campo Nome -->
+                <form method="post" action="@Url.Action("AtualizarAnimal", "HomeADM")">
+                    <!-- Código do animal -->
+
+
+                    <div class="item_cadastro">
+                        <div class="containerICadastro">
+                            <div class="descricaoInput">
+                                <p>Codigo Animal:</p>
+                            </div>
+                            <input type="text" class="input_field" name="CodAnimal" value="@Model?.CodAnimal" required placeholder="" />
+                        </div>
+                    </div>
+
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Nome:</p>
                             </div>
-                            <input type="text" class="input_field" name="nome" value="@Model?.Nome" required placeholder="NOME" />
+                            <input type="text" class="input_field" name="Nome" value="@Model?.Nome" required placeholder="Nome" />
                         </div>
                     </div>
 
-                    <!-- Campo Telefone -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
-                                <p>Telefone:</p>
+                                <p>Idade:</p>
                             </div>
-                            <input type="text" class="input_field" name="idade" value="@Model?.Idade" required placeholder="Idade" />
+                            <input type="text" class="input_field" name="Idade" value="@Model?.Idade" required placeholder="Idade" />
                         </div>
                     </div>
 
-                    <!-- Campo CPF -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
-                                <p>CPF:</p>
+                                <p>Espécie:</p>
                             </div>
-                            <input type="text" class="input_field" name="especie" value="@Model?.T_Animal" required placeholder="Especie" />
+                            <input type="text" class="input_field" name="T_Animal" value="@Model?.T_Animal" required placeholder="Espécie" />
                         </div>
                     </div>
 
-                    <!-- Campo Email -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
-                                <p>Email:</p>
+                                <p>Comportamento:</p>
                             </div>
-                            <input type="email" class="input_field" name="comportamento" value="@Model?.Comportamento" required placeholder="Comportamento" />
+                            <input type="text" class="input_field" name="Comportamento" value="@Model?.Comportamento" required placeholder="Comportamento" />
                         </div>
                     </div>
 
-                    <!-- Campo Data de Nascimento -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
-                                <p>Castração:</p>
+                                <p>Castracao:</p>
                             </div>
-                            <input type="date" class="input_field" name="castracao" value="@Model?.Castracao" required />
+                            <input type="text" class="input_field" name="Castracao" value="@Model?.Castracao" required placeholder="Castracao" />
                         </div>
                     </div>
 
-                    <!-- Campo CEP -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Status:</p>
                             </div>
-                            <input type="text" class="input_field" name="status" value="@Model?.Status" required placeholder="Status" />
+                            <input type="text" class="input_field" name="Status" value="@Model?.Status" required placeholder="Status" />
                         </div>
                     </div>
 
-                    <!-- Campo Cidade -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Peso:</p>
                             </div>
-                            <input type="text" class="input_field" name="cidade" value="@Model?.Peso" required placeholder="Peso" />
+                            <input type="text" class="input_field" name="Peso" value="@Model?.Peso" required placeholder="Peso" />
                         </div>
                     </div>
 
-                    <!-- Campo Bairro -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Raça:</p>
                             </div>
-                            <input type="text" class="input_field" name="raca" value="@Model?.Raca" required placeholder="Raca" />
+                            <input type="text" class="input_field" name="Raca" value="@Model?.Raca" required placeholder="Raça" />
                         </div>
                     </div>
 
-                    <!-- Campo Rua -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Porte:</p>
                             </div>
-                            <input type="text" class="input_field" name="porte" value="@Model?.Porte" required placeholder="Porte" />
+                            <input type="text" class="input_field" name="Porte" value="@Model?.Porte" required placeholder="Porte" />
                         </div>
                     </div>
 
-                    <!-- Campo Complemento -->
                     <div class="item_cadastro">
                         <div class="containerICadastro">
                             <div class="descricaoInput">
                                 <p>Sexo:</p>
                             </div>
-                            <input type="text" class="input_field" name="sexo" value="@Model?.Sexo" required placeholder="Sexo" />
+                            <input type="text" class="input_field" name="Sexo" value="@Model?.Sexo" required placeholder="Sexo" />
                         </div>
                     </div>
-                    <!-- Botão de Atualização -->
+
                     <div class="containerButton">
                         <button type="submit">Atualizar Animal</button>
                     </div>

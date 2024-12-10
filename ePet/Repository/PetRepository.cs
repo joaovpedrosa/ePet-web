@@ -162,7 +162,6 @@ namespace ePet.Repository
 
                 }
                 mySqlConnection.Close();
-
             }
             catch (Exception ex)
             {
@@ -208,6 +207,42 @@ namespace ePet.Repository
                 mySqlConnection.Close();
             }
             return lista;
+        }
+
+        public string AtualizarAnimal(Animais animais)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                string query = "UPDATE animal SET Comportamento = @Comportamento, Especie = @Especie,Nome = @Nome, Idade = @Idade, Castracao = @Castracao, Status = @Status, Peso = @Peso, Raca = @Raca, Porte = @Porte, Sexo = @Sexo, Foto = @Foto WHERE cod_animal = @Codigo_Animal";
+
+                MySqlCommand cmd = new MySqlCommand(query, mySqlConnection);
+
+                // Atribui os parâmetros ao comando
+                cmd.Parameters.AddWithValue("@Codigo_Animal", animais.CodAnimal);
+                cmd.Parameters.AddWithValue("@Comportamento", animais.Comportamento);
+                cmd.Parameters.AddWithValue("@Especie", animais.T_Animal);
+                cmd.Parameters.AddWithValue("@Nome", animais.Nome);
+                cmd.Parameters.AddWithValue("@Idade", animais.Idade);
+                cmd.Parameters.AddWithValue("@Castracao", animais.Castracao);
+                cmd.Parameters.AddWithValue("@Status", animais.Status);
+                cmd.Parameters.AddWithValue("@Peso", animais.Peso);
+                cmd.Parameters.AddWithValue("@Raca", animais.Raca);
+                cmd.Parameters.AddWithValue("@Porte", animais.Porte);
+                cmd.Parameters.AddWithValue("@Sexo", animais.Sexo);
+                cmd.Parameters.AddWithValue("@Foto", animais.ArrayBytes);
+
+                cmd.ExecuteNonQuery();
+                return "Atualizado com sucesso!";
+            }
+            catch (Exception ex)
+            {
+                return "Erro: " + ex.Message;
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
         }
 
         public void AlterarAnimal(string codigo_animal)

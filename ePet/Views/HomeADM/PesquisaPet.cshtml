@@ -41,7 +41,7 @@
 
         <form method="get" asp-action="PesquisaPet" class="busca-form">
             <div class="containerBuscar">
-            <input type="text" name="searchTerm" placeholder="Buscar por nome, raça, etc." value="@ViewData["SearchTerm"]" />
+                <input type="text" name="searchTerm" placeholder="Buscar por nome, raça, etc." value="@ViewData["SearchTerm"]" />
             </div>
             <button type="submit">Buscar</button>
         </form>
@@ -98,7 +98,7 @@
                                         }
                                     </td>
                                     <td class="exEd">
-                                        <a href="@Url.Action("", "HomeADM", new { cpf = item.CodAnimal })">
+                                        <a href="@Url.Action("EditarPet", "HomeADM", new { codAnimal = item.CodAnimal })">
                                             <img src="~/img/image 63.png" alt="Editar" />
                                         </a>
 

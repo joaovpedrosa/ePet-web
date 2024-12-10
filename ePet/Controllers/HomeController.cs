@@ -11,6 +11,7 @@ namespace ePet.Controllers
     public class HomeController : Controller
     {
         private PetRepository animaR = new PetRepository();
+        private AdocaoRepository adocaoRepository = new AdocaoRepository(); 
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -22,6 +23,23 @@ namespace ePet.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Adotar()
+        {
+            System.Diagnostics.Debug.WriteLine("Get method called");
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Adotar(Adocao adocao)
+        {
+
+            var mensagem = adocaoRepository.AdicionarAdocao(adocao);
+            ViewBag.Mensagem = mensagem;
+            return View();
+        }
+
 
         //linkar na nav-bar o adote
         public ActionResult Adote()

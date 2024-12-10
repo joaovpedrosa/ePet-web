@@ -16,6 +16,25 @@
 
     <title>ePet - Início</title>
 </head>
+<header>
+
+    <div class="menu-hamburguer">
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="imgEpet">
+            <a asp-controller="Home" asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+        </div>
+        <ul class="nav-filhos">
+            <li><a class="preto" asp-controller="Home" asp-action="Apadrinhe"><img src="~/img/pata-logo.png" /> APADRINHE</a></li>
+            <li><a class="preto" asp-controller="Home" asp-action="Adote"><img src="~/img/pata-logo.png" />ADOÇÃO</a></li>
+            <li><a class="preto" asp-controller="Home" asp-action="Entrar"><img src="~/img/pata-logo.png" />ENTRAR</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <main>
         <!-- Container do Título -->
@@ -99,7 +118,14 @@
                                         <p>@item.Nome</p>
                                         <div class="linhaLaranjaNome"></div>
                                     </div>
-                                    <img src="~/img/image 17.png" alt="Ícone decorativo" />
+                                    @if (item.Sexo == "macho")
+                                    {
+                                        <img src="~/img/sexo-masculino.png" alt="Ícone masculino" />
+                                    }
+                                    else if (item.Sexo == "femea")
+                                    {
+                                        <img src="~/img/image 17.png" alt="Ícone feminino" />
+                                    }
                                 </div>
                                 <div class="descricao">
                                     <p>@item.Comportamento</p>

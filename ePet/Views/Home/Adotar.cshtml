@@ -1,0 +1,42 @@
+﻿@{
+    TempData["NavBar"] = "user";
+    Adocao user = new Adocao(null, null, null);
+    user = (Adocao)ViewBag.user;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/identidade.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/adotar.css" asp-append-version="true" />
+    <title>Adotar</title>
+</head>
+<body>
+    <main>
+        <div class="containerTitulo">
+            <p>Insira seu CPF e o código do animal para adotar um pet!</p>
+        </div>
+
+        <form method="post" asp-controller="Home" asp-action="Adotar">
+            <div class="containerInput">
+                <input type="text" class="input_field" name="Cod_Animal" required placeholder="Código do animal" />
+                <input type="text" class="input_field" name="Cpf" required placeholder="CPF" />
+                <button type="submit">Adotar</button>
+                <div class="linha">
+                    <p>Não tem CPF cadastrado?  </p><a asp-controller="Home" asp-action="Cadastro"><p class="linhaLink">Cadastre-se!</p></a>
+                </div>
+            </div>
+        </form>
+
+        @if (ViewBag.Mensagem != null)
+        {
+            <div class="containerMsgErro">
+            <p>@ViewBag.Mensagem</p>
+            </div>
+        }
+
+    </main>
+</body>
+</html>

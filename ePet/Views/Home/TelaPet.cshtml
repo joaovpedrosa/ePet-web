@@ -17,6 +17,25 @@
 
     <title>Perfil do Pet</title>
 </head>
+<header>
+
+    <div class="menu-hamburguer">
+        <div class="linha1"></div>
+        <div class="linha2"></div>
+        <div class="linha3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="imgEpet">
+            <a asp-controller="Home" asp-action="Index"><img src="~/img/logo-sem-fundo.png" alt=""></a>
+        </div>
+        <ul class="nav-filhos">
+            <li><a class="preto" asp-controller="Home" asp-action="Apadrinhe"><img src="~/img/pata-logo.png" /> APADRINHE</a></li>
+            <li><a class="preto" asp-controller="Home" asp-action="Adote"><img src="~/img/pata-logo.png" />ADOÇÃO</a></li>
+            <li><a class="preto" asp-controller="Home" asp-action="Entrar"><img src="~/img/pata-logo.png" />ENTRAR</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <main>
         <div class="containerCorpoPagPet">
@@ -55,6 +74,7 @@
                         {
                         <p>Comportamento: @Model.Comportamento</p>
                         <p>Castração: @Model.Castracao</p>
+                        <p>Código do Animal: @Model.CodAnimal</p>
                         }
                         else
                         {
@@ -62,7 +82,7 @@
                         }</p>
                 </div>
                 <div class="containerButton">
-                    <a asp-controller="Adote" asp-action="Adocao" method="post">
+                    <a asp-controller="Home" asp-action="Adotar" asp-route-codigo_animal="@Model.CodAnimal">
                         <button>Quero Adotar</button>
                     </a>
                 </div>

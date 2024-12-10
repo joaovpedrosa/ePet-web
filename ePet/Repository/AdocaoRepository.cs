@@ -2,6 +2,7 @@
 using ePet.Models;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
+using System.Drawing;
 
 namespace ePet.Repository
 {
@@ -68,5 +69,26 @@ namespace ePet.Repository
             }
         }
 
+        public string AdicionarAdocao(Adocao adocao)
+        {
+            try
+            {
+                mySqlConnection.Open();
+                MySqlCommand qry = new MySqlCommand("INSERT INTO adocao (cod_animal, CPF) VALUES (@Cod_Animal, @Cpf)", mySqlConnection);
+                qry.Parameters.AddWithValue("@Cod_Animal", adocao.Cod_Animal);
+                qry.Parameters.AddWithValue("@Cpf", adocao.Cpf);
+
+                qry.ExecuteNonQuery();
+                return "Adoção enviada! Entraremos em contato em breve.";
+            }
+            catch (Exception ex)
+            {
+                return "CPF não cadastrado! Cadastre-se! ";
+            }
+            finally
+            {
+                mySqlConnection.Close();
+            }
+        }
     }
 }

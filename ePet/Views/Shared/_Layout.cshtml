@@ -50,32 +50,6 @@
                 <li><a class="preto" asp-controller="Home" asp-action="Entrar" ><img src="~/img/pata-logo.png" />ENTRAR</a></li>
             </ul>
         </nav>
-
-        <!-- POP UP LOGIN -->
-        <dialog>
-            <div class="xis">
-                <img src="~/img/xis.png" alt="">
-            </div>
-            <div class="">
-                <form class="formulario" method="post" asp-controller="Home" asp-action="Login">
-                    <h3>LOGIN</h3>
-                    <div class="item_formulario">
-                        <label class="item_formulario">Email:</label>
-                        <input type="text" name="email" class="input_field" required />
-                    </div>
-                    <div class="item_formulario">
-                        <label class="">Senha:</label>
-                        <input name="senha" type="password" class="input_field" required />
-
-                    </div>
-                    <button class="but_continuar" type="submit">Entrar</button>
-                    <button class="but_continuar" type="submit"><a class="branquinho">Administrador</a></button>
-                    <p>Não tem uma conta? <a class="preto" asp-action="Cadastro">Cadastre-se.</a></p>
-                    <p>@TempData["SituacaoLogin"]</p>
-
-                </form>
-            </div>
-        </dialog>
     </header>
 }
 

@@ -11,7 +11,7 @@
 
         public string Cpf
         {
-            get => cpf; set => cpf = value; 
+            get => cpf; set => cpf = value;
         }
 
         public string CodigoAdo
@@ -19,6 +19,10 @@
             get => codigoAdo; set => codigoAdo = value;
         }
 
+        // Construtor sem parâmetros
+        public Adocao() { }
+
+        // Construtor com parâmetros
         public Adocao(string cod_animal, string cpf, string codigoAdo)
         {
             this.cod_animal = cod_animal;
